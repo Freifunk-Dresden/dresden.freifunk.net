@@ -13,7 +13,7 @@ Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Date
 > {{ site.community.address_postbox }}\\
 > {{ site.community.address_zipcode }}
 
-> Website: [{{ site.url }}]({{ site.url }})\\
+> Website: [www.freifunk-dresden.de](https://www.freifunk-dresden.de/)\\
 > E-Mail: {{ site.community.mail_vorstand }}
 
 Wir beachten die Vorschriften des Bundesdatenschutz- sowie des Telemediengesetzes, der Datenschutz-Grundverordnung und werden personenbezogene Daten unserer Nutzer nur in dem in dieser Datenschutzerklärung beschriebenen Umfang erheben und verarbeiten.

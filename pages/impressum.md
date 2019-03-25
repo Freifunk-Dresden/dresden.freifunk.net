@@ -21,7 +21,7 @@ Der Verein ist gemeinnützig und finanziert sich über Mitgliedsbeiträge und [S
 > {{ site.community.address_zipcode }}
 
 > **E-Mail:** {{ site.community.mail_vorstand }}\\
-> **Website:** {{ site.url }}
+> **Website:** www.freifunk-dresden.de
 
 #### Vertreten durch den Vorstand
 > Mirko Tomaschek\\
