@@ -1,0 +1,27 @@
+---
+title: Projektarbeit
+top_url: /verein/
+permalink: /verein/projektarbeit/
+sub_menu: true
+sub_weight: 4
+layout: main
+---
+
+<header>
+  <h2 class="post-title">{{ page.title }}</h2>
+</header>
+
+<p>Hier findet Ihr alle Aktivitäten gesammelt, die wir im Verein aktuell bearbeiten oder bereits bearbeitet haben. Dazu zählen Installationen, Workshops, Veranstaltungen.</p>
+
+{% if site.community contains 'projects' %}
+<div class="row">
+  {% for item in site.community.projects %}
+    <div class="4u 12u(2)">
+      <section class="box">
+        <h4>{{ item.name }}</h4>
+        <p>{{ item.desc }}</p>
+      </section>
+    </div>
+  {% endfor %}
+</div>
+{% endif %}

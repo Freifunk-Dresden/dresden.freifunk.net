@@ -52,11 +52,6 @@ community:
   url_dienste: 'https://wiki.freifunk-dresden.de/index.php/Freifunkdienste'
   url_server: 'https://wiki.freifunk-dresden.de/index.php/Server'
 
-  url_publicwork: '/verein/oeffentliches.html'
-  url_presse: '/verein/presse/'
-  url_projects: 'https://wiki.freifunk-dresden.de/index.php/Projekte'
-  url_projectwork: 'https://wiki.freifunk-dresden.de/index.php/Projektarbeit'
-  url_ereignisse: '/verein/ereignisse/'
   url_material: 'https://wiki.freifunk-dresden.de/index.php/Material'
   url_faq: 'https://wiki.freifunk-dresden.de/index.php/Fragen_und_Antworten_(FAQ)'
 
@@ -95,6 +90,15 @@ community:
 #  doc_aufnahme: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Aufnahmeantrag_-_Freifunk-Dresden_eV.pdf'
   # Supporting Members
 #  doc_supantrag: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Antrag_Foerdermitgliedschaft_-_Freifunk-Dresden_eV.pdf'
+
+
+  # Projects
+  projects:
+    - name: 'Freifunk Installation'
+      desc: '<a href="https://wiki.freifunk-dresden.de/index.php/Adventureland" target="_blank">Adventureland</a> (Paintball)'
+
+    - name: 'Freifunk Installation'
+      desc: '<a href="https://wiki.freifunk-dresden.de/index.php/Elbhangfest" target="_blank">zum Elbhangfest</a>'
 
 
   # Entrys for Sub Communities
