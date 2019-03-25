@@ -10,7 +10,16 @@ end
 
 task :htmlproofer do
   HTMLProofer.check_directory("./_site",
-                    {:url_ignore => [/news/, /http(s?):\/\/(.*)\.freifunk-dresden/, /http(s?):\/\/(.*)\.ffdd/, /^http:\/\/192\.168\..*/, /http(s?):\/\/(.*)\.kosmonautensofa.de/]}).run
+                    {:url_ignore => [
+                      /news/,
+                      /http(s?):\/\/(.*)\.freifunk-dresden/,
+                      /http(s?):\/\/(.*)\.ffdd/,
+                      /http(s?):\/\/127\.0\..*/,
+                      /http(s?):\/\/192\.168\..*/,
+                      /http(s?):\/\/(.*)\.kosmonautensofa.de/,
+                      /http(s?):\/\/(.*)\.konglomerat.org/,
+                      /http(s?):\/\/(.*)\.forum.freifunk.net/
+                    ]}).run
 end
 
 task :trailing_spaces do
