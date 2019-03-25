@@ -42,27 +42,27 @@ community:
   instagram: 'freifunkdresden'
 
   url_mailinglists: 'https://lists.freifunk-dresden.de/listinfo/newsletter'
-  url_chat: 'https://chat.freifunk-dresden.de'
+  url_chat: 'https://chat.freifunk-dresden.de/'
   url_blog: 'https://github.com/Freifunk-Dresden/Blog#freifunk-dresden-blog'
   url_forum: 'https://forum.freifunk.net/c/community/dresden'
   url_kalender: 'https://teamup.com/ks7edwt5ey8j8tvgpf'
 
-  url_wiki:  'https://wiki.freifunk-dresden.de'
+  url_wiki:  'https://wiki.freifunk-dresden.de/'
   url_doku: 'https://wiki.freifunk-dresden.de/index.php/Dokumentation'
   url_dienste: 'https://wiki.freifunk-dresden.de/index.php/Freifunkdienste'
   url_server: 'https://wiki.freifunk-dresden.de/index.php/Server'
 
   url_publicwork: '/verein/oeffentliches.html'
-  url_presse: '/verein/presse'
+  url_presse: '/verein/presse/'
   url_projects: 'https://wiki.freifunk-dresden.de/index.php/Projekte'
   url_projectwork: 'https://wiki.freifunk-dresden.de/index.php/Projektarbeit'
-  url_ereignisse: '/verein/ereignisse'
+  url_ereignisse: '/verein/ereignisse/'
   url_material: 'https://wiki.freifunk-dresden.de/index.php/Material'
   url_faq: 'https://wiki.freifunk-dresden.de/index.php/Fragen_und_Antworten_(FAQ)'
 
   url_api: 'https://api.freifunk-dresden.de/'
   url_nodelist: 'https://wiki.freifunk-dresden.de/index.php/Hotspots'
-  url_netgraph: 'https://grafana.freifunk-dresden.de'
+  url_netgraph: 'https://grafana.freifunk-dresden.de/'
   url_map_gmaps: 'https://maps.freifunk-dresden.de/gmaps/'
   url_map_meshviewer: 'https://meshviewer.freifunk-dresden.de/'
 
@@ -70,7 +70,7 @@ community:
   url_stunde: 'https://wiki.freifunk-dresden.de/index.php/Freifunk-Sprechstunde'
   url_treffenthema: 'https://wiki.freifunk-dresden.de/index.php/Sprechstunden-Themen'
   url_treffenort: 'https://www.openstreetmap.org/node/3140655489#map=13/51.0504/13.7274'
-  url_ronwlan: 'http://10.200.4.180.freifunk-dresden.de'
+  url_ronwlan: 'http://10.200.4.180.freifunk-dresden.de/'
 
   # Router Links
   url_router: 'https://wiki.freifunk-dresden.de/index.php/Router'
@@ -92,9 +92,9 @@ community:
   doc_satzung: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Satzung_-_Freifunk-Dresden_eV.pdf'
   doc_ordnung: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Beitragsordnung_-_Freifunk-Dresden_eV.pdf'
   # Member
-  doc_aufnahme: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Aufnahmeantrag_-_Freifunk-Dresden_eV.pdf'
+#  doc_aufnahme: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Aufnahmeantrag_-_Freifunk-Dresden_eV.pdf'
   # Supporting Members
-  doc_supantrag: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Antrag_Foerdermitgliedschaft_-_Freifunk-Dresden_eV.pdf'
+#  doc_supantrag: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Antrag_Foerdermitgliedschaft_-_Freifunk-Dresden_eV.pdf'
 
 
   # Entrys for Sub Communities
@@ -122,5 +122,5 @@ community:
   distributoren:
     - name: 'IT-Service Merkelt'
       link: 'https://it-service-merkelt.de/'
-      desc: '<img width="230" src="https://it-service-merkelt.de/images/header.jpg">'
+      desc: '<img width="230" alt="dist_header" src="https://it-service-merkelt.de/images/header.jpg">'
 

@@ -1,7 +1,7 @@
 ---
 title: Hauftungsausschluß
 top_url: /impressum/
-permalink: /impressum/hauftungsausschluss
+permalink: /impressum/hauftungsausschluss/
 sub_menu: true
 sub_weight: 1
 layout: page
