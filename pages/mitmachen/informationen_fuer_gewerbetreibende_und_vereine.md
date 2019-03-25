@@ -1,5 +1,5 @@
 ---
-title: Gewerbetreibende und Vereine
+title: Gewerbe und Vereine
 top_url: /mitmachen/
 permalink: /mitmachen/informationen-fuer-gewerbetreibende-und-vereine/
 sub_menu: true
