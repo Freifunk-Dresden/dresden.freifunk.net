@@ -1,0 +1,35 @@
+---
+title: Distributoren
+top_url: /distributoren/
+permalink: /distributoren/
+main_menu: false
+weight: 1
+layout: main
+---
+
+<header>
+  <h2 class="post-title">{{ page.title }}</h2>
+</header>
+
+<p>Hier findet sich eine Liste kommerzieller Distributoren</p>
+
+{% if site.community contains 'distributoren' %}
+<div class="row">
+  <div class="4u 12u(2)">
+    <section class="box">
+      {% for item in site.community.distributoren %}
+          <h4>{{ item.name }}</h4>
+          <p><a href="{{ item.link }}" target="_blank">{{ item.desc }}</a></p>
+      {% endfor %}
+    </section>
+  </div>
+</div>
+{% endif %}
+
+<section class="container">
+  <div class="box">
+    <p>
+      Falls Sie in die Liste der Distributoren aufgenommen werden möchten, schicken Sie uns einfach eine E-Mail an <a href="mailto:{{ site.community.mail_info }}">{{ site.community.mail_info}}</a>
+    </p>
+  </div>
+</section>

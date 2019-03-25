@@ -12,4 +12,4 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 after_success:
-  - curl https://darmstadt.freifunk.net/deploy
+  - curl http://5.104.107.226/deploy

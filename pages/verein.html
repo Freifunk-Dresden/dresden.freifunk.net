@@ -1,0 +1,79 @@
+---
+title: Verein
+top_url: /verein/
+permalink: /verein/
+main_menu: true
+weight: 8
+sub_menu: true
+sub_weight: 1
+layout: main
+---
+
+<header>
+	<h2 class="post-title">{{ page.title }}</h2>
+</header>
+
+<p style="text-align:center">Freifunk {{ site.community.name }} e.V. - Mach mit!</p>
+
+<div class="row">
+	<div class="8u 12u(3)">
+		<div class="box">
+			<p>
+				Der Freifunk {{ site.community.name }} e.V. ist seit dem 05.07.2016 ein eingetragener Verein. Wenn du uns unterstützen möchtest, werde Mitglied und nehme aktiv am Vereinsleben teil. Auch Fördermitgliedschaften sind möglich. Wir freuen uns auf dich!
+			</p>
+			<h2>Satzung und Ordnungen</h2>
+			<ul>
+				<li><a href="{{ site.community.doc_satzung }}" target="_blank">Satzung</a></li>
+				<li><a href="{{ site.community.doc_ordnung }}" target="_blank">Beitragsordnung</a></li>
+			</ul>
+
+			<h2>Vereinsmitgliedschaft</h2>
+				<p>Wer den Freifunk {{ site.community.name }} e.V. sowohl bei seinen Vereinst&auml;tigkeiten als auch regelm&auml;ßig finanziell unterst&uuml;tzen m&ouml;chte, f&uuml;r den besteht die M&ouml;glichkeit, dem Verein beizutreten. Jedes Mitglied erh&auml;lt den regelm&auml;ßigen Newsletter und wird zu allen Veranstaltungen des Freifunk {{ site.community.name }} e.V. eingeladen. Nat&uuml;rlich hast du auch schnelleren Zugriff auf aktuelle Informationen und kannst dich aus unserem Pool an Testger&auml;ten nach Absprache mit dem Vorstand bedienen.</p>
+				<ul><li><a href="{{ site.community.doc_aufnahme }}" target="_blank">Aufnahmeantrag</a></li></ul>
+
+			<h2>F&ouml;rdermitgliedschaft</h2>
+				<p>Nat&uuml;rlich hast du auch die M&ouml;glichkeit den Freifunk als Unternehmen oder Institution zu unterst&uuml;tzen. Daf&uuml;r bieten wir die F&ouml;rderdermitgliedschaft mit einem selbst gew&auml;hlten Mitgliedsbeitrag ab 20€ im Jahr an. Nat&uuml;rlich erh&auml;ltst du als F&ouml;rdermitglied dann regelm&auml;ßige Informationen und wirst zu Veranstaltungen eingeladen. Gerne beraten wir dich und dein Unternehmen &uuml;ber die Nutzung freier Netzwerke, die Besonderheiten von Freifunk oder veranstalten Vortr&auml;ge gemeinsam mit dir &uuml;ber das Themengebiet. Solltest du Interesse an der Nutzung von Testger&auml;ten haben, sprich uns einfach an.</p>
+				<ul><li><a href="{{ site.community.doc_supantrag }}" target="_blank">Antrag auf F&ouml;rdermitgliedschaft</a></li></ul>
+		</div>
+	</div>
+
+	<div class="4u 12u(3)">
+		<div class="box">
+			<h4>Antr&auml;ge per E-Mail an:</h4>
+				<p><a href="mailto:{{ site.community.mail_vorstand }}?subject=Antrag%20Mitgliedschaft%20Freifunk%20{{ site.community.name }}%20e.V">{{ site.community.mail_vorstand }}</a></p>
+		</div>
+
+		<div class="box">
+			<h4><a href="{{ site.community.url_ereignisse }}" target="_blank">Vereinst&auml;tigkeiten / Ereignisse</a></h4>
+		</div>
+
+		<div class="box">
+			<h4>Mitgliedsbeitrag</h4>
+			<p>
+				Mitgliedsbeitr&auml;ge sind gem&auml;ß der <a href="{{ site.community.doc_ordnung }}" target="_blank">Beitragsordnung</a> zu entrichten. Es stehen verschiedene Zahlungsm&ouml;glichkeiten zur Auswahl. 
+				<a href="{{ site.community.url_mitgliedsbeitrag }}" target="_blank">...mehr</a>
+			</p>
+		</div>
+
+		<div class="box">
+			<p>Im Freifunk Netz {{ site.community.name }} haben sich verschiedene Gemeinden zusammen geschlossen.</p>
+			<h3>Communities:</h3>
+			<ul>
+				{% for subcom in site.community.sub_com %}
+					<li>{{ subcom }}</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		{% if site.community contains 'sup_member' %}
+			<div class="box">
+				<h4>F&ouml;rdermitglieder</h4>
+				<ul>
+					{% for item in site.community.sup_member %}
+						<li><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endif %}
+	</div>
+</div>

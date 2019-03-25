@@ -1,36 +1,40 @@
 ---
-title: News
-layout:
+title: News & Blog
+top_url: /news/
+permalink: /news/
 main_menu: true
 weight: 1
-permalink: /news/
-top_url: /news/
+layout:
 ---
 
 <!DOCTYPE html>
 <html>
   {% include head-news.html %}
 
-  <body onload="netstate_init()">
-    {% include header.html %}
-    <section id="main" class="container">
+  <body>
+	{% include header.html %}
+	<section id="main" class="container">
 		<header>
 			<h2 class="post-title">{{ page.title }}</h2>
+			<div style="display:inline-block;float:right;margin-right:0.8em;margin-top:0em">
+				<a class="button" href="{{ site.community.url_blog }}" target="_blank">neuen Blogeintrag schreiben</a>
+			</div>
+        </div>
 		</header>
 		<div class="row">
 			<div class="8u 12u(3)">
 				{% for post in site.posts %}
 				<div class="box">
-						<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+					<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-						<h3>
-							<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-						</h3>
+					<h3>
+						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					</h3>
 
-						<div class="post-content">
-                                                {{ post.content }}
-                                                {% include social.html post=post %}
-                                                </div>
+					<div class="post-content">
+						{{ post.content }}
+						{% include social.html post=post %}
+					</div>
 				</div>
 				{% endfor %}
 				<p class="rss-subscribe">
@@ -46,59 +50,35 @@ top_url: /news/
 			<div class="4u 12u(3)">
 				<div class="box">
 					<h3>Nächstes Treffen</h3>
-					<p><span id="next_meet_date">N&auml;chsten Montag</span> um 19:00 Uhr im <a href="/kontakt/">Chaos Darmstadt</a>.</p>
+					<p><span id="next_meet_date">N&auml;chsten Mittwoch</span> um 19:00 Uhr im <a href="/kontakt/">Rosenwerk</a>.</p>
 				</div>
+
 				<div class="box">
-					<h3>Statistik</h3>
-					<p id="net_state_loading"><span class="fa fa-refresh fa-spin"></span> Lade Statusdaten</p>
+					<p>Im Freifunk Netz {{ site.community.name }} haben sich verschiedene Gemeinden zusammen geschlossen.</p>
+					<h3>Communities:</h3>
 					<ul>
-						<li><a href="/karte/">Karte</a>: <span id="net_state_nodes">...</span></li>
-						<li>Endgeräte: <span id="net_state_clients">...</span></li>
-						<li>Traffic: <span id="net_state_traffic">...</span></li>
+		  				{% for subcom in site.community.sub_com %}
+							<li>{{ subcom }}</li>
+		  				{% endfor %}
 					</ul>
-				</div>
-				<div class="box">
-					<h3>Boosten</h3>
-					<p>Jetzt durch deinen Einkauf den Freifunk in Darmstadt und Umgebung boosten!</p>
-
-					<div style="text-align: center;">
-						<script>
-						  var fileref = document.createElement("link");
-						  fileref.setAttribute("rel", "stylesheet");
-						  fileref.setAttribute("type", "text/css");
-						  fileref.setAttribute("href", "https://www.boost-project.com/assets/button.css");
-						  document.getElementsByTagName("head")[0].appendChild(fileref);
-						</script>
-						<a class="boost-button-weroiby1" target="_blank" href="https://www.boost-project.com/de/shops?charity_id=3433&tag=bb">Unterstütze uns mit deinem Online-Einkauf<br>
-						<span style='font-weight:normal;'>ohne Extrakosten</span>
-						</a>
-					</div>
-				</div>
-				<div class="box">
-					<h3>Spenden</h3>
-					<p>Unser aktueller Spendenstand. <a href="/mitmachen/spenden/">mehr...</a></p>
-
-					<div style="text-align: center;">
-						<iframe frameborder="0" marginheight="0" marginwidth="0" src="https://www.betterplace.org/de/projects/27613-freifunk-darmstadt/widget" width="160" height="260" style="text-align: center; border: 0; padding:0; margin:0;">Ihr Browser unterstützt keine Iframes. <a href="https://www.betterplace.org/projects">Online Spenden</a> auf betterplace.org</iframe>
-					</div>
 				</div>
 			</div>
 
 		</div>
-    </section>
+	</section>
 
-    {% include footer.html %}
+	{% include footer.html %}
 
-    <script>
-        moment.locale('de');
-        var nextDate;
-        if (moment().isSame(moment().weekday(0), 'day'))
-            nextDate = moment().weekday(0);
-        else
-            nextDate = moment().weekday(7);
+	<script>
+		moment.locale('de');
+		var nextDate;
+		if (moment().isSame(moment().weekday(2), 'day'))
+			nextDate = moment().weekday(2);
+		else
+			nextDate = moment().weekday(10);
 
-        $('#next_meet_date').text(nextDate.format('D. MMMM'));
-    </script>
+		$('#next_meet_date').text(nextDate.format('D. MMMM'));
+	</script>
 
   </body>
 

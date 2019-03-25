@@ -1,9 +1,11 @@
 ---
 title: Kontakt
-permalink: /kontakt/
 top_url: /kontakt/
+permalink: /kontakt/
 main_menu: true
-weight: 7
+weight: 9
+sub_menu: true
+sub_weight: 1
 layout:
 ---
 
@@ -12,8 +14,8 @@ layout:
   {% include head-kontakt-map.html %}
 
   <body onLoad="mapinit();">
-    {% include header.html %}
-    <section id="main" class="container">
+	{% include header.html %}
+	<section id="main" class="container">
 		<header>
 			<h2 class="post-title">{{ page.title }}</h2>
 		</header>
@@ -21,34 +23,42 @@ layout:
 		<p style="text-align:center">Wir freuen uns, wenn du Kontakt mit uns aufnimmst, sei es persönlich bei einem unserer Treffen oder über das Internet.</p>
 
 		<div class="box" id="treffen">
-			<h3>Treffen</h3>
+			<h2>Treffen & Sprechstunde</h2>
 			<div id="map" style="height: 30em; margin: 1em 0; width: 45%; float: right; margin-left: 2em"></div>
-			<p>Wir treffen uns jede Woche montags ab 19:00 Uhr, meist im Hackspace des <a href="https://chaos-darmstadt.de/">Chaos Darmstadt e.V.</a>, in der Wilhelm-Leuschner-Straße 36. Im Hinterhof angekommen, befindet sich der Eingang am Ende der Metalltreppe.</p>
+
+			<p>Wenn dich Freifunk interessiert, laden wir dich hiermit ein, uns unkompliziert kennen zu lernen. Wir treffen uns <strong>Regelmäßig jeden zweiten Mittwoch, ab 19 Uhr</strong> (<a href="{{ site.community.url_kalender }}" target="_blank">zum Kalender</a>)
+				<h3>im Rosenwerk</h3>
+				<a href="https://konglomerat.org" target="_blank">Konglomerat e.V.</a> / Freifunk {{ site.community.name }} e.V. im Rosenwerk<br>
+		 		<a href="{{ site.community.url_treffenort }}" target="_blank">Jagdweg 1-3</a><br>
+		 		01159 Dresden<br>
+	  		</p>
+	  		<p>
+	  			Die Treffen im Zwei-Wochen-Rhythmus sind die ideale Gelegenheit, mit uns in persönlichen Kontakt zu treten.
+				Sollte die Tür geschlossen sein, findet ihr neben den Briefkästen einen silberfarbenen Funktaster für das akustische Signalgerät im Raum Ohne Namen (RON). Einfach dem <a href="{{ site.community.url_ronwlan }}" target="_blank">RON-WLAN-Signal</a> folgen oder nach dem Eingang links durch den Gang in Richtung Glastür laufen.
+	  		</p>
 			<h4>Anfahrt</h4>
-			<ul>
-				<li><strong>ÖPNV:</strong> Haltestellen Kahlertstraße, Willy-Brandt-Platz und Pallaswiesenstraße. Verbindungsauskunft auf der Seite des <a href="http://www.rmv.de/">RMV</a>.</li>
-				<li><strong>PKW:</strong> Aufgrund der angespannten Parkplatzsituation im Johannesviertel empfehlen wir das Auto in einem <a href="http://www.parkopedia.de/parken/darmstadt/">Parkhaus</a> abzustellen.</li>
-			</ul>
-			<p>Fahrräder können im Innenhof abgestellt werden.</p>
+			<p>
+				<ul>
+					<li>Für Fahrrad und KFZ bietet der Jagdweg genügend (kostenlose) Abstellmöglichkeiten.</li>
+					<li>Per ÖPNV (<a href="http://www.öpnvkarte.de/?zoom=17&lat=51.04774&lon=13.71672&layers=TBTTT#13.7167;51.0477;17" target="_blank">Karte</a>) führen die Straßenbahn Linien 7 und 12 (Haltestelle Rosenstraße) und die Linien 10 und 20 (Haltestelle Freiberger Straße – World Trade Center) sowie die S-Bahn-Linien S1 und S2 (Hp. Freiberger Straße) zu uns.</li>
+				</ul>
+			</p>
 		</div>
+
 		<div class="box">
-			<h3>Kontaktdaten</h3>
+			<h2>Kontaktdaten</h2>
 			<p>Wenn es dir nicht möglich ist uns zu besuchen, dann gibt es natürlich noch alternative Kontaktwege:</p>
 			<ul>
-				<li><a href="mailto:{{site.email}}">Email ({{site.email}})</a></li>
-				<li><a href="http://www.twitter.com/{{site.twitter_username}}">Twitter (@{{site.twitter_username}})</a></li>
-				<li><a href="http://www.facebook.com/freifunkDA">Facebook</a></li>
-				<li><a href="https://plus.google.com/113942916935529162777/">Google+</a></li>
-				<li><a href="http://lists.freifunk.net/mailman/listinfo/darmstadt-freifunk.net">Mailing-Liste</a></li>
-				<li><a href="https://chat.darmstadt.freifunk.net">Chat</a> (oder mit IRC-Client <a href="irc://irc.hackint.eu/ffda">irc://irc.hackint.eu/ffda</a>)</li>
-				<li>Anrufbeantworter: <a href="tel:+49-6151-6294552">06151 / 6294552</a></li>
-
-
+				<li><a href="mailto:{{ site.community.mail_info }}">Email ({{ site.community.mail_info }})</a></li>
+				<li><a href="https://www.twitter.com/{{ site.community.twitter }}">Twitter (@{{ site.community.twitter }})</a></li>
+				<li><a href="https://www.twitter.com/{{ site.community.facebook }}">Facebook</a></li>
+				<li><a href="{{ site.community.url_mailinglists }}">Mailing-Liste</a></li>
+				<li><a href="{{ site.community.url_chat }}">Chat</a> (oder mit IRC-Client <a href="irc://irc.hackint.eu/ffdd">irc://irc.hackint.eu/ffdd</a>)</li>
 			</ul>
 		</div>
-    </section>
+	</section>
 
-    {% include footer.html %}
+	{% include footer.html %}
 
   </body>
 </html>

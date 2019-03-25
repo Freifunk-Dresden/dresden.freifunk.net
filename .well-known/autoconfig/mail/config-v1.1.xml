@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <clientConfig version="1.1">
-  <emailProvider id="darmstadt.freifunk.net">
-    <domain>darmstadt.freifunk.net</domain>
-    <displayName>darmstadt.freifunk.net</displayName>
-    <displayShortName>Freifunk Darmstadt</displayShortName>
+  <emailProvider id="freifunk-dresden.de">
+    <domain>freifunk-dresden.de</domain>
+    <displayName>freifunk-dresden.de</displayName>
+    <displayShortName>Freifunk Dresden</displayShortName>
     <incomingServer type="imap">
-      <hostname>mail.linuxlounge.net</hostname>
+      <hostname>mail.freifunk-dresden.de</hostname>
       <port>993</port>
       <socketType>SSL</socketType>
       <authentication>password-encrypted</authentication>
       <username>%EMAILADDRESS%</username>
     </incomingServer>
     <outgoingServer type="smtp">
-      <hostname>mail.linuxlounge.net</hostname>
-      <port>465</port>
-      <socketType>SSL</socketType>
+      <hostname>mail.freifunk-dresden.de</hostname>
+      <port>587</port>
+      <socketType>STARTTLS</socketType>
       <authentication>password-encrypted</authentication>
       <username>%EMAILADDRESS%</username>
     </outgoingServer>
   </emailProvider>
 </clientConfig>
-

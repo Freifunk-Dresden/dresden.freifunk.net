@@ -1,16 +1,16 @@
-require 'html/proofer'
+require 'html-proofer'
 
 task :build do
-  sh "bundle exec jekyll build"
+  sh "jekyll build"
 end
 
 task :serve do
-  sh "bundle exec jekyll serve"
+  sh "jekyll serve"
 end
 
 task :htmlproofer do
   HTML::Proofer.new("./_site",
-                    {:href_ignore => [/http(s?):\/\/(.*)\.ffda/, /^http:\/\/192\.168\..*/]}).run
+                    {:href_ignore => [/http(s?):\/\/(.*)\.freifunk-dresden.de/, /^http:\/\/192\.168\..*/]}).run
 end
 
 task :trailing_spaces do
@@ -28,4 +28,3 @@ end
 task :clean do
   sh "bundle exec rm -R ./_site || true"
 end
-

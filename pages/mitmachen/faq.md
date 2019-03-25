@@ -1,15 +1,15 @@
 ---
 title: Häufige Fragen
-layout: page
-sub_menu: true
 top_url: /mitmachen/
-sub_weight: 6
 permalink: /mitmachen/faq/
+sub_menu: true
+sub_weight: 6
+layout: page
 ---
 
 ### Wo stehen schon Freifunk-Router?
 
-Schau mal auf der [Karte](../../karte/) nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
+Schau mal auf der [Karte](/karte/) nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
 
 ### Warum ist das alles kostenlos? Wo ist der Haken?
 

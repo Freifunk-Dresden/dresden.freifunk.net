@@ -1,10 +1,10 @@
 ---
 title: Router einrichten
-layout: page
-sub_menu: true
 top_url: /mitmachen/
-sub_weight: 4
 permalink: /mitmachen/router-einrichten/
+sub_menu: true
+sub_weight: 2
+layout: page
 ---
 
 ### Den Router anschließen
@@ -27,18 +27,7 @@ Dein Router sollte nun in den Konfigurationsmodus starten. Du erhälst erneut IP
 
 ### Den Router konfigurieren
 
-1. Wähle einen Namen nach dem Schema `PLZ-Wahlname`, also bspw. `64283-Kaesekuchen`.
-2. Aktiviere das `Mesh-VPN`, um eine Verbindung mit dem Freifunk-Netz über das Internet herzustellen
-3. Füge GPS-Koordinaten des Router-Standorts ein. Diese kannst du auf unterschiedliche Weisen erhalten:
-  - Am PC: über [unsere Karte](https://map.darmstadt.freifunk.net) (Zuerst Pin klicken, dann Doppelklick auf die Position des Routers)
-  - Android: [GPS Status & Toolbox](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2)
-4. Trage eine funktionierende Kontaktmöglichkeit an. Deine Adresse wird ausschließlich zur Kontaktaufnahme durch uns genutzt und niemals an Dritte weitergegeben.
-5. Nach einem Klick auf `Speichern und Neustarten` siehst du den Öffentlichen Schlüssel für den VPN-Zugang. Diesen sendest du bitte per E-Mail an [keys@darmstadt.freifunk.net](mailto:keys@darmstadt.freifunk.net).
 
-	> &#35; PLZ-Wahlname \\
-	> key "f1d2d2f924e986ac86fdf7b36c94bcdf32beec15";
-
-Danach startet der Router neu, sendet das WLAN `darmstadt.freifunk.net` aus und versucht sich per Mesh mit anderen Nachbarn zu verbinden. Falls du keine Mesh-Nachbarn hast, ist eine Verbindung mit dem WLAN-Netzwerk erst dann möglich, sobald der Schlüssel auf den Gateways eingetragen wurde. Darüber informieren wir dich zeitnah mit einer Begrüßungs-Email.
 
 Der Router ist jetzt im Normalbetrieb und nicht mehr unter der [http://192.168.1.1](http://192.168.1.1) erreichbar, für weitere Änderungen siehe [FAQ](/mitmachen/faq/).
 
@@ -51,4 +40,4 @@ Wenn du deinen Internetzugang zur Verfügung stellen möchtest, verbinde jetzt d
 
 ### Fertig
 
-Super, du hast es geschafft. Dein Freifunk-Knoten funktioniert jetzt und sollte, wenn du GPS Koordinaten angegeben hast, in Kürze auf der [Karte](https://map.darmstadt.freifunk.net/) erscheinen.
+Super, du hast es geschafft. Dein Freifunk-Knoten funktioniert jetzt und sollte, wenn du GPS Koordinaten angegeben hast, in Kürze auf der [Karte](/karte) erscheinen.
