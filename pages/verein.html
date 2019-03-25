@@ -59,9 +59,11 @@ layout: main
 			<p>Im Freifunk Netz {{ site.community.name }} haben sich verschiedene Gemeinden zusammen geschlossen.</p>
 			<h3>Communities:</h3>
 			<ul>
-				{% for subcom in site.community.sub_com %}
-					<li>{{ subcom }}</li>
-				{% endfor %}
+				<blockquote>
+					{% for subcom in site.community.sub_com %}
+						<li>{{ subcom }}</li>
+					{% endfor %}
+				</blockquote>
 			</ul>
 		</div>
 
@@ -69,9 +71,11 @@ layout: main
 			<div class="box">
 				<h4>F&ouml;rdermitglieder</h4>
 				<ul>
-					{% for item in site.community.sup_member %}
-						<li><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></li>
-					{% endfor %}
+					<blockquote>
+						{% for item in site.community.sup_member %}
+							<li><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></li>
+						{% endfor %}
+					</blockquote>
 				</ul>
 			</div>
 		{% endif %}
