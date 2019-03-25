@@ -8,7 +8,6 @@ layout: page
 ---
 
 ## Berichterstattung über Freifunk Dresden
-<br>
 
 ## 2019
 * 19.01.2019, Sächsische Zeitung: [„Dresden funkt“](https://wiki.freifunk-dresden.de/images/a/a7/S%C3%A4Z_2019-01-19_Dresden_funkt.jpg)
