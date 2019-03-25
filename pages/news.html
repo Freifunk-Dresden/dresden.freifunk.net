@@ -57,9 +57,11 @@ layout:
 					<p>Im Freifunk Netz {{ site.community.name }} haben sich verschiedene Gemeinden zusammen geschlossen.</p>
 					<h3>Communities:</h3>
 					<ul>
-		  				{% for subcom in site.community.sub_com %}
-							<li>{{ subcom }}</li>
-		  				{% endfor %}
+						<blockquote>
+		  					{% for subcom in site.community.sub_com %}
+								<li>{{ subcom }}</li>
+			  				{% endfor %}
+						</blockquote>
 					</ul>
 				</div>
 			</div>
