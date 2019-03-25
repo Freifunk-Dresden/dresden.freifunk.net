@@ -39,7 +39,7 @@ layout: page
 
 ## 2013
 * 08.08.2013, Wochenkurier: [„WLAN im östlichen Alaunpark“](http://www.wochenkurier.info/sachsen/dresden/artikel/neu-wlan-im-oestlichen-alaunpark-8138/)
-* 04.07.2013, Sächsische Zeitung: [„Freier Internet-Zugang startet im Alaunpark“](http://www.sz-online.de/nachrichten/freier-internet-zugangstartet-im-alaunpark-2609262.html) <font color="red"> ( Privater Link :/ )</font>
+* 04.07.2013, Sächsische Zeitung: „Freier Internet-Zugang startet im Alaunpark“ (http://www.sz-online.de/nachrichten/freier-internet-zugangstartet-im-alaunpark-2609262.html) <font color="red"> ( Privater Link :/ )</font>
 
 ## 2012
 * 30.08.2012, Dresdner Neueste Nachrichten:: [„Kostenlose WLAN-Idee der Fraktion Die Linke sorgt für Diskussionen in Dresden“](http://www.dnn.de/Kultur/Medien/Kostenlose-WLAN-Idee-der-Fraktion-Die-Linke-sorgt-fuer-Diskussionen-in-Dresden)
