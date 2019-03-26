@@ -95,10 +95,10 @@ community:
   # Projects
   projects:
     - name: 'Freifunk Installation'
-      desc: '<a href="https://wiki.freifunk-dresden.de/index.php/Adventureland" target="_blank">Adventureland</a> (Paintball)'
+      desc: '<a href="https://wiki.freifunk-dresden.de/index.php/Adventureland">Adventureland</a> (Paintball)'
 
     - name: 'Freifunk Installation'
-      desc: '<a href="https://wiki.freifunk-dresden.de/index.php/Elbhangfest" target="_blank">zum Elbhangfest</a>'
+      desc: '<a href="https://wiki.freifunk-dresden.de/index.php/Elbhangfest">zum Elbhangfest</a>'
 
 
   # Entrys for Sub Communities
