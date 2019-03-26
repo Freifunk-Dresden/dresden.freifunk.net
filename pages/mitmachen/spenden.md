@@ -27,6 +27,8 @@ Daher bitten wir Betreiber und Nutzer im Umkreis von Dresden, uns bei der Bescha
 
 Das Spenden ist am einfachsten über unseren Partner [wecanhelp.de](https://www.wecanhelp.de/401159001/spendenprojekt) möglich, der für uns die Abwicklung diverser Zahlungsmöglichkeiten bereistellt und Spendenbescheinigungen ausstellt.
 
+<script src="https://www.wecanhelp.de/donation_frame.php?org_id=401159001&color=dc0067&border=0"></script>
+
 ## Manuell per Überweisung
 
 Alternativ kann auch direkt an das Bankkonto des Freifunk {{ site.community.name }} e.V. überwiesen werden:
