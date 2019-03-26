@@ -13,7 +13,6 @@ permalink: "news/:year/:month/:day/:title"
 # Build settings
 markdown: kramdown
 exclude: [vendor]
-include: [.well-known]
 
 
 # Community and Site Informations
@@ -101,7 +100,7 @@ community:
       desc: '<a href="https://wiki.freifunk-dresden.de/index.php/Elbhangfest">zum Elbhangfest</a>'
 
 
-  # Entrys for Sub Communities
+  # Sub Communities
   sub_com:
     - 'Freifunk Dresden'
     - 'Freifunk Freiberg'
