@@ -1,6 +1,6 @@
-FFDD website
+FFDD Website
 ============================
-[dresden.freifunk.net](http://dresden.freifunk.net)
+[dresden.freifunk.net](https://dresden.freifunk.net/) | [freifunk-dresden.de](https://freifunk-dresden.de/)
 
 ## Dependencies
  - Install a javascript runtime, e.g. nodejs

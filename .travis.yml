@@ -13,5 +13,13 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 before_install:
   - git clone https://github.com/Freifunk-Dresden/Blog.git ../Blog/
-after_success:
-  - curl http://5.104.107.226/deploy
+notifications:
+  email: true
+  irc:
+    channels:
+      - "irc.freenode.net##ffdd"
+    use_notice: true
+    on_success: change
+    on_failure: always
+#after_success:
+#  - curl http://5.104.107.226/deploy
