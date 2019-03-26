@@ -19,7 +19,7 @@ Ebenso wurde für die Festbesucher der Zugang zum Freifunknetz und zum Internet 
 ## 2018-06-22
 ### Elbhangfest Elbhangfest
 Dieses Jahr versuchen wir Internet aufs Elbhangfest zu bringen. Aktuell fehlt uns noch der notwendige Internetanschluss, da
-auch via Richtfunk keine Möglichkeit besteht. Die technische Planung ist hier [[Elbhangfest]] festgehalten.
+auch via Richtfunk keine Möglichkeit besteht. Die technische Planung ist hier [Elbhangfest](https://wiki.freifunk-dresden.de/index.php/Elbhangfest) festgehalten.
 
 ## 2018-06-16
 ### Löbtau Streetfest

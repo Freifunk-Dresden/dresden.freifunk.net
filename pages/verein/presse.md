@@ -13,6 +13,9 @@ layout: page
 * 19.01.2019, Sächsische Zeitung: [„Dresden funkt“](https://wiki.freifunk-dresden.de/images/a/a7/S%C3%A4Z_2019-01-19_Dresden_funkt.jpg)
 * 19.01.2019, Sächsische Zeitung: [„Stadt startet eigenes WLAN“](https://wiki.freifunk-dresden.de/images/f/fd/SaeZ_2019-01-19_Dresden_funkt_Titelseite.jpeg)
 
+## 2017
+* 01.03.2017, pentacast 52 auf den Datenspuren 2017: [„Freifunk Dresden und Besucherinterview“](https://cccdd.de/news/pentacast-52-DS17-I.html)
+
 ## 2016
 * 06.07.2016, Ad rem: [„Gebt das Netz frei!“](https://wiki.freifunk-dresden.de/images/5/5f/DMV_ADD_20160706_Seite_4.jpeg)
 * 04.07.2016, Datenkollektiv.net: [„Freifunk für alle!“](https://datenkollektiv.net/freifunk-fuer-alle/)
