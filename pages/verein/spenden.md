@@ -1,9 +1,9 @@
 ---
 title: Spenden
-top_url: /mitmachen/
-permalink: /mitmachen/spenden/
+top_url: /verein/
+permalink: /verein/spenden/
 sub_menu: true
-sub_weight: 7
+sub_weight: 5
 layout: page
 ---
 
@@ -28,6 +28,7 @@ Daher bitten wir Betreiber und Nutzer im Umkreis von Dresden, uns bei der Bescha
 Das Spenden ist am einfachsten über unseren Partner [wecanhelp.de](https://www.wecanhelp.de/401159001/spendenprojekt) möglich, der für uns die Abwicklung diverser Zahlungsmöglichkeiten bereistellt und Spendenbescheinigungen ausstellt.
 
 <script src="https://www.wecanhelp.de/donation_frame.php?org_id=401159001&color=dc0067&border=0"></script>
+<br>
 
 ## Manuell per Überweisung
 
