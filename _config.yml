@@ -41,8 +41,7 @@ community:
   instagram: 'freifunkdresden'
 
   url_mailinglists: 'https://lists.freifunk-dresden.de/listinfo/newsletter'
-  #url_chat: 'https://webchat.freenode.net/?channels=%23%23ffdd&uio=d4'
-  url_chat: 'https://kiwiirc.com/client/irc.freenode.net/##ffdd'
+  url_chat: 'https://chat.freifunk-dresden.de/'
   url_blog: 'https://github.com/Freifunk-Dresden/Blog#freifunk-dresden-blog'
   url_forum: 'https://forum.freifunk.net/c/community/dresden'
   url_kalender: 'https://teamup.com/ks7edwt5ey8j8tvgpf'
