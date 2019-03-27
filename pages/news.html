@@ -75,9 +75,9 @@ layout:
 		moment.locale('de');
 		var nextDate;
 		if (moment().isSame(moment().weekday(2), 'day'))
-			nextDate = moment().weekday(2);
+			nextDate = moment().weekday(9);
 		else
-			nextDate = moment().weekday(10);
+			nextDate = moment().weekday(14);
 
 		$('#next_meet_date').text(nextDate.format('D. MMMM'));
 	</script>
