@@ -1,5 +1,5 @@
-FFDD Website
-============================
+# FFDD Website
+
 [freifunk-dresden.de](https://freifunk-dresden.de/) | [dresden.freifunk.net](https://dresden.freifunk.net/)
 
 ## Dependencies
@@ -52,7 +52,7 @@ On Ubuntu you might need to change the next lines in the 'Rakefile'
  - Use `rake test`
 
 State of the current master branch, powered by Travis-CI:
-[![Build Status](https://travis-ci.org/Freifunk-Dresden/dresden.freifunk.net.svg?branch=master)](https://travis-ci.org/Freifunk-Dresden/dresden.freifunk.net)
+[![Build Status](https://travis-ci.com/Freifunk-Dresden/dresden.freifunk.net.svg?branch=master)](https://travis-ci.com/Freifunk-Dresden/dresden.freifunk.net)
 
 ## Deployment
 Simply `git push` to the master branch. There's a hook that will automatically deploy it to [dresden.freifunk.net](dresden.freifunk.net)
