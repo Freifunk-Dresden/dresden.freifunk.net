@@ -17,7 +17,7 @@ notifications:
   email: true
   irc:
     channels:
-      - "irc.freenode.net##ffdd"
+      - "irc.hackint.org#ffdd"
     use_notice: true
     on_success: change
     on_failure: always

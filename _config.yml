@@ -34,7 +34,7 @@ community:
 
   # Other Contacts
   #sip: ["space@sip.ffki"]
-  irc: '##ffdd (irc im freenode)'
+  irc: '#ffdd (irc im hackint)'
   github: 'Freifunk-Dresden'
   facebook: 'FreifunkDresden'
   twitter: 'ddmesh'
