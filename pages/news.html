@@ -25,10 +25,10 @@ layout:
 			<div class="8u 12u(3)">
 				{% for post in site.posts %}
 				<div class="box">
-					<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+					<span class="post-meta icon fa-calendar"> {{ post.date | date: "%-d %B %Y" }}</span>
 
 					<h3>
-						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}.html">{{ post.title }}</a>
 					</h3>
 
 					<div class="post-content">
@@ -77,7 +77,7 @@ layout:
 		if (moment().isSame(moment().weekday(2), 'day'))
 			nextDate = moment().weekday(9);
 		else
-			nextDate = moment().weekday(14);
+			nextDate = moment().weekday(9);
 
 		$('#next_meet_date').text(nextDate.format('D. MMMM'));
 	</script>
