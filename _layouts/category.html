@@ -14,7 +14,6 @@ layout:
 			<div style="display:inline-block;float:right;margin-right:0.8em;margin-top:0em">
 				<a class="button special" href="{{ site.community.url_blog }}">neuen Blogeintrag schreiben</a>
 			</div>
-		</div>
 		</header>
 		<div class="row">
 			<div class="8u 12u(3)">
@@ -22,11 +21,11 @@ layout:
 				{% for post in site.posts %}
   					{% if post.categories contains page.category %}
 					<div class="box">
-						<span class="post-meta icon fa-calendar"> {{ post.date | date: "%-d %B %Y" }}</span>
+						<span class="icon fa-calendar"> {{ post.date | date: "%-d %B %Y" }}</span>
 
 						{% if post.author %}
 							<span>&emsp;</span>
-							<span class="post-meta icon fa-user"> {{ post.author }}</span>
+							<span class="icon fa-user"> {{ post.author }}</span>
 						{% endif %}
 
 						{% if post.categories %}
