@@ -54,7 +54,7 @@ Freiwillig können der Standort des Knotens angegeben werden.
 
 ### Warum speichern wir die Daten
 
- - Knotenname und Standort werden zur öffentlichen Anzeige (z.B. in der [Knotenliste]({{ site.community.url_nodelist }}) ) benötigt.
+ - Knotenname und Standort werden zur öffentlichen Anzeige (z.B. in der [Knotenliste](/stats/nodelist/) ) benötigt.
  - Betreiber.innenname und Emailadresse werden zur Behebung von Störungen, Benachrichtigung über Änderungen am Netzwerk und Weiterleitung von Kontaktanfragen anderer Knotenbetreiber.innen benötigt.
 
 ### Wie lange speichern wir die Daten
