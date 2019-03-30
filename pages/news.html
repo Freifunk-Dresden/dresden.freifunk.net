@@ -17,7 +17,7 @@ layout:
 		<header>
 			<h2 class="post-title">{{ page.title }}</h2>
 			<div style="display:inline-block;float:right;margin-right:0.8em;margin-top:0em">
-				<a class="button" href="{{ site.community.url_blog }}">neuen Blogeintrag schreiben</a>
+				<a class="button special" href="{{ site.community.url_blog }}">neuen Blogeintrag schreiben</a>
 			</div>
 		</div>
 		</header>
@@ -73,13 +73,11 @@ layout:
 
 				<div class="box">
 					<h3>Kategorie</h3>
-					<ul style="list-style: none; margin: 0; padding: 0;">
+					<ul style="list-style: none; margin: 0; padding: 0; text-decoration: none;">
 						{% for category in site.categories %}
-						<a href="/news/category/{{ category[0] }}/" style="text-decoration: none;">
-							<li style="border-bottom: 1px dashed; padding-top: 10px; padding-bottom: 10px; text-decoration: none;">
-								{{ category[0] }}
-							</li>
-						</a>
+						<li style="border-bottom: 1px dashed; padding-top: 10px; padding-bottom: 10px;">
+							<a href="/news/category/{{ category[0] }}/">{{ category[0] }}</a>
+						</li>
 						{% endfor %}
 					</ul>
 				</div>
