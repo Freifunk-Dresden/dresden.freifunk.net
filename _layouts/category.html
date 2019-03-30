@@ -1,0 +1,88 @@
+---
+layout:
+---
+
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+	{% include header.html %}
+	<section id="main" class="container">
+		<header>
+			<h2 class="post-title">Kategorie - {{ page.title }}</h2>
+			<div style="display:inline-block;float:right;margin-right:0.8em;margin-top:0em">
+				<a class="button" href="{{ site.community.url_blog }}">neuen Blogeintrag schreiben</a>
+			</div>
+		</div>
+		</header>
+		<div class="row">
+			<div class="8u 12u(3)">
+
+				{% for post in site.posts %}
+  					{% if post.categories contains page.category %}
+					<div class="box">
+						<span class="post-meta icon fa-calendar"> {{ post.date | date: "%-d %B %Y" }}</span>
+
+						{% if post.author %}
+							<span>&emsp;</span>
+							<span class="post-meta icon fa-user"> {{ post.author }}</span>
+						{% endif %}
+
+						{% if post.categories %}
+							<span>&emsp;</span>
+							{% for tag in post.categories %}
+								<span class="icon fa-tag">
+									<a href="{{ site.baseurl }}/news/category/{{ tag }}">{{ tag }}</a>
+								</span>
+								<span>&nbsp;</span>
+							{% endfor %}
+						{% endif %}
+
+						<h3>
+							<a class="post-link" href="{{ post.url | prepend: site.baseurl }}.html">{{ post.title }}</a>
+						</h3>
+
+						<div class="post-content">
+							{{ post.content }}
+							{% include social.html post=post %}
+						</div>
+					</div>
+					{% endif %}
+				{% endfor %}
+
+				<p class="rss-subscribe">
+					<a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+					<span class="fa-stack fa-sm">
+						<i class="fa fa-square-o fa-stack-2x"></i>
+						<i class="fa fa-rss fa-stack-1x"></i>
+					</span>
+					RSS-Feed
+					</a> abonnieren
+				</p>
+			</div>
+
+			<div class="4u 12u(3)">
+				<div class="box">
+					<h3>Kategorie</h3>
+					<ul style="list-style: none; margin: 0; padding: 0;">
+						{% for category in site.categories %}
+						<a href="/news/category/{{ category[0] }}/" style="text-decoration: none;">
+							<li style="border-bottom: 1px dashed; padding-top: 10px; padding-bottom: 10px; text-decoration: none;">
+								{{ category[0] }}
+							</li>
+						</a>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	{% include footer.html %}
+
+  </body>
+
+</html>
+
+

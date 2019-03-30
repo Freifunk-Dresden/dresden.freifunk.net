@@ -4,13 +4,31 @@ layout: main
 <div class="box">
 
   <header>
-    <h3 class="post-title">{{ page.title }}</h3>
-    <p class="post-meta">{{ page.date | date: "%-d %B %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	<h3 class="post-title">{{ page.title }}</h3>
+
+	<p class="page-meta">
+		<span class="icon fa-calendar"> {{ page.date | date: "%-d %B %Y" }}</span>
+
+		{% if page.author %}
+			<span>&emsp;</span>
+			<span class="icon fa-user"> {{ page.author }}</span>
+		{% endif %}
+
+		{% if page.categories %}
+			<span>&emsp;</span>
+			{% for tag in page.categories %}
+				<span class="icon fa-tag">
+					<a href="{{ site.baseurl }}/news/category/{{ tag }}">{{ tag }}</a>
+				</span>
+				<span>&nbsp;</span>
+			{% endfor %}
+		{% endif %}
+	</p>
   </header>
 
   <article class="post-content">
-    {{ content }}
-    {% include social.html post=page %}
+	{{ content }}
+	{% include social.html post=page %}
   </article>
 
 </div>
