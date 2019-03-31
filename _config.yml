@@ -12,7 +12,7 @@ permalink: "news/:year/:month/:day/:title"
 paginate_path: "/news/page:num/"
 paginate: 10
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
