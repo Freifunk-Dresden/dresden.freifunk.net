@@ -40,4 +40,4 @@ Wenn du deinen Internetzugang zur Verfügung stellen möchtest, verbinde jetzt d
 
 ### Fertig
 
-Super, du hast es geschafft. Dein Freifunk-Knoten funktioniert jetzt und sollte, wenn du GPS Koordinaten angegeben hast, in Kürze auf der [Karte](/karte) erscheinen.
+Super, du hast es geschafft. Dein Freifunk-Knoten funktioniert jetzt und sollte, wenn du GPS Koordinaten angegeben hast, in Kürze auf der [Karte]({{ "/karte/" | prepend: site.baseurl }}) erscheinen.

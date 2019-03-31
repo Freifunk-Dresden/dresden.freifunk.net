@@ -22,9 +22,9 @@ permalink: /
 		<section class="special action">
 			<p>Dafür benötigen wir deine Unterstützung!</p>
 			<ul class="actions">
-				<li><a href="{{ "kontakt/" | prepend: site.baseurl }}" class="button altspecial icon fa-calendar">Komm zum nächsten Treffen</a></li>
-				<li><a href="{{ "mitmachen/" | prepend: site.baseurl }}" class="button special icon fa-users">Mach mit!</a></li>
-				<li><a href="{{ "kontakt/chat/" | prepend: site.baseurl }}" class="button alt2special icon fa-comment">Chatte mit deiner Community</a></li>
+				<li><a href="{{ "/kontakt/" | prepend: site.baseurl }}" class="button altspecial icon fa-calendar">Komm zum nächsten Treffen</a></li>
+				<li><a href="{{ "/mitmachen/" | prepend: site.baseurl }}" class="button special icon fa-users">Mach mit!</a></li>
+				<li><a href="{{ "/kontakt/chat/" | prepend: site.baseurl }}" class="button alt2special icon fa-comment">Chatte mit deiner Community</a></li>
 			</ul>
 		</section>
 		<section class="box" id="news">
@@ -32,7 +32,7 @@ permalink: /
 			{% assign content = post.content %}
 			<h2><strong class="in-line-highlight">{{ post.title }}</strong></h2>
 			<p>{{ post.content | markdownify | truncatewords: 25 }}</p>
-			<p><a href="news/" class="button special">Weiterlesen</a></p>
+			<p><a href="{{ "/news/" | prepend: site.baseurl }}" class="button special">Weiterlesen</a></p>
 		</section>
 		<section class="box special features">
 			<header class="major">

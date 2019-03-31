@@ -34,22 +34,24 @@ layout:
 						{% assign sortedCategories = site.categories | sort %}
 						{% for category in sortedCategories %}
 						<li style="border-bottom: 1px dashed; padding-top: 10px; padding-bottom: 10px;">
-							<a href="/news/category/{{ category[0] }}/">{{ category[0] }}</a>
+							<a href="{{ site.baseurl }}/news/category/{{ category[0] }}/">{{ category[0] }}</a>
 						</li>
 						{% endfor %}
 					</ul>
 				</div>
 
 				<!-- RSS-Feed -->
-				<p class="rss-subscribe">
-					<a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-					<span class="fa-stack fa-sm">
-						<i class="fa fa-square-o fa-stack-2x"></i>
-						<i class="fa fa-rss fa-stack-1x"></i>
-					</span>
-					RSS-Feed
-					</a> abonnieren
-				</p>
+				<div>
+					<p class="rss-subscribe">
+						<a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+						<span class="fa-stack fa-sm">
+							<i class="fa fa-square-o fa-stack-2x"></i>
+							<i class="fa fa-rss fa-stack-1x"></i>
+						</span>
+						RSS-Feed
+						</a> abonnieren
+					</p>
+				</div>
 			</div>
 		</div>
 	</section>

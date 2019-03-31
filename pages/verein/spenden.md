@@ -17,7 +17,7 @@ Daher bitten wir Betreiber und Nutzer im Umkreis von Dresden, uns bei der Bescha
 
 ## Förderung durch Online-Shopping
 
- - &Uuml;ber die [Vereins-/F&ouml;rdermitgliedsschaft](/verein/)
+ - &Uuml;ber die [Vereins-/F&ouml;rdermitgliedsschaft]({{ "/verein/" | prepend: site.baseurl }})
  - Barzahlung bei der [Sprechstunde](/kontakt/) oder einer anderen Veranstalltung
  - via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EY8U2TE7MXE3N)
  - Spenden beim [Amazon shoppen](https://smile.amazon.de/ch/203-141-18996)

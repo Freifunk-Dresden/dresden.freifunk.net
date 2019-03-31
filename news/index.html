@@ -43,7 +43,7 @@ layout:
 						{% assign sortedCategories = site.categories | sort %}
 						{% for category in sortedCategories %}
 						<li style="border-bottom: 1px dashed; padding-top: 10px; padding-bottom: 10px;">
-							<a href="/news/category/{{ category[0] }}/">{{ category[0] }}</a>
+							<a href="{{ site.baseurl }}/news/category/{{ category[0] }}/">{{ category[0] }}</a>
 						</li>
 						{% endfor %}
 					</ul>
@@ -63,15 +63,17 @@ layout:
 				</div>
 
 				<!-- RSS-Feed -->
-				<p class="rss-subscribe">
-					<a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-					<span class="fa-stack fa-sm">
-						<i class="fa fa-square-o fa-stack-2x"></i>
-						<i class="fa fa-rss fa-stack-1x"></i>
-					</span>
-					RSS-Feed
-					</a> abonnieren
-				</p>
+				<div>
+					<p class="rss-subscribe">
+						<a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+						<span class="fa-stack fa-sm">
+							<i class="fa fa-square-o fa-stack-2x"></i>
+							<i class="fa fa-rss fa-stack-1x"></i>
+						</span>
+						RSS-Feed
+						</a> abonnieren
+					</p>
+				</div>
 			</div>
 
 			<!-- Paginator -->
@@ -89,7 +91,7 @@ layout:
 						{% if page == paginator.page %}
 							<span>{{ page }}</span>
 						{% elsif page == 1 %}
-							<a href="/news/">{{ page }}</a>
+							<a href="{{ "/news/" | prepend: site.baseurl }}">{{ page }}</a>
 						{% else %}
 							<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
 						{% endif %}
