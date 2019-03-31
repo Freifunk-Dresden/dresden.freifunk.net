@@ -3,7 +3,7 @@ title: Spenden
 top_url: /verein/
 permalink: /verein/spenden/
 sub_menu: true
-sub_weight: 5
+sub_weight: 3
 layout: page
 ---
 
