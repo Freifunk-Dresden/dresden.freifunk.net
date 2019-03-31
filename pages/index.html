@@ -30,8 +30,8 @@ permalink: /
 		<section class="box" id="news">
 			{% assign post = site.posts.first %}
 			{% assign content = post.content %}
-			<h2><strong class="in-line-highlight">{{post.title}}</strong></h2>
-			<p>{{post.excerpt | remove: '<p>' | remove: '</p>'}} [...]</p>
+			<h2><strong class="in-line-highlight">{{ post.title }}</strong></h2>
+			<p>{{ post.content | markdownify | truncatewords: 25 }}</p>
 			<p><a href="news/" class="button special">Weiterlesen</a></p>
 		</section>
 		<section class="box special features">
