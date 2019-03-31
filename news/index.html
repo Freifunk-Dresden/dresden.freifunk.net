@@ -26,41 +26,11 @@ layout:
 					{% include post_inc.html %}
 
 				{% endfor %}
-
-				<!-- Paginator -->
-				{% if paginator.total_pages > 1 %}
-				<div class="pagination">
-					<p>
-					{% if paginator.previous_page %}
-						<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="icon fa-arrow-left"><span class="label">&laquo; Prev</span></a>
-					{% else %}
-						<span class="icon fa-arrow-left"><span class="label">&laquo; Prev</span></span>
-					{% endif %}
-
-					{% for page in (1..paginator.total_pages) %}
-						{% if page == paginator.page %}
-							<span>{{ page }}</span>
-						{% elsif page == 1 %}
-							<a href="/news/">{{ page }}</a>
-						{% else %}
-							<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-						{% endif %}
-					{% endfor %}
-
-					{% if paginator.next_page %}
-						<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="icon fa-arrow-right"><span class="label">Next &raquo;</span></a>
-					{% else %}
-						<span class="icon fa-arrow-right"><span class="label">Next &raquo;</span></span>
-					{% endif %}
-					</p>
-				</div>
-				{% endif %}
-
 			</div>
 
 			<!-- Small Site Boxes -->
 			<div class="4u 12u(3)">
-				<!--  -->
+				<!-- Next Meet Day -->
 				<div class="box">
 					<h3>Nächstes Treffen</h3>
 					<p><span id="next_meet_date">N&auml;chsten Mittwoch</span> ab 19:00 Uhr im <a href="/kontakt/">Rosenwerk</a>.</p>
@@ -102,6 +72,37 @@ layout:
 					RSS-Feed
 					</a> abonnieren
 				</p>
+			</div>
+
+			<!-- Paginator -->
+			<div class="12u 12u(3)">
+				{% if paginator.total_pages > 1 %}
+				<div class="pagination">
+					<p>
+					{% if paginator.previous_page %}
+						<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="icon fa-arrow-left"><span class="label">&laquo; Prev</span></a>
+					{% else %}
+						<span class="icon fa-arrow-left"><span class="label">&laquo; Prev</span></span>
+					{% endif %}
+
+					{% for page in (1..paginator.total_pages) %}
+						{% if page == paginator.page %}
+							<span>{{ page }}</span>
+						{% elsif page == 1 %}
+							<a href="/news/">{{ page }}</a>
+						{% else %}
+							<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+						{% endif %}
+					{% endfor %}
+
+					{% if paginator.next_page %}
+						<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="icon fa-arrow-right"><span class="label">Next &raquo;</span></a>
+					{% else %}
+						<span class="icon fa-arrow-right"><span class="label">Next &raquo;</span></span>
+					{% endif %}
+					</p>
+				</div>
+				{% endif %}
 			</div>
 		</div>
 	</section>
