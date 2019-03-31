@@ -6,7 +6,7 @@ main_menu: true
 weight: 7
 sub_menu: true
 sub_weight: 1
-layout: main
+layout: main-stats
 ---
 
 <header>
@@ -25,9 +25,9 @@ layout: main
 		<td><div id="netstat_online"></div></td>
 		<td><div id="netstat_gateways"></div></td>
 		<td><div id="netstat_clients"></div></td>
-  </table>
+	</table>
 
-  <script type="text/javascript">
+	<script type="text/javascript">
 		var nodes = document.getElementById("netstat_nodes");
 		var online = document.getElementById("netstat_online");
 		var gateways = document.getElementById("netstat_gateways");
@@ -37,7 +37,7 @@ layout: main
 		online.innerHTML = data.statistic.online;
 		gateways.innerHTML = data.statistic.gateways;
 		clients.innerHTML = data.statistic.clients;
-  </script>
+	</script>
 
 	<img width="430" height="235" src="{{ site.community.url_stat-clients }}">
 	<img width="430" height="235" src="{{ site.community.url_stat-nodes }}">
