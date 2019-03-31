@@ -9,6 +9,11 @@ url: "https://www.freifunk-dresden.de" # the base hostname & protocol for your s
 excerpt_separator: <!--*-->
 permalink: "news/:year/:month/:day/:title"
 
+paginate_path: "/news/page:num/"
+paginate: 10
+
+gems: [jekyll-paginate]
+
 # Build settings
 markdown: kramdown
 exclude: [vendor]

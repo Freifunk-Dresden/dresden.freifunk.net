@@ -1,0 +1,121 @@
+---
+title: News & Blog
+top_url: /news/
+layout:
+---
+
+<!DOCTYPE html>
+<html>
+	{% include head-news.html %}
+
+	<body>
+	{% include header.html %}
+	<section id="main" class="container">
+		<header>
+			<h2 class="post-title">{{ page.title }}</h2>
+			<div style="display: inline-block; float: right; margin-right: 0.8em; margin-top: 0">
+				<a class="button special" href="{{ site.community.url_blog }}">neuen Blogeintrag schreiben</a>
+			</div>
+		</header>
+
+		<div class="row">
+			<div class="8u 12u(3)">
+				<!-- Post -->
+				{% for post in paginator.posts %}
+
+					{% include post_inc.html %}
+
+				{% endfor %}
+
+				<!-- Paginator -->
+				{% if paginator.total_pages > 1 %}
+				<div class="pagination">
+					{% if paginator.previous_page %}
+						<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="icon fa-arrow-left"><span class="label">&laquo; Prev</span></a>
+					{% else %}
+						<span class="icon fa-arrow-left"><span class="label">&laquo; Prev</span></span>
+					{% endif %}
+
+					{% for page in (1..paginator.total_pages) %}
+						{% if page == paginator.page %}
+							<span>{{ page }}</span>
+						{% elsif page == 1 %}
+							<a href="/news/">{{ page }}</a>
+						{% else %}
+							<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+						{% endif %}
+					{% endfor %}
+
+					{% if paginator.next_page %}
+						<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="icon fa-arrow-right"><span class="label">Next &raquo;</span></a>
+					{% else %}
+						<span class="icon fa-arrow-right"><span class="label">Next &raquo;</span></span>
+					{% endif %}
+				</div>
+				{% endif %}
+
+			</div>
+
+			<!-- Small Site Boxes -->
+			<div class="4u 12u(3)">
+				<!--  -->
+				<div class="box">
+					<h3>Nächstes Treffen</h3>
+					<p><span id="next_meet_date">N&auml;chsten Mittwoch</span> ab 19:00 Uhr im <a href="/kontakt/">Rosenwerk</a>.</p>
+				</div>
+
+				<!-- Post Categories -->
+				<div class="box">
+					<h3>Kategorie</h3>
+					<ul style="list-style: none; margin: 0; padding: 0; text-decoration: none;">
+						{% assign sortedCategories = site.categories | sort %}
+						{% for category in sortedCategories %}
+						<li style="border-bottom: 1px dashed; padding-top: 10px; padding-bottom: 10px;">
+							<a href="/news/category/{{ category[0] }}/">{{ category[0] }}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<!-- Freifunk-Communities -->
+				<div class="box">
+					<p>Im Freifunk Netz {{ site.community.name }} haben sich verschiedene Gemeinden zusammen geschlossen.</p>
+					<h3>Communities:</h3>
+					<ul style="margin: 0; padding: 0;">
+						<blockquote style="margin: 0;">
+							{% for subcom in site.community.sub_com %}
+								<li>{{ subcom }}</li>
+							{% endfor %}
+						</blockquote>
+					</ul>
+				</div>
+
+				<!-- RSS-Feed -->
+				<p class="rss-subscribe">
+					<a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+					<span class="fa-stack fa-sm">
+						<i class="fa fa-square-o fa-stack-2x"></i>
+						<i class="fa fa-rss fa-stack-1x"></i>
+					</span>
+					RSS-Feed
+					</a> abonnieren
+				</p>
+			</div>
+		</div>
+	</section>
+
+	{% include footer.html %}
+
+	<script>
+		moment.locale('de');
+		var nextDate;
+		if (moment().isSame(moment().weekday(2), 'day'))
+			nextDate = moment().weekday(9);
+		else
+			nextDate = moment().weekday(9);
+
+		$('#next_meet_date').text(nextDate.format('D. MMMM'));
+	</script>
+
+	</body>
+</html>

@@ -2,9 +2,11 @@
 	<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
 	<nav id="nav">
 		<ul>
-        {% assign nav_pages = (site.pages | where: 'main_menu', true | sort: 'weight') %}
-        {% for p in nav_pages %}
-          {% if p.title %}
+			{% assign cur_news = page.url | downcase | split: '/' %}
+			<li><a class="page-link{% if cur_news[1] == 'news' %} active{% endif %}" href="/news/">News & Blog</a></li>
+			{% assign nav_pages = (site.pages | where: 'main_menu', true | sort: 'weight') %}
+			{% for p in nav_pages %}
+				{% if p.title %}
 					<li>
 						<a class="page-link{% if p.top_url == page.top_url %} active{% endif %}" href="{{ p.top_url | prepend: site.baseurl }}">
 							{{ p.title }}
@@ -24,8 +26,8 @@
 							</ul>
 						{% endif %}
 					</li>
-          {% endif %}
-        {% endfor %}
-        </ul>
+				{% endif %}
+			{% endfor %}
+		</ul>
 	</nav>
 </header>

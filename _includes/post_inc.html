@@ -1,0 +1,31 @@
+<div class="box">
+	<!-- Post-Meta: Calendar -->
+	<span class="icon fa-calendar"> {{ post.date | date: "%-d %B %Y" }}</span>
+	<!-- Post-Meta: Author -->
+	{% if post.author %}
+		<span>&emsp;</span>
+		<span class="icon fa-user"> {{ post.author }}</span>
+	{% endif %}
+	<!-- Post-Meta: Category -->
+	{% if post.categories %}
+		<span>&emsp;</span>
+		{% for tag in post.categories %}
+			<span class="icon fa-tag">
+				<a href="{{ site.baseurl }}/news/category/{{ tag }}">{{ tag }}</a>
+			</span>
+			<span>&nbsp;</span>
+		{% endfor %}
+	{% endif %}
+
+	<!-- Post-Title -->
+	<h3>
+		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}.html">{{ post.title }}</a>
+	</h3>
+
+	<!-- Post Content -->
+	<div class="post-content">
+		<p>{{ post.content | markdownify | truncatewords: 50 }}</p>
+		<p><a href="{{ post.url | prepend: site.baseurl }}.html" class="button small">Weiterlesen</a></p>
+		{% include social.html post=post %}
+	</div>
+</div>
