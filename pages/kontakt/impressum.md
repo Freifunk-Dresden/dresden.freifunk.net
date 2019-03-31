@@ -1,11 +1,9 @@
 ---
 title: Impressum
-top_url: /impressum/
+top_url: /kontakt/
 permalink: /impressum/
-main_menu: true
-weight: 10
 sub_menu: true
-sub_weight: 1
+sub_weight: 3
 layout: page
 ---
 
