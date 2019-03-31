@@ -3,7 +3,7 @@
 	<nav id="nav">
 		<ul>
 			{% assign cur_news = page.url | downcase | split: '/' %}
-			<li><a class="page-link{% if cur_news[1] == 'news' %} active{% endif %}" href="/news/">News & Blog</a></li>
+			<li><a class="page-link{% if cur_news[1] == 'news' %} active{% endif %}" href="/news/">News</a></li>
 			{% assign nav_pages = (site.pages | where: 'main_menu', true | sort: 'weight') %}
 			{% for p in nav_pages %}
 				{% if p.title %}
