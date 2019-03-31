@@ -34,14 +34,14 @@
 	header {
 		&.major {
 			padding: 1em;
-			
+
 			h2, p {
 				padding-left: 0.5em;
 				padding-right: 0.5em;
 			}
 		}
 	}
-	
+
 /* Box */
 
 	$box-padding-vertical: 2em;
@@ -51,12 +51,12 @@
 		margin: ($size-element-margin * 0.5);
 		overflow-x: hidden;
 		padding: $box-padding-vertical $box-padding-horizontal !important;
-		
+
 		&.features {
 			.features-row {
 				border-top: 0;
 				padding: 0;
-				
+
 				section {
 					border: 0;
 					border-top: solid 1px $color-border !important;
@@ -77,12 +77,12 @@
 				}
 			}
 		}
-		
+
 		.image {
 			&.featured {
 				margin-left: ($box-padding-horizontal * -1);
 				width: calc(100% + #{$box-padding-horizontal * 2});
-			
+
 				&:first-child {
 					margin-bottom: $box-padding-vertical;
 					margin-top: $box-padding-vertical * -1;
@@ -100,11 +100,11 @@
 
 	#banner {
 		padding: 4em 0;
-		
+
 		h2 {
 			font-size: 2.25em;
 		}
-		
+
 		p {
 			font-size: 1.25em;
 		}
@@ -114,37 +114,37 @@
 
 	#main {
 		padding: 4em 0 0 0;
-		
+
 		> .action{
 			color: $color-header-bg;
 		}
-		
+
 		> header {
 			margin: 0 2em 1.5em 2em;
 
 			h2 {
 				font-size: 2em;
 			}
-			
+
 			p {
 				font-size: 1em;
 				padding-bottom: 1em;
 			}
 		}
 	}
-	
+
 	body.landing {
 		#main {
 			padding: 0;
 			margin-top: 0;
 		}
-	}			
-	
+	}
+
 /* Footer */
 
 	#footer {
 		padding: 4em 0;
-		
+
 		.copyright {
 			li {
 				border-left: 0;

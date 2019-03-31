@@ -10,7 +10,7 @@
 */
 
 /* Basic */
-	
+
 	html, body {
 		min-width: 320px;
 	}
@@ -32,21 +32,21 @@
 	ul {
 		&.actions {
 			margin: 0 0 $size-element-margin 0;
-			
+
 			li {
 				display: block;
 				padding: ($size-element-margin * 0.5) 0 0 0;
 				text-align: center;
 				width: 100%;
-				
+
 				&:first-child {
 					padding-top: 0;
 				}
-				
+
 				> * {
 					width: 100%;
 					margin: 0 !important;
-					
+
 					&.icon {
 						&:before {
 							margin-left: -2em;
@@ -54,7 +54,7 @@
 					}
 				}
 			}
-			
+
 			&.small {
 				li {
 					padding: ($size-element-margin * 0.25) 0 0 0;
@@ -77,7 +77,7 @@
 		box-shadow: none;
 		margin: ($size-element-margin * 0.5) 0 0 0;
 		padding: $box-padding-vertical $box-padding-horizontal !important;
-		
+
 		&.features {
 			.features-row {
 				section {
@@ -86,7 +86,7 @@
 				}
 			}
 		}
-		
+
 		.image {
 			&.featured {
 				border-radius: 0;
@@ -96,7 +96,7 @@
 				img {
 					border-radius: 0 !important;
 				}
-			
+
 				&:first-child {
 					margin-bottom: $box-padding-vertical;
 					margin-top: $box-padding-vertical * -1;
@@ -115,7 +115,7 @@
 	#banner {
 		padding: 5em 1em 4em 1em;
 	}
-	
+
 /* Main */
 
 	#main {
@@ -125,7 +125,7 @@
 			}
 		}
 	}
-	
+
 /* CTA */
 
 	#cta {
