@@ -24,7 +24,7 @@
 
 	<!-- Post Content -->
 	<div class="post-content">
-		<p>{{ post.content | markdownify | truncatewords: 50 }}</p>
+		<p>{{ post.content | markdownify | truncatewords: 30 }}</p>
 		<p><a href="{{ post.url | prepend: site.baseurl }}.html" class="button small">Weiterlesen</a></p>
 		{% include social.html post=post %}
 	</div>
