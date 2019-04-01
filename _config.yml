@@ -100,6 +100,9 @@ community:
 
   # Projects
   projects:
+    - name: '<a href="https://wiki.freifunk-dresden.de/index.php/Gefl%C3%BCchtetenunterk%C3%BCnfte">Internet für Gefl&uuml;chtete</a>'
+      desc: ''
+
     - name: 'Freifunk Installation'
       desc: '<a href="https://wiki.freifunk-dresden.de/index.php/Adventureland">Adventureland</a> (Paintball)'
 
