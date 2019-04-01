@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60mm"
+   height="15mm"
+   viewBox="0 0 60 15"
+   version="1.1"
+   id="svg4233"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="router-negativ-15mm.svg"
+   inkscape:export-filename="C:\Users\Stephan\Documents\Freifunk\Aufkleber\free-wifi-variant-2-400x400.png"
+   inkscape:export-xdpi="101.6"
+   inkscape:export-ydpi="101.6">
+  <defs
+     id="defs4227" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="106.12358"
+     inkscape:cy="72.221549"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     borderlayer="true"
+     inkscape:snap-bbox="false"
+     inkscape:bbox-nodes="false"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-paths="true"
+     inkscape:window-width="1243"
+     inkscape:window-height="813"
+     inkscape:window-x="38"
+     inkscape:window-y="55"
+     inkscape:window-maximized="1"
+     inkscape:snap-nodes="false"
+     inkscape:snap-grids="true"
+     inkscape:snap-global="false"
+     inkscape:snap-page="true"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-others="true"
+     inkscape:measure-start="323.571,242.857"
+     inkscape:measure-end="376.429,242.857"
+     inkscape:snap-object-midpoints="true" />
+  <metadata
+     id="metadata4230">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Background"
+     transform="translate(0,-85)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#eb076b;fill-opacity:1;stroke-width:0.08045979"
+       id="rect4287"
+       width="60"
+       height="15"
+       x="0"
+       y="84.999992" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.0396875"
+       id="rect4292"
+       width="0"
+       height="0"
+       x="14.882812"
+       y="99.886604" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="LogoRing"
+     sodipodi:insensitive="true">
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.26171929;stroke-opacity:1"
+       id="path845"
+       cx="8.2489996"
+       cy="11.343"
+       r="2.9081404" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.29081556;stroke-opacity:1"
+       id="path849"
+       cx="4.9535003"
+       cy="12.2935"
+       ry="1.9580922"
+       rx="2.0080922" />
+  </g>
+  <g
+     inkscape:label="Logo"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-282)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       id="path3945"
+       d="m 7.4852214,282.66811 c 2.9881546,-0.21449 6.0464106,0.90192 8.1787106,3.00489 0.279761,0.2877 0.243436,0.79053 -0.05098,1.05341 -0.271475,0.31888 -0.813157,0.3246 -1.092919,0.014 -1.825138,-1.75418 -4.400979,-2.70319 -6.9302988,-2.51415 -2.1017134,0.13494 -4.1371492,1.03876 -5.6621366,2.48679 -0.1357376,0.13875 -0.3090763,0.25204 -0.5079056,0.26223 -0.49961817,0.0586 -0.96163972,-0.46337 -0.85394048,-0.95092 0.0299665,-0.17568 0.14274818,-0.32143 0.27211765,-0.43791 1.78498943,-1.70708 4.18175773,-2.75603 6.64735223,-2.91833"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.16304173"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3947"
+       d="m 7.4100229,285.25992 c 2.2897074,-0.24823 4.6673581,0.59449 6.2872991,2.22837 0.252995,0.28897 0.221766,0.76125 -0.05991,1.02094 -0.256182,0.31315 -0.773007,0.34816 -1.064238,0.0643 -1.037476,-1.02157 -2.439466,-1.67016 -3.8943506,-1.77645 -1.7652373,-0.1464 -3.5699817,0.52319 -4.8273138,1.76627 -0.2899588,0.30552 -0.8303646,0.27115 -1.0910041,-0.0547 -0.2816764,-0.26542 -0.3046183,-0.74979 -0.034406,-1.03112 1.2458636,-1.24498 2.9308019,-2.03806 4.6839277,-2.21755"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.16304173"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3949"
+       d="m 7.7503236,287.8129 c 1.4446924,-0.14321 2.9390884,0.40927 3.9440594,1.45439 0.275303,0.28642 0.243436,0.77907 -0.04652,1.04322 -0.263192,0.31761 -0.790853,0.33925 -1.077625,0.0414 -0.56653,-0.58112 -1.3516485,-0.94838 -2.1641626,-0.99229 -0.9221323,-0.0656 -1.8557289,0.29788 -2.51084,0.94583 -0.1612319,0.18076 -0.4002058,0.29151 -0.6449188,0.26287 -0.5690823,-0.0395 -0.9635492,-0.79817 -0.5716304,-1.25262 0.7908534,-0.85736 1.9143581,-1.3882 3.0716354,-1.50276"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.16304173"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3951"
+       d="m 5.904158,293.36695 c 0.00231,1.28763 1.0457584,2.33021 2.3355913,2.33212 1.2898329,-0.002 2.3324047,-1.04449 2.3355907,-2.33212 -0.0032,-1.28826 -1.0457578,-2.3302 -2.3355907,-2.33275 -1.2898329,0.003 -2.3330431,1.04449 -2.3355913,2.33275 m -0.5384914,0 c 4.671e-4,-1.58551 1.2866423,-2.86995 2.8740827,-2.87059 1.5874359,4.1e-4 2.8734447,1.28508 2.8734447,2.87059 0,1.58487 -1.2860088,2.86996 -2.8734447,2.86996 -1.5874404,0 -2.8734491,-1.28509 -2.8740827,-2.86996"
+       style="fill:#eb076b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.16304173"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3953"
+       d="m 6.3030877,293.36695 c 0.00185,1.06804 0.866685,1.93176 1.9360233,1.93368 1.0699768,-0.002 1.934747,-0.86564 1.936662,-1.93368 -0.0018,-1.06803 -0.8666852,-1.9324 -1.936662,-1.93494 -1.0693383,0.003 -1.9341134,0.86691 -1.9360233,1.93494 m -0.1076992,0 c 0,-1.12787 0.915117,-2.04187 2.0437225,-2.04187 1.1292393,0 2.044361,0.914 2.044361,2.04187 0,1.12723 -0.9151217,2.04124 -2.044361,2.04124 -1.1286055,0 -2.0437225,-0.91401 -2.0437225,-2.04124"
+       style="fill:#eb076b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.16304173"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3955"
+       d="m 3.1173806,294.31851 c 0.00138,1.00312 0.8137904,1.81465 1.8181273,1.81656 1.0043372,-0.002 1.8168558,-0.81344 1.8187658,-1.81656 -0.00185,-1.00375 -0.8144286,-1.81464 -1.8187658,-1.81655 -1.0043369,0.002 -1.8168557,0.8128 -1.8181273,1.81655 m -0.1076992,0 c 0,-1.06294 0.8622224,-1.92412 1.9258265,-1.92412 1.0642378,0 1.926465,0.86118 1.926465,1.92412 0,1.06231 -0.8622272,1.92349 -1.926465,1.92349 -1.0636041,0 -1.9258265,-0.86118 -1.9258265,-1.92349"
+       style="fill:#eb076b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.16304173"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3957"
+       d="m 7.3367389,293.90861 0.718841,-0.82044 h 0.7583477 l -0.5251081,0.55184 h 1.0616896 v 0.53593 H 8.3404378 l 0.5079005,0.4901 H 8.0721448 Z m 0,0"
+       style="fill:#fac705;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.16304173"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3959"
+       d="M 4.5270195,294.34906 H 4.0630886 l 0.3033371,-0.29342 H 3.7629329 v -0.32016 h 0.6340836 l -0.3135388,-0.33034 h 0.4537388 l 0.4295158,0.49074 z m 0,0"
+       style="fill:#fac705;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.16304173"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Freifunk Dresden"
+     style="display:inline;opacity:1"
+     transform="translate(0,-85)"
+     sodipodi:insensitive="true">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4269"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:55.85984802px;line-height:1.25;font-family:Belgium;-inkscape-font-specification:'Belgium Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.10503377,0,0,0.10507395,24.410935,83.958666)"><flowRegion
+         id="flowRegion4271"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:55.85984802px;font-family:Belgium;-inkscape-font-specification:'Belgium Bold'"><rect
+           id="rect4273"
+           width="410.97385"
+           height="64.753922"
+           x="-57.685528"
+           y="5.8152642"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:55.85984802px;font-family:Belgium;-inkscape-font-specification:'Belgium Bold'" /></flowRegion><flowPara
+         id="flowPara4275">Freifunk Router</flowPara></flowRoot>    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.262934;stroke-opacity:1"
+       id="rect37"
+       width="39.137066"
+       height="5.5832944"
+       x="18.801468"
+       y="91.000114" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="URL"
+     transform="translate(0,-85)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4278"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.39250565px;line-height:1.25;font-family:Belgium;-inkscape-font-specification:Belgium;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.08118824,0,0,0.05683359,15.865988,96.231625)"><flowRegion
+         id="flowRegion4280"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.39250565px;font-family:Belgium;-inkscape-font-specification:Belgium"><rect
+           id="rect4282"
+           width="469.51456"
+           height="52.376926"
+           x="32.857143"
+           y="12.238473"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.39250565px;font-family:Belgium;-inkscape-font-specification:Belgium" /></flowRegion><flowPara
+         id="flowPara4284">www.freifunk-dresden.de</flowPara></flowRoot>  </g>
+</svg>

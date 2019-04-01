@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="58mm"
+   height="58mm"
+   viewBox="0 0 58 58"
+   version="1.1"
+   id="svg4233"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="free-wifi-red-58mm-52mm.svg"
+   inkscape:export-filename="C:\Users\Stephan\Documents\Freifunk\Aufkleber\free-wifi-variant-2-negiert-400x400.png"
+   inkscape:export-xdpi="101.6"
+   inkscape:export-ydpi="101.6">
+  <defs
+     id="defs4227" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="183.89425"
+     inkscape:cy="188.74169"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     borderlayer="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-paths="true"
+     inkscape:window-width="1243"
+     inkscape:window-height="926"
+     inkscape:window-x="631"
+     inkscape:window-y="58"
+     inkscape:window-maximized="0"
+     inkscape:snap-nodes="false"
+     inkscape:snap-grids="true"
+     inkscape:snap-global="true"
+     inkscape:snap-page="true"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-others="false" />
+  <metadata
+     id="metadata4230">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Background"
+     style="display:inline"
+     transform="translate(0,-42)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="LogoNeg"
+     style="display:inline"
+     transform="translate(0,-42)" />
+  <g
+     inkscape:label="Logo"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-239)"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Freifunk Dresden"
+     style="display:inline;opacity:1"
+     transform="translate(0,-42)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Free Wifi"
+     style="display:inline"
+     transform="translate(0,-42)">
+    <g
+       id="g60"
+       transform="matrix(0.52252252,0,0,0.52252252,1.4e-7,47.747748)">
+      <rect
+         y="-11"
+         x="0"
+         height="111"
+         width="111"
+         id="rect4287"
+         style="display:inline;fill:#eb076b;fill-opacity:1;stroke-width:0.29770115" />
+      <g
+         transform="translate(5.5,-5.6223683)"
+         id="g92">
+        <g
+           style="display:inline"
+           id="g50"
+           transform="translate(-0.00366766,-197)">
+          <rect
+             y="99.244049"
+             x="99.21875"
+             height="0"
+             width="0"
+             id="rect4292"
+             style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+             transform="translate(0,197)" />
+          <g
+             transform="translate(1.0583333,197)"
+             id="g5650"
+             style="display:inline">
+            <circle
+               style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.27343819;stroke-opacity:1"
+               id="path5542"
+               cx="49.131882"
+               cy="70.61235"
+               r="14.453161" />
+            <circle
+               style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.3046717;stroke-opacity:1"
+               id="path5544"
+               cx="33.245167"
+               cy="75.125832"
+               r="9.9018307" />
+          </g>
+          <g
+             transform="translate(1.0583333)"
+             id="g5660">
+            <path
+               id="path3945"
+               d="m 45.492816,216.0496 c 14.383055,-1.0337 29.103537,4.34651 39.367058,14.48122 1.346593,1.38648 1.171747,3.80972 -0.245386,5.07657 -1.306705,1.53675 -3.914014,1.56435 -5.260608,0.0674 -8.785042,-8.45376 -21.183487,-13.02726 -33.358007,-12.11624 -10.116298,0.6503 -19.913578,5.006 -27.253888,11.98436 -0.653354,0.66868 -1.487695,1.21468 -2.444731,1.26376 -2.404841,0.2822 -4.628716,-2.23306 -4.110321,-4.5827 0.144239,-0.84661 0.687098,-1.54904 1.309799,-2.11037 8.591793,-8.22679 20.128296,-13.28187 31.996084,-14.06406"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.78525537"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3947"
+               d="m 45.130858,228.54009 c 11.021181,-1.19631 22.465664,2.86494 30.26302,10.73897 1.217757,1.39261 1.067441,3.66861 -0.288345,4.92011 -1.233094,1.50918 -3.720761,1.67788 -5.122557,0.30981 -4.993742,-4.92318 -11.742022,-8.04886 -18.744903,-8.56111 -8.496719,-0.70551 -17.183599,2.52138 -23.235587,8.51203 -1.395676,1.47236 -3.996842,1.30673 -5.251393,-0.2638 -1.35581,-1.2791 -1.466237,-3.6134 -0.165609,-4.96919 5.996787,-5.99983 14.106998,-9.82183 22.545419,-10.68682"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.78525537"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3949"
+               d="m 46.768847,240.84344 c 6.953822,-0.69017 14.146885,1.97233 18.984167,7.009 1.325135,1.38034 1.171747,3.75451 -0.223905,5.02749 -1.266839,1.53064 -3.806659,1.63492 -5.186997,0.19945 -2.726909,-2.80055 -6.505966,-4.57044 -10.416887,-4.78208 -4.438553,-0.31595 -8.932287,1.43553 -12.085571,4.55814 -0.776067,0.87115 -1.926333,1.40487 -3.104225,1.26685 -2.739196,-0.1901 -4.637907,-3.84653 -2.751461,-6.03666 3.80666,-4.13178 9.21449,-6.69 14.784879,-7.24212"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.78525537"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3951"
+               d="m 37.882592,267.6096 c 0.01113,6.20536 5.033609,11.22977 11.242036,11.23897 6.208427,-0.009 11.2267,-5.03361 11.242036,-11.23897 -0.01558,-6.20842 -5.033609,-11.22977 -11.242036,-11.24203 -6.208427,0.0134 -11.229771,5.03361 -11.242036,11.24203 m -2.591952,0 c 0.0022,-7.64092 6.19307,-13.83094 13.833988,-13.83399 7.640897,0.002 13.830916,6.19307 13.830916,13.83399 0,7.63783 -6.190019,13.83092 -13.830916,13.83092 -7.640918,0 -13.830938,-6.19309 -13.833988,-13.83092"
+               style="fill:#eb076b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.78525537"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3953"
+               d="m 39.802783,267.6096 c 0.0089,5.14712 4.171665,9.30956 9.318773,9.31878 5.150181,-0.009 9.31263,-4.17166 9.321846,-9.31878 -0.0089,-5.1471 -4.171665,-9.31264 -9.321846,-9.32491 -5.147108,0.0134 -9.30958,4.17781 -9.318773,9.32491 m -0.518394,0 c 0,-5.43545 4.404785,-9.84023 9.837167,-9.84023 5.435432,0 9.84024,4.40478 9.84024,9.84023 0,5.43237 -4.404808,9.83718 -9.84024,9.83718 -5.432382,0 -9.837167,-4.40481 -9.837167,-9.83718"
+               style="fill:#eb076b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.78525537"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3955"
+               d="m 24.468836,272.19536 c 0.0066,4.83423 3.917064,8.74517 8.751297,8.75437 4.834234,-0.009 8.745176,-3.92014 8.75437,-8.75437 -0.0089,-4.83729 -3.920136,-8.74516 -8.75437,-8.75437 -4.834233,0.009 -8.745176,3.91708 -8.751297,8.75437 m -0.518395,0 c 0,-5.12255 4.150185,-9.27274 9.269692,-9.27274 5.122557,0 9.272765,4.15019 9.272765,9.27274 0,5.1195 -4.150208,9.26971 -9.272765,9.26971 -5.119507,0 -9.269692,-4.15021 -9.269692,-9.26971"
+               style="fill:#eb076b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.78525537"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3957"
+               d="m 44.778116,270.21997 3.460039,-3.95389 h 3.650199 l -2.527533,2.65945 h 5.110291 v 2.58273 h -4.861834 l 2.444707,2.3619 h -3.736097 z m 0,0"
+               style="fill:#fac705;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.78525537"
+               inkscape:connector-curvature="0" />
+            <path
+               id="path3959"
+               d="m 31.253932,272.3426 h -2.233065 l 1.46007,-1.41408 H 27.57611 v -1.5429 h 3.052071 l -1.509174,-1.59197 h 2.184007 l 2.067413,2.36497 z m 0,0"
+               style="fill:#fac705;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.78525537"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4269"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:55.85984802px;line-height:1.25;font-family:Belgium;-inkscape-font-specification:'Belgium Bold';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none"
+           transform="matrix(0.16808835,0,0,0.16808835,24.128454,85.922808)"><flowRegion
+             id="flowRegion4271"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:55.85984802px;font-family:Belgium;-inkscape-font-specification:'Belgium Bold';fill:#ffffff;fill-opacity:1"><rect
+               id="rect4273"
+               width="553.07251"
+               height="67.486588"
+               x="-57.685528"
+               y="5.8152642"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:55.85984802px;font-family:Belgium;-inkscape-font-specification:'Belgium Bold';fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+             id="flowPara4275">Freifunk Dresden</flowPara></flowRoot>        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4278"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.39250565px;line-height:1.25;font-family:Belgium;-inkscape-font-specification:'Belgium Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+           transform="matrix(0.5412549,0,0,0.37889066,-8.4250529,-3.362686)"><flowRegion
+             id="flowRegion4280"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.39250565px;font-family:Belgium;-inkscape-font-specification:'Belgium Bold';fill:#ffffff;fill-opacity:1"><rect
+               id="rect4282"
+               width="156.42857"
+               height="50.714283"
+               x="32.857143"
+               y="12.238473"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.39250565px;font-family:Belgium;-inkscape-font-specification:'Belgium Bold';fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+             id="flowPara4284">Free Wifi</flowPara></flowRoot>      </g>
+    </g>
+  </g>
+</svg>
