@@ -863,6 +863,7 @@
 
 		&:hover {
 			background-color: lighten($color-accent1-bg, 5);
+			border-bottom-color: transparent;;
 		}
 
 		&:active {
@@ -921,6 +922,7 @@
 
 			&:hover {
 				background-color: lighten($color-accent2-bg, 5);
+				border-bottom-color: transparent;
 			}
 
 			&:active {
@@ -934,6 +936,7 @@
 
 			&:hover {
 				background-color: lighten($color-accent4-bg, 5);
+				border-bottom-color: transparent;
 			}
 
 			&:active {
@@ -947,6 +950,7 @@
 
 			&:hover {
 				background-color: lighten($color-accent3-bg, 5);
+				border-bottom-color: transparent;
 			}
 
 			&:active {
@@ -960,6 +964,7 @@
 
 			&:hover {
 				background-color: lighten($color-accent1-bg, 5);
+				border-bottom-color: transparent;
 			}
 
 			&:active {
@@ -973,6 +978,7 @@
 
 			&:hover {
 				background-color: lighten($color-accent2-bg, 5);
+				border-bottom-color: transparent;
 			}
 
 			&:active {
@@ -986,6 +992,7 @@
 
 			&:hover {
 				background-color: lighten($color-accent3-bg, 5);
+				border-bottom-color: transparent;
 			}
 
 			&:active {
@@ -999,6 +1006,7 @@
 
 			&:hover {
 				background-color: lighten($color-accent4-bg, 5);
+				border-bottom-color: transparent;
 			}
 
 			&:active {
@@ -1012,6 +1020,7 @@
 
 			&:hover {
 				background-color: lighten($color-accent5-bg, 5);
+				border-bottom-color: transparent;
 			}
 
 			&:active {
@@ -1127,6 +1136,7 @@
 					& a:not(.button):hover,
 					& a.active:not(.button) {
 						background-color: transparentize($color-header-fg-light, 0.75);
+						border-bottom-color: transparent;
 					}
 
 					.button {
@@ -1147,6 +1157,7 @@
 
 			&:hover {
 				background-color: transparentize($color-header-fg-light, 0.75);
+				border-bottom-color: transparent;
 			}
 
 			&:active {
@@ -1204,6 +1215,7 @@
 
 				&:hover {
 					background-color: rgba(255,255,255,0.1);
+					border-bottom-color: transparent;
 				}
 
 				&:active {
@@ -1334,6 +1346,7 @@
 
 			&:hover {
 				background-color: rgba(255,255,255,0.1);
+				border-bottom-color: transparent;
 			}
 
 			&:active {
@@ -1408,6 +1421,7 @@
 
 				&:hover {
 					opacity: 0.75;
+					border-bottom-color: transparent;
 				}
 			}
 		}
@@ -1549,6 +1563,7 @@
 .social-links a:hover,
 .rss-subscribe a:hover {
 	opacity: 0.75;
+	border-bottom-color: transparent;
 }
 
 /*video container*/
@@ -1574,6 +1589,7 @@ p.video-attribution {
 	&:hover {
 		background-color: #f1f1f1;
 		color: #333;
+		border-bottom-color: transparent;
 	}
 }
 
