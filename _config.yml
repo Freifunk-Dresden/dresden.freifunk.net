@@ -40,7 +40,7 @@ community:
 
   # Other Contacts
   #sip: ["space@sip.ffki"]
-  irc: '#ffdd (irc im hackint)'
+  irc: '#ffdd'
   github: 'Freifunk-Dresden'
   facebook: 'FreifunkDresden'
   twitter: 'ddmesh'
@@ -51,14 +51,12 @@ community:
   url_blog: 'https://github.com/Freifunk-Dresden/Blog#freifunk-dresden-blog'
   url_forum: 'https://forum.freifunk.net/c/community/dresden'
   url_kalender: 'https://teamup.com/ks7edwt5ey8j8tvgpf'
+  url_faq: 'https://wiki.freifunk-dresden.de/index.php/Fragen_und_Antworten_(FAQ)'
 
   url_wiki:  'https://wiki.freifunk-dresden.de/'
   url_doku: 'https://wiki.freifunk-dresden.de/index.php/Dokumentation'
   url_dienste: 'https://wiki.freifunk-dresden.de/index.php/Freifunkdienste'
   url_server: 'https://wiki.freifunk-dresden.de/index.php/Server'
-
-  url_material: 'https://wiki.freifunk-dresden.de/index.php/Material'
-  url_faq: 'https://wiki.freifunk-dresden.de/index.php/Fragen_und_Antworten_(FAQ)'
 
   url_api: 'https://api.freifunk-dresden.de/'
   url_nodelist: 'https://wiki.freifunk-dresden.de/index.php/Hotspots'

@@ -17,10 +17,10 @@ task :htmlproofer do
                       /http(s?):\/\/(.*)\.ffdd/,
                       /http(s?):\/\/(.*)\.freifunk.net/,
                       /http(s?):\/\/(.*)\.freifunk-dresden.de/,
-                      /http(s?):\/\/(.*)\.kosmonautensofa/,
+                      /kosmonautensofa.de/,
                       /konglomerat.org/,
                       /datenkollektiv.net/,
-                      /http(s?):\/\/(.*)\.ccc/
+                      /ccc.de/
                     ]}).run
 end
 
