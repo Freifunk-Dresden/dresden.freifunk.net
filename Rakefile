@@ -18,8 +18,8 @@ task :htmlproofer do
                       /http(s?):\/\/(.*)\.freifunk.net/,
                       /http(s?):\/\/(.*)\.freifunk-dresden.de/,
                       /http(s?):\/\/(.*)\.kosmonautensofa/,
-                      /http(s?):\/\/(.*)\.konglomerat/,
-                      /http(s?):\/\/(.*)\.datenkollektiv/,
+                      /konglomerat.org/,
+                      /datenkollektiv.net/,
                       /http(s?):\/\/(.*)\.ccc/
                     ]}).run
 end
