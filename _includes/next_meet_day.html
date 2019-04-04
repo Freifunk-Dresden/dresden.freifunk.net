@@ -1,10 +1,19 @@
 <script>
+	var nextDateStr;
 	moment.locale('de');
-	var nextDate;
-	if (moment().isSame(moment().weekday(2), 'day'))
-		nextDate = moment().weekday(9);
-	else
-		nextDate = moment().weekday(2);
+	interval = moment( "2019-03-20" ).recur().every(2).weeks();
+	interval.fromDate(new Date());
+	nextDate = moment(new Date(interval.next(1)));
 
-	$('#next_meet_date').text(nextDate.format('D. MMMM'));
+	if (interval.matches(new Date())) {
+		nextDateStr = "heute";
+	} else {
+		nextDateStr = "";
+	if (nextDate.diff(moment(), 'day') < 7) {
+		nextDateStr += "kommenden";
+	}
+
+	nextDateStr += nextDate.format("dddd") + ", den " + nextDate.format("DD. MMMM");
+	}
+	$('#next_meet_date').text(nextDateStr);
 </script>
