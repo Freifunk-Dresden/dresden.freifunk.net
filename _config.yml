@@ -88,8 +88,8 @@ community:
   # Verein
   url_mitgliedsbeitrag: 'https://wiki.freifunk-dresden.de/index.php/Mitgliedsbeitrag'
   # e.V. Docs
-  doc_satzung: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Satzung_-_Freifunk-Dresden_eV.pdf'
-  doc_ordnung: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Beitragsordnung_-_Freifunk-Dresden_eV.pdf'
+  doc_satzung: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Satzung_Freifunk_Dresden.pdf'
+  doc_ordnung: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Beitragsordnung_Freifunk_Dresden.pdf'
   # Member
 #  doc_aufnahme: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Aufnahmeantrag_-_Freifunk-Dresden_eV.pdf'
   # Supporting Members
