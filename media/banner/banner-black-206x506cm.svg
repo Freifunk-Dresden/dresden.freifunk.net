@@ -16,7 +16,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="banner-black-206x506cm.svg">
+   sodipodi:docname="banner-black-2006x506mm.svg"
+   inkscape:export-filename="C:\Users\Stephan\Documents\Freifunk\Banner\banner-black-2006x506mm.png"
+   inkscape:export-xdpi="101.06589"
+   inkscape:export-ydpi="101.06589">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -27,19 +30,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748738"
-     inkscape:cx="8978.6846"
-     inkscape:cy="1338.9207"
+     inkscape:cx="4246.4473"
+     inkscape:cy="889.50818"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer9"
+     inkscape:current-layer="layer11"
      showgrid="false"
      units="cm"
      inkscape:snap-bbox="true"
      inkscape:snap-page="false"
-     inkscape:window-width="2120"
-     inkscape:window-height="810"
-     inkscape:window-x="254"
-     inkscape:window-y="26"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1879"
+     inkscape:window-height="960"
+     inkscape:window-x="472"
+     inkscape:window-y="44"
+     inkscape:window-maximized="0"
      inkscape:snap-to-guides="true"
      showguides="true"
      inkscape:bbox-nodes="false"
@@ -58,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -121,7 +124,7 @@
      inkscape:label="Network"
      sodipodi:insensitive="true">
     <circle
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1"
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1"
        id="path4859"
        cx="654.27582"
        cy="344.56921"
@@ -131,9 +134,9 @@
        cy="312.49689"
        cx="717.35144"
        id="circle4861"
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1" />
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1" />
     <circle
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1"
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1"
        id="circle4863"
        cx="1442.1864"
        cy="215.21077"
@@ -143,9 +146,9 @@
        cy="252.62851"
        cx="1381.2489"
        id="circle4865"
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1" />
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1" />
     <circle
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1"
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1"
        id="circle4867"
        cx="1461.4298"
        cy="312.49689"
@@ -155,9 +158,9 @@
        cy="274.01007"
        cx="912.99274"
        id="circle4869"
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1" />
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1" />
     <circle
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1"
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1"
        id="circle4871"
        cx="849.91711"
        cy="393.74683"
@@ -167,9 +170,9 @@
        cy="363.81265"
        cx="1312.8279"
        id="circle4873"
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1" />
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1" />
     <circle
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1"
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1"
        id="circle4875"
        cx="1674.1763"
        cy="316.77322"
@@ -204,9 +207,9 @@
        cy="429.0264"
        cx="694.90076"
        id="circle4893"
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1" />
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1" />
     <circle
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1"
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1"
        id="circle4895"
        cx="1561.9231"
        cy="377.71066"
@@ -216,9 +219,9 @@
        cy="282.56271"
        cx="1908.3044"
        id="circle4897"
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1" />
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1" />
     <circle
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1"
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1"
        id="circle4899"
        cx="1210.1964"
        cy="277.21732"
@@ -228,7 +231,7 @@
        cy="424.75009"
        cx="1070.1472"
        id="circle4901"
-       style="fill:#eb076b;fill-opacity:1;stroke:#ffffff;stroke-width:0.26458332;stroke-opacity:1" />
+       style="fill:#eb076b;fill-opacity:1;stroke:#eb076b;stroke-width:0.26458332;stroke-opacity:1" />
     <path
        style="fill:none;stroke:#eb076b;stroke-width:0.66500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 653.20671,345.63827 c 41.69405,84.45717 41.69405,84.45717 41.69405,84.45717 l 155.01633,-37.41774 220.23011,32.07234 141.1183,-147.53278 169.9834,-25.65786 81.2499,60.93746 97.2861,64.14468 114.3914,-59.86838 233.059,-33.14142"
@@ -350,7 +353,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="Freifunk Dresden">
+     inkscape:label="Freifunk Dresden"
+     sodipodi:insensitive="true">
     <flowRoot
        transform="matrix(3.2887362,0,0,2.3848731,753.36712,3.2971077)"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:55.85984802px;line-height:1.25;font-family:Belgium;-inkscape-font-specification:'Belgium Bold';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#fac705;fill-opacity:1;stroke:none"
@@ -367,7 +371,8 @@
          id="flowPara4275">Freifunk Dresden</flowPara></flowRoot>    <g
        inkscape:groupmode="layer"
        id="layer9"
-       inkscape:label="e.V.">
+       inkscape:label="e.V."
+       sodipodi:insensitive="true">
       <flowRoot
          transform="matrix(2.4104007,0,0,1.6198941,1681.5459,130.06239)"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.39250565px;line-height:1.25;font-family:Belgium;-inkscape-font-specification:'Belgium Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffcc00;fill-opacity:1;stroke:none"
