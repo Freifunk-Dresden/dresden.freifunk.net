@@ -90,10 +90,6 @@ community:
   # e.V. Docs
   doc_satzung: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Satzung_Freifunk_Dresden.pdf'
   doc_ordnung: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Beitragsordnung_Freifunk_Dresden.pdf'
-  # Member
-#  doc_aufnahme: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Aufnahmeantrag_-_Freifunk-Dresden_eV.pdf'
-  # Supporting Members
-#  doc_supantrag: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Antrag_Foerdermitgliedschaft_-_Freifunk-Dresden_eV.pdf'
 
 
   # Projects
