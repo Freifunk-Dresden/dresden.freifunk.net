@@ -14,8 +14,7 @@ Um das Netz weiter ausbauen zu k&ouml;nnen, ben&ouml;tigen wir zus&auml;tzliche 
 Zur Abwicklung des anfallenden Datenverkehrs ins das Internet und zur Anbindung von abgeschnittenen Teilnetzen ben&ouml;tigen wir zudem Server, die ebenfalls laufende Kosten verursachen.
 
 Daher bitten wir Betreiber und Nutzer im Umkreis von Dresden, uns bei der Beschaffung dieser Hardware und Server zu unterst&uuml;tzen.
-
-## F&ouml;rderung durch Online-Shopping
+Dazu gibt viele Möglichkeiten dem Projekt Freifunk in Dresden und den dazugehörigen Verein diese zugutekommen zu lassen.
 
  - &Uuml;ber die [Vereins-/F&ouml;rdermitgliedsschaft]({{ "/verein/" | prepend: site.baseurl }})
  - Barzahlung bei der [Sprechstunde](/kontakt/) oder einer anderen Veranstalltung
