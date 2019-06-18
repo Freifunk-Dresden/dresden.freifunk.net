@@ -3,7 +3,7 @@ title: Pico Peering Agreement
 top_url: /mitmachen/
 permalink: /mitmachen/pico_peering_agreement_v1.0/
 sub_menu: true
-sub_weight: 4
+sub_weight: 5
 layout: page
 ---
 
