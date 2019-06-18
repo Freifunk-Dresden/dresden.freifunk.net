@@ -72,7 +72,7 @@ community:
   url_ronwlan: 'http://10.200.4.180.freifunk-dresden.de/'
 
   # Router Links
-  url_firmware: 'http://download.freifunk-dresden.de'
+  url_firmware: 'https://download.freifunk-dresden.de/'
   url_router: 'https://wiki.freifunk-dresden.de/index.php/Router'
   url_routerconf: 'anleitung-firmware-einspielen.pdf'
   url_routerconf_ext: 'https://wiki.freifunk-dresden.de/index.php/Router_einrichten'
