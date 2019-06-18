@@ -53,7 +53,7 @@ community:
   url_kalender: 'https://teamup.com/ks7edwt5ey8j8tvgpf'
   url_faq: 'https://wiki.freifunk-dresden.de/index.php/Fragen_und_Antworten_(FAQ)'
 
-  url_wiki:  'https://wiki.freifunk-dresden.de/'
+  url_wiki:  'https://wiki.freifunk-dresden.de/index.php/Hauptseite'
   url_doku: 'https://wiki.freifunk-dresden.de/index.php/Dokumentation'
   url_server: 'https://wiki.freifunk-dresden.de/index.php/Server'
   url_backbones: 'https://wiki.freifunk-dresden.de/index.php/Freifunk_Netzwerk'
