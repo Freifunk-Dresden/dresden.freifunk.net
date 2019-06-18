@@ -42,7 +42,7 @@ Damit versucht der Router sich eine Knotennummer vom Server zu holen. Wenn das e
 
 3. Kontakinformationen ( *Menü: Allgemein → Kontaktinfos* )\\
 Kontaktinformationen geben den Nutzern und anderen Freifunkern die Möglichkeit bei Fragen und Problemen den Routerbetreiber zu kontaktieren. Bitte trage Daten ein, unter denen du zu erreichen bist.\\
-Die GPS Koordinaten und Kontaktinformationen werden von [www.freifunk-dresden.de](www.freifunk-dresden.de) von jedem Router regelmäßig abgefragt und zur Generierung der Netzwerktopology und Hotspot-Liste verwendet. Hier sind korrekte Daten wichtig, damit dein Knoten auf der Karte im Internet auch zu finden ist und andere Menschen sehen, dass in der Gegend Freifunk verfügbar ist.
+Die GPS Koordinaten und Kontaktinformationen werden von [www.freifunk-dresden.de](https://www.freifunk-dresden.de) von jedem Router regelmäßig abgefragt und zur Generierung der Netzwerktopology und Hotspot-Liste verwendet. Hier sind korrekte Daten wichtig, damit dein Knoten auf der Karte im Internet auch zu finden ist und andere Menschen sehen, dass in der Gegend Freifunk verfügbar ist.
 
 ### Fertig
 
