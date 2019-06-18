@@ -36,8 +36,8 @@ Dies ist aus verschiedenen Gr&uuml;nden mit der Standard-Freifunk-Firmware nicht
 
 Unsere Empfehlung w&auml;re daher, einen Freifunk-Router an der Quelle hinzustellen (dort, wo es ein Netzwerkkabel gibt), und am zweiten Standort einen zweiten Freifunk-Router, welcher mit dem ersten meshen w&uuml;rde und so den Zugang zum Rest des Netzes bereitstellt. Diese L&ouml;sung ist auch updatesicher und erfordert keine manuelle Konfiguration.
 
-### Wie kann ich nachtr&auml;glich &auml;nderungen am Router vornehmen?
+### Weitere FAQ's im Wiki
 
-Im Normalbetrieb ist auf dem Router nur eine [Statusseite]() erreichbar. Willst du &auml;nderungen vornehmen, musst du den Router in den Config-Mode versetzen. Hierzu dr&uuml;ckst du am hochgefahrenen Router die `WPS/Reset`-Taste so lange, bis alle Lampen kurz aufleuchten und l&auml;sst sie dann los. Nach kurzer Zeit sollte die Status-LED charakteristisch blinken (siehe Grafik), du erh&auml;lst an einem der LAN-Ports wieder eine IP-Adresse per DHCP und kannst die Konfigurationsseite unter [http://192.168.1.1](http://192.168.1.1) erreichen.
+[{{ site.community.url_faq }}]({{ site.community.url_faq }})
 
-![Config Mode](https://gluon.readthedocs.org/en/latest/_images/node_configmode.gif)
+

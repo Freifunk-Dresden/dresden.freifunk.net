@@ -55,8 +55,9 @@ community:
 
   url_wiki:  'https://wiki.freifunk-dresden.de/'
   url_doku: 'https://wiki.freifunk-dresden.de/index.php/Dokumentation'
-  url_dienste: 'https://wiki.freifunk-dresden.de/index.php/Freifunkdienste'
   url_server: 'https://wiki.freifunk-dresden.de/index.php/Server'
+  url_backbones: 'https://wiki.freifunk-dresden.de/index.php/Freifunk_Netzwerk'
+  url_dienste: 'https://wiki.freifunk-dresden.de/index.php/Freifunkdienste'
 
   url_api: 'https://api.freifunk-dresden.de/'
   url_nodelist: 'https://wiki.freifunk-dresden.de/index.php/Hotspots'

@@ -1,0 +1,22 @@
+---
+title: Backbones
+top_url: /wiki/
+permalink: /wiki/backbones/
+sub_menu: true
+sub_weight: 4
+layout: base
+hide_footer: true
+---
+
+<script type="text/javascript">
+$(document).ready(function() {
+  if(window.location.hash) {
+    $("iframe").attr("src",
+      "{{ site.community.url_backbones }}" + window.location.hash);
+  }
+});
+</script>
+
+<iframe src="{{ site.community.url_backbones }}"
+  width="100%" style="display:block; height: calc(100vh - 3.25em);width: 100%;">
+</iframe>
