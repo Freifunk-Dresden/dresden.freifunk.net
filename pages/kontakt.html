@@ -58,8 +58,9 @@ layout:
 			<ul>
 				<li><a href="mailto:{{ site.community.mail_info }}">Email ({{ site.community.mail_info }})</a></li>
 				<li><a href="{{ "/kontakt/mailinglists/" | prepend: site.baseurl }}">Mailing-Liste</a></li>
-				<li><a href="https://keybase.io/team/freifunk_dresden">Keybase.io</a></li>
-				<li><a href="https://www.twitter.com/{{ site.community.twitter }}">Twitter (@{{ site.community.twitter }})</a></li>
+				<li><a href="{{ site.community.url_forum }}">Forum</a></li>
+				<li><a href="https://keybase.io/team/{{ site.community.keybase }}">Keybase.io</a></li>
+				<li><a href="https://www.twitter.com/{{ site.community.twitter }}">Twitter</a></li>
 				<li><a href="https://www.facebook.com/{{ site.community.facebook }}">Facebook</a></li>
 				<li><a href="{{ "/kontakt/chat/" | prepend: site.baseurl }}">Chat</a> (oder mit IRC-Client <a href="irc://irc.hackint.org/{{ site.community.irc }}">irc://irc.hackint.org/{{ site.community.irc }}</a>)</li>
 			</ul>
