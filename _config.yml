@@ -39,8 +39,6 @@ community:
   mail_datenschutz: 'datenschutz@freifunk-dresden.de'
 
   # Other Contacts
-  #sip: ["space@sip.ffki"]
-  irc: '#ffdd'
   github: 'Freifunk-Dresden'
   keybase: 'freifunk_dresden'
   facebook: 'FreifunkDresden'
