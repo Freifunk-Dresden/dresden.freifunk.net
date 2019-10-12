@@ -1,21 +1,21 @@
 <footer id="footer">
 	<ul class="icons">
-		<!-- Twitter -->
-			<li><a href="https://www.twitter.com/{{ site.community.twitter }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-		<!-- Facebook -->
-			<li><a href="https://www.facebook.com/{{ site.community.facebook }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-		<!-- Instagram -->
-			<li><a href="https://www.instagram.com/{{ site.community.instagram }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-		<!-- Kalender -->
-			<li><a href="{{ site.community.url_kalender }}" class="icon fa-calendar"><span class="label">Kalender</span></a></li>
-		<!-- Wiki -->
-			<li><a href="{{ site.community.url_wiki }}" class="icon fa-pencil-square-o "><span class="label">Wiki</span></a></li>
 		<!-- GitHub -->
-			<li><a href="https://github.com/{{ site.community.github }}" class="icon fa-github"><span class="label">Github</span></a></li>
+			<li><a href="https://github.com/{{ site.community.github }}" class="icon"><i class="fa fa-github fa-2x"></i><span class="label">Github</span></a></li>
 		<!-- Keybase -->
-			<li><a href="https://keybase.io/team/{{ site.community.keybase }}" class="icon fa-key"><span class="label">Keybase</span></a></li>
+			<li><a href="https://keybase.io/team/{{ site.community.keybase }}" class="icon"><i class="fa fa-keybase fa-2x"></i><span class="label">Keybase</span></a></li>
+		<!-- Twitter -->
+			<li><a href="https://www.twitter.com/{{ site.community.twitter }}" class="icon"><i class="fa fa-twitter fa-2x"></i><span class="label">Twitter</span></a></li>
+		<!-- Facebook -->
+			<li><a href="https://www.facebook.com/{{ site.community.facebook }}" class="icon"><i class="fa fa-facebook fa-2x"></i><span class="label">Facebook</span></a></li>
+		<!-- Instagram -->
+			<li><a href="https://www.instagram.com/{{ site.community.instagram }}" class="icon"><i class="fa fa-instagram fa-2x"></i><span class="label">Instagram</span></a></li>
+		<!-- Kalender -->
+			<li><a href="{{ site.community.url_kalender }}" class="icon"><i class="fa fa-calendar fa-2x"></i><span class="label">Kalender</span></a></li>
+		<!-- Wiki -->
+			<li><a href="{{ site.community.url_wiki }}" class="icon"><i class="fa fa-pencil-square-o fa-2x"></i><span class="label">Wiki</span></a></li>
 		<!-- API -->
-			<li><a href="{{ site.community.url_api }}" class="icon fa-connectdevelop "><span class="label">API</span></a></li>
+			<li><a href="{{ site.community.url_api }}" class="icon"><i class="fa fa-connectdevelop fa-2x"></i><span class="label">API</span></a></li>
 	</ul>
 	<ul class="copyright">
 		<li><a href="{{ "/impressum/" | prepend: site.baseurl }}">Impressum</a></li>
@@ -28,5 +28,3 @@
 		<li>Design basierend auf <a href="http://html5up.net">HTML5 UP</a></li>
 	</ul>
 </footer>
-
-{% include cookieinfo.html %}
