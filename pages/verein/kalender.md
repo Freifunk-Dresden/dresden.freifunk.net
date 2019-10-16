@@ -3,7 +3,7 @@ title: Kalender
 top_url: /verein/
 permalink: /verein/kalender/
 sub_menu: true
-sub_weight: 5
+sub_weight: 4
 layout: base
 hide_footer: true
 ---
