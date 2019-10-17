@@ -65,7 +65,7 @@ community:
   url_map_meshviewer: 'https://meshviewer.freifunk-dresden.de/'
 
   # Sprechstunde / Treffen
-  url_stunde: 'https://wiki.freifunk-dresden.de/index.php/Freifunk-Sprechstunde'
+  url_sprechstunde: 'https://wiki.freifunk-dresden.de/index.php/Freifunk-Sprechstunde'
   url_treffenthema: 'https://wiki.freifunk-dresden.de/index.php/Sprechstunden-Themen#N.C3.A4chster_Termin'
   url_treffenort: 'https://www.openstreetmap.org/node/3140655489#map=13/51.0504/13.7274'
   url_ronwlan: 'http://10.200.4.180.freifunk-dresden.de/'
