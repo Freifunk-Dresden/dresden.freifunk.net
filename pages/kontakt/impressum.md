@@ -22,11 +22,8 @@ Der Verein ist gemeinn&uuml;tzig und finanziert sich &uuml;ber Mitgliedsbeitr&au
 > **Website:** www.freifunk-dresden.de
 
 #### Vertreten durch den Vorstand
-> Mirko Tomaschek\\
-> Diego Jahn\\
-> Michael Bauschke\\
-> Torsten Rudolph\\
-> Sven Kinne
+{% for subcom in site.community.vorstand %}> * {{ subcom }}
+{% endfor %}
 
 #### Registereintrag
 
