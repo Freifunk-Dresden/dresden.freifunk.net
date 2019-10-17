@@ -99,6 +99,17 @@ community:
     - 'Torsten Rudolph (Beisitzer)'
     - 'Sven Kinne (Beisitzer)'
 
+  # Sub Communities
+  sub_com:
+    - 'Freifunk Dresden'
+    - 'Freifunk Freiberg'
+    - 'Freifunk Freital'
+    - 'Freifunk Meißen'
+    - 'Freifunk Oberlausitz (OL)'
+    - 'Freifunk Pirna'
+    - 'Freifunk Radebeul'
+    - 'Freifunk Tharandt'
+
 
   # Projects
   projects:
@@ -113,18 +124,6 @@ community:
 
     - name: 'Freifunk Installation'
       desc: '<a href="https://wiki.freifunk-dresden.de/index.php/Elbhangfest">zum Elbhangfest</a>'
-
-
-  # Sub Communities
-  sub_com:
-    - 'Freifunk Dresden'
-    - 'Freifunk Freiberg'
-    - 'Freifunk Freital'
-    - 'Freifunk Meißen'
-    - 'Freifunk Oberlausitz (OL)'
-    - 'Freifunk Pirna'
-    - 'Freifunk Radebeul'
-    - 'Freifunk Tharandt'
 
 
   # Supporting Members
