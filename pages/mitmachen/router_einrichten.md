@@ -11,6 +11,7 @@ layout: page
 
 ### Den Router aufstellen
 Als Standort empfehlen sich Fenster, Balkone oder Dächer. Je näher er der Außenwelt ist, desto wahrscheinlicher ist es, dass er f&uuml;r Passanten erreichbar ist und sich mit anderen Routern verbindet um eine [Meshverbindung](https://de.wikipedia.org/wiki/Vermaschtes_Netz) zu bilden.
+Detailierte Informationen zum Thema "<a href="{{ site.community.url_routerpos }}">Router richtig aufstellen</a>" findest du im Wiki.
 
 ### Verbinde den Router mit dem Netzwerk
 
