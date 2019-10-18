@@ -86,11 +86,9 @@ community:
   url_stat-trafback: 'https://stats.freifunk-dresden.de/summary/backbone/1week'
 
   # Verein
-  url_mitgliedsbeitrag: 'https://wiki.freifunk-dresden.de/index.php/Mitgliedsbeitrag'
   # e.V. Docs
   doc_satzung: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Satzung_Freifunk_Dresden.pdf'
   doc_ordnung: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Beitragsordnung_Freifunk_Dresden.pdf'
-
   # Vorstand
   vorstand:
     - 'Mirko Tomaschek (Vorstandsvorsitzender)'
