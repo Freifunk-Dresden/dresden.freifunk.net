@@ -1,8 +1,8 @@
 # Site settings
 title: Freifunk Dresden
-tagline: das freie WLAN-Netzwerk für DD und Umgebung
+tagline: das freie WLAN-Netzwerk für Dresden und Umgebung
 description: > # this means to ignore newlines until "baseurl:"
- Freifunk Dresden ist eine lokale Initiative mit dem Ziel, ein WLAN-Netzwerk über Dresden aufzuspannen und freien Internetzugang anzubieten.
+ Freifunk Dresden ist eine lokale nicht-kommerzielle Initiative mit dem Ziel, ein WLAN-Netzwerk über Dresden aufzuspannen und freien Internetzugang anzubieten.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.freifunk-dresden.de" # the base hostname & protocol for your site
 
