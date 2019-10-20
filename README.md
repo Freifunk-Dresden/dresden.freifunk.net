@@ -25,6 +25,7 @@ gem install bundler -v 1.17.3
 
 ## Install
 ```bash
+git clone https://github.com/Freifunk-Dresden/Blog.git /srv/Blog
 git clone https://github.com/Freifunk-Dresden/dresden.freifunk.net.git /srv/dresden.freifunk.net
 cd /srv/dresden.freifunk.net/
 bundle install
