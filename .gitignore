@@ -7,3 +7,4 @@
 *.swp
 /.bundle
 /vendor
+.DS_Store
