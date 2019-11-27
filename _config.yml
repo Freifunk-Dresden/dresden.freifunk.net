@@ -81,7 +81,6 @@ community:
 
   # Statistik
   url_stat-clients: 'https://stats.freifunk-dresden.de/summary/clients/1week'
-  url_stat-nodes: 'https://stats.freifunk-dresden.de/countnodes-count-nodes-week.png'
   url_stat-trafovpn: 'https://stats.freifunk-dresden.de/summary/ovpn/1week'
   url_stat-trafback: 'https://stats.freifunk-dresden.de/summary/backbone/1week'
 
