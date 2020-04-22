@@ -6,9 +6,9 @@
 	nextDate = moment(new Date(interval.next(1)));
 
 	if (interval.matches(new Date())) {
-		nextDateStr = "heute ";
+		nextDateStr = "heute";
 	} else {
-		nextDateStr = "";
+		nextDateStr = "am ";
 	if (nextDate.diff(moment(), 'day') < 7) {
 		nextDateStr += "kommenden ";
 	}
