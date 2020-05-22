@@ -1,4 +1,4 @@
-# FFDD Website
+# FFDD Website [![Build Status](https://drone.envs.net/api/badges/freifunk-dresden/dresden.freifunk.net/status.svg)](https://drone.envs.net/freifunk-dresden/dresden.freifunk.net)
 
 [freifunk-dresden.de](https://freifunk-dresden.de/) | [dresden.freifunk.net](https://dresden.freifunk.net/)
 
