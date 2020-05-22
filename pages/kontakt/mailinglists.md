@@ -4,8 +4,7 @@ top_url: /kontakt/
 permalink: /kontakt/mailinglists/
 sub_menu: true
 sub_weight: 2
-layout: base
-hide_footer: true
+layout: page
 ---
 
 - [Ankündigungen]({{ site.community.url_mailinglist_newsletter }})
