@@ -1,6 +1,6 @@
 # FFDD Website [![Build Status](https://drone.envs.net/api/badges/freifunk-dresden/dresden.freifunk.net/status.svg)](https://drone.envs.net/freifunk-dresden/dresden.freifunk.net)
 
-[freifunk-dresden.de](https://freifunk-dresden.de/) | [dresden.freifunk.net](https://dresden.freifunk.net/)
+[freifunk-dresden.de](https://freifunk-dresden.de/) | [dresden.freifunk.net](http://dresden.freifunk.net/)
 
 ## Dependencies
  - Install a javascript runtime, e.g. nodejs
@@ -56,4 +56,4 @@ State of the current master branch, powered by Travis-CI:
 [![Build Status](https://travis-ci.com/Freifunk-Dresden/dresden.freifunk.net.svg?branch=master)](https://travis-ci.com/Freifunk-Dresden/dresden.freifunk.net)
 
 ## Deployment
-Simply `git push` to the master branch. There's a hook that will automatically deploy it to [dresden.freifunk.net](dresden.freifunk.net)
+Simply `git push` to the master branch. There's a hook that will automatically deploy it to [dresden.freifunk.net](http://dresden.freifunk.net/)
