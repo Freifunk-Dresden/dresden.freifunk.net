@@ -32,14 +32,14 @@ Wenn du deinen Internetzugang zur Verf&uuml;gung stellen m&ouml;chtest, verbinde
 
 ### Den Router konfigurieren
 
-Dein Router sollte nun mit der Freifunk-Firmware starten. Du erhälst erneut IP-Adresse per DHCP, dein Freifunk-Router ist nun unter [http://192.168.1.1](http://192.168.1.1) in deinem Browser erreichbar.
+Dein Router sollte nun mit der Freifunk-Firmware starten. Du erhälst per DHCP am LAN-Anschluss keine IP-Adresse! Dein Freifunk-Router ist am LAN-Anschluss unter [http://192.168.222.1](http://192.168.222.1) in deinem Browser erreichbar, wenn du deinem Rechner eine feste IP-Adresse z.B. 192.168.222.10 gegeben hast. Über das WLAN des Freifunk Routers ist er unter [http://100.64.0.1](http://100.64.0.1) erreichbar.
 
-Zum Login verwendest du als Nutzer "***root***" und das Passwort "***admin***".
+Zum Login verwendest du als Nutzer "***root***" und kein Passwort.
 
-1. Nach der ersten Anmeldung, wirst du zur Änderung des Passwortes aufgefordert. ( *Passwörter dürfen Buchstaben, Zahlen, Satzzeichen enthalten* )
+1. Nach der ersten Anmeldung, solltest du zuerst ein Passwort setzten. ( *Menü: Allgemein → Kennwort* ) ( *Passwörter dürfen Buchstaben, Zahlen, Satzzeichen enthalten* )
 
 2. Bei der ersten Installation muss der Auto-Setup durchgeführt werden. ( *Menü: Allgemein → Auto-Setup* )\\
-Damit versucht der Router sich eine Knotennummer vom Server zu holen. Wenn das erfolgreich war, startet der Router erneut und ist unter der neuen IP (10.200,x.x) im Freifunknetz erreichbar. Falls der Router kein Internet zu diesem Zeitpunkt hat, so arbeitet er mit einer temporären Knotennummer bis eine Internetverbindung besteht.
+Damit versucht der Router sich eine Knotennummer vom Server zu holen. Wenn das erfolgreich war, startet der Router erneut und ist unter der neuen IP (10.200.x.x) im Freifunknetz erreichbar. Falls der Router kein Internet zu diesem Zeitpunkt hat, so arbeitet er mit einer temporären Knotennummer bis eine Internetverbindung besteht.
 
 3. Kontakinformationen ( *Menü: Allgemein → Kontaktinfos* )\\
 Kontaktinformationen geben den Nutzern und anderen Freifunkern die Möglichkeit bei Fragen und Problemen den Routerbetreiber zu kontaktieren. Bitte trage Daten ein, unter denen du zu erreichen bist.\\
