@@ -21,4 +21,4 @@ trigger:
 steps:
     - name: deploy
       commands:
-        - sudo lxc-attach -n ff-www -- bash -c "/usr/local/bin/ffdd-page-update.sh"
+        - ssh root@ff-www "/usr/local/bin/ffdd-page-update.sh"
