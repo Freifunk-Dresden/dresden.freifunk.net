@@ -1,7 +1,7 @@
 <script>
 	var nextDateStr;
 	moment.locale('de');
-	interval = moment( "2019-03-20" ).recur().every(2).weeks();
+	interval = moment( "2019-03-20" ).recur().every(1).weeks();
 	interval.fromDate(new Date());
 	nextDate = moment(new Date(interval.next(1)));
 
