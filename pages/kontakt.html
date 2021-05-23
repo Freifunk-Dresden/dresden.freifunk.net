@@ -20,19 +20,24 @@ layout:
 			<h2 class="post-title">{{ page.title }}</h2>
 		</header>
 
-		<p style="text-align:center">Wir freuen uns, wenn du Kontakt mit uns aufnimmst, sei es pers&ouml;nlich bei einem unserer Treffen oder &uuml;ber das Internet.</p>
+		<p style="text-align: center;">Wir freuen uns, wenn du Kontakt mit uns aufnimmst, sei es pers&ouml;nlich bei einem unserer Treffen oder &uuml;ber das Internet.</p>
 
 		<div class="box" id="treffen">
 			<h2>Treffen & Sprechstunde</h2>
 			<div id="map" style="height: 30em; margin: 1em 0; width: 45%; float: right; margin-left: 2em"></div>
 
-			<p>Wenn dich Freifunk interessiert, laden wir dich hiermit ein, uns unkompliziert kennen zu lernen. Wir treffen uns wieder<br>
-				<strong><span id="next_meet_date">heute</span>, ab 19 Uhr</strong> (<a href="{{ "/verein/kalender/" | prepend: site.baseurl }}">zum Kalender</a>) –
-				aktuell ausschließlich <strong><a href="{{ site.url }}{{ site.baseurl }}/news/2020/10/23/Sprechstunde-aktuell-wieder-nur-online.html">online</a></strong>.
+			<p>
+				Wenn dich Freifunk interessiert, laden wir dich hiermit ein, uns unkompliziert kennen zu lernen. Wir treffen uns wieder<br>
+				<strong><span id="next_meet_date">heute</span>, ab 19 Uhr</strong> (<a href="{{ "/verein/kalender/" | prepend: site.baseurl }}">zum Kalender</a>) – Corona-bedingt
+				aktuell ausschließlich <strong><a href="/news/2020/03/16/online-sprechstunde.html">online</a></strong>.
+
+				<p style="text-align: center;">
+					<a href="{{ site.community.url_online-sprechstunde }}">👉 Zur Online-Sprechstunde 👈</a>
+				</p>
 
 				<h3>#Rosenwerk</h3>
 
-				Die Sprechstunde findet <b>aktuell nicht im #Rosenwerk</b>, sondern <b>nur online</b> statt. Alle aktuellen Infos dazu gibt es <a href="/news/2020/03/16/Sprechstunde-faellt-aus.html">hier</a>.
+				Die Sprechstunde findet <b>aktuell nicht im #Rosenwerk</b>, sondern <b>nur online</b> statt. Alle aktuellen Infos dazu gibt es <a href="/news/2020/03/16/online-sprechstunde.html">hier</a>.
 
 				<hr />
 
@@ -53,12 +58,12 @@ layout:
 					<li>Per &Ouml;PNV (<a href="http://www.öpnvkarte.de/?zoom=17&lat=51.04774&lon=13.71672&layers=TBTTT#13.7167;51.0477;17">Karte</a>) f&uuml;hren die Straßenbahn Linien 7 und 12 (Haltestelle Rosenstraße) und die Linien 10 und 20 (Haltestelle Freiberger Straße – World Trade Center) sowie die S-Bahn-Linien S1 und S2 (Hp. Freiberger Straße) zu uns.</li>
 				</ul>
 			</p>
-			<h3>weiters zur Sprechstunde</h3>
+			<h3>Weiteres zur Sprechstunde</h3>
 			<p>
-				Bei uns im Wiki findet ihr weitere Informationen &uuml;ber die <a href="{{ site.community.url_sprechstunde }}">Sprechstunde</a> und aller <a href="{{ site.community.url_treffenthema }}">Themen</a>.</li>
+				Bei uns im Wiki findet ihr weitere Informationen &uuml;ber die <a href="{{ site.community.url_sprechstunde }}">Sprechstunde</a> und alle <a href="{{ site.community.url_treffenthema }}">Themen</a>.</li>
 			</p>
 			<p>
-	  			In der Woche zwischen den Treffen im Rosenwerk sind wir zusätzlich in unserer Online-Sprechstunde im Jitsi-Meet auf <a href="{{ site.community.url_online-sprechstunde }}">{{ site.community.url_online-sprechstunde }}</a> erreichbar.
+	  			In der Woche zwischen den Treffen im Rosenwerk sind wir zusätzlich in unserer Online-Sprechstunde in Jitsi-Meet auf <a href="{{ site.community.url_online-sprechstunde }}">{{ site.community.url_online-sprechstunde }}</a> erreichbar.
 	  		</p>
 		</div>
 
@@ -67,9 +72,9 @@ layout:
 			<p>Wenn es dir nicht m&ouml;glich ist uns zu besuchen, dann gibt es nat&uuml;rlich noch alternative Kontaktwege:</p>
 			<ul class="alt">
 				<li><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="mailto:{{ site.community.mail_info }}">Email</a> ( {{ site.community.mail_info }} )</li>
+				<li><i class="fa fa-key fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://keybase.io/team/{{ site.community.keybase }}">Keybase.io</a> ( mit Chat-Gruppen und File-Sharing )</li>
 				<li><i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="{{ "/kontakt/mailinglists/" | prepend: site.baseurl }}">Mailing-Listen</a></li>
 				<li><i class="fa fa-forumbee fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="{{ site.community.url_forum }}">Forum</a></li>
-				<li><i class="fa fa-key fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://keybase.io/team/{{ site.community.keybase }}">Keybase.io</a> ( mit Chat-Gruppen und File-Sharing )</li>
 				<li><i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://matrix.to/#/{{ site.community.matrix }}">Matrix Chat</a></li>
 				<li><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://pleroma.envs.net/{{ site.community.fediverse }}">Fediverse</a></li>
 				<li><i class="fa fa-twitter fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.twitter.com/{{ site.community.twitter }}">Twitter</a></li>
