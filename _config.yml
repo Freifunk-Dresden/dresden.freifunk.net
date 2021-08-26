@@ -3,6 +3,7 @@ title: Freifunk Dresden
 tagline: das freie WLAN-Netzwerk für Dresden und Umgebung
 description: > # this means to ignore newlines until "baseurl:"
  Freifunk Dresden ist eine lokale nicht-kommerzielle Initiative mit dem Ziel, ein WLAN-Netzwerk über Dresden aufzuspannen und freien Internetzugang anzubieten.
+keywords: "freifunk,freifunk-dresden,ffdd,verein,dresden,wiki,wifi,wlan,mesh,openwrt,nogluon,buergernetz,bmxd,fastd,wireguard,maps,forum,meshviewer,hopglass,grafana,community,freiberg,freital,meißen,oberlausitz,pirna,redebeul,tharandt,waldheim"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.freifunk-dresden.de" # the base hostname & protocol for your site
 
