@@ -3,7 +3,7 @@ title: Freifunk Dresden
 tagline: das freie WLAN-Netzwerk für Dresden und Umgebung
 description: > # this means to ignore newlines until "baseurl:"
  Freifunk Dresden ist eine lokale nicht-kommerzielle Initiative mit dem Ziel, ein WLAN-Netzwerk über Dresden aufzuspannen und freien Internetzugang anzubieten.
-keywords: "freifunk,ff,dresden,freifunk-dresden,ffdd,freifunk-netz,freifunk-communties,verein,rosenwerk,wiki,forum,wifi,wlan,non-commercial,decentralize,dezentral,dezentralisiert,network,netzwerk,mesh,meshnet,meshnetz,meshnetwork,openwrt,nogluon,guestnetwork,gaestenetzwerk,buergernetz,gemeinschaftlich,bmxd,fastd,wireguard,maps,meshviewer,hopglass,grafana,community,communities,freifunk-freiberg,freiberg,freifunk-freital,freital,freifunk-meißen,meißen,freifunk-oberlausitz,oberlausitz,freifunk-pirna,pirna,freifunk-radebeul,radebeul,freifunk-tharandt,tharandt,freifunk-waldheim,waldheim"
+keywords: "freifunk,ff,dresden,freifunk-dresden,ffdd,freifunk-netz,freifunk-communties,verein,rosenwerk,wiki,forum,free-wifi,wifi,wlan,non-commercial,decentralize,dezentral,dezentralisiert,network,netzwerk,mesh,meshnet,meshnetz,meshnetwork,openwrt,nogluon,guestnetwork,gaestenetzwerk,buergernetz,gemeinschaftlich,bmxd,fastd,wireguard,maps,meshviewer,hopglass,grafana,community,communities,freifunk-freiberg,freiberg,freifunk-freital,freital,freifunk-meißen,meißen,freifunk-oberlausitz,oberlausitz,freifunk-pirna,pirna,freifunk-radebeul,radebeul,freifunk-tharandt,tharandt,freifunk-waldheim,waldheim"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.freifunk-dresden.de" # the base hostname & protocol for your site
 
