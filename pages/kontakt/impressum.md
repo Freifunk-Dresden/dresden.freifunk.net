@@ -31,6 +31,6 @@ Der Verein ist gemeinn&uuml;tzig und finanziert sich &uuml;ber Mitgliedsbeitr&au
 > **Registernummer:** VR 9705
 
 #### Verantwortlich im Sinne des Presserechts (V. i. S. d. P.)
-> Mirko Tomaschek\\
+Sven Kinne\\
 > {{ site.community.address_postbox }}\\
 > {{ site.community.address_zipcode }}

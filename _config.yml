@@ -95,10 +95,11 @@ community:
   doc_ordnung: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Beitragsordnung_Freifunk_Dresden.pdf'
   # Vorstand
   vorstand:
-    - 'Mirko Tomaschek (Vorstandsvorsitzender)'
+    - 'Sven Kinne (Vorstandsvorsitzender)'
     - 'Diego Jahn (stellvertretender Vorsitzender)'
     - 'Michael Bauschke (Schatzmeister)'
     - 'Torsten Rudolph (Beisitzer)'
+    - 'Markus Ranft (Beisitzer)'
 
   # Sub Communities
   sub_com:
