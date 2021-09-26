@@ -49,6 +49,7 @@ community:
 
   url_mailinglist_newsletter: 'https://lists.freifunk-dresden.de/listinfo/newsletter'
   url_mailinglist_tech: 'https://lists.freifunk-dresden.de/listinfo/tech'
+  url_mailinglist_pirna: 'https://lists.freifunk-dresden.de/listinfo/pirna'
   url_chat: 'https://chat.freifunk-dresden.de/'
   url_blog: 'https://github.com/Freifunk-Dresden/Blog#freifunk-dresden-blog'
   url_forum: 'https://forum.freifunk.net/c/community/dresden'

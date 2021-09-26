@@ -9,3 +9,4 @@ layout: page
 
 - [Ankündigungen]({{ site.community.url_mailinglist_newsletter }})
 - [Technik-Diskussionen]({{ site.community.url_mailinglist_tech }})
+- [Community Pirna]({{ site.community.url_mailinglist_pirna }})
