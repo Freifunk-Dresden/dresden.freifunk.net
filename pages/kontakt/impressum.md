@@ -7,7 +7,7 @@ sub_weight: 3
 layout: page
 ---
 
-Freifunk {{ site.community.name }} e.V. ist seit dem 05.07.2016 im Vereinsregister des Amtsgerichts Dresden unter der Vereinregisternummer VR 9705 eingetragen.\\
+Freifunk {{ site.community.name }} e. V. ist seit dem 05.07.2016 im Vereinsregister des Amtsgerichts Dresden unter der Vereinregisternummer VR 9705 eingetragen.\\
 Der Verein ist gemeinn&uuml;tzig und finanziert sich &uuml;ber Mitgliedsbeitr&auml;ge und [Spenden]({{ "/verein/spenden/" | prepend: site.baseurl }}).
 
 #### Ansprechpartner
