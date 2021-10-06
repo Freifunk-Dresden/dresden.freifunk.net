@@ -10,4 +10,5 @@ layout: page
 - [Ankündigungen]({{ site.community.url_mailinglist_newsletter }})
 - [Technik-Diskussionen]({{ site.community.url_mailinglist_tech }})
 
+- [Community Oberlausitz]({{ site.community.url_mailinglist_oberlausitz }})
 - [Community Pirna]({{ site.community.url_mailinglist_pirna }})
