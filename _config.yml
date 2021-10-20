@@ -106,11 +106,12 @@ community:
   # Sub Communities
   sub_com:
     - 'Freifunk Dresden'
-    - 'Freifunk Freiberg'
-    - 'Freifunk Freital'
     - 'Freifunk Oberlausitz (O.L.)'
     - 'Freifunk Pirna'
-    - 'Freifunk Tharandt'
+    - 'Freifunk NO (Nord-Ost)'
+    - 'Freifunk SO (Süd-Ost)'
+    - 'Freifunk SW (Süd-West)'
+    - 'Freifunk NW (Nord-West)'
 
 
   # Projects
