@@ -66,7 +66,7 @@ layout:
 			<h2>Kontaktdaten</h2>
 			<p>Wenn es dir nicht m&ouml;glich ist uns zu besuchen, dann gibt es nat&uuml;rlich noch alternative Kontaktwege:</p>
 			<ul class="alt">
-				<li><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="mailto:{{ site.community.mail_info }}">Email</a> ( {{ site.community.mail_info }} )</li>
+				<li><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="{{ "/kontakt/email/" | prepend: site.baseurl }}">E-Mail</a> (<a href="mailto:{{ site.community.mail_info }}">{{ site.community.mail_info }}</a>)</li>
 				<li><i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="{{ "/kontakt/mailinglists/" | prepend: site.baseurl }}">Mailing-Listen</a></li>
 				<li><i class="fa fa-forumbee fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="{{ site.community.url_forum }}">Forum</a></li>
 				<li><i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://matrix.to/#/{{ site.community.matrix }}">Matrix Chat</a></li>

@@ -3,12 +3,12 @@ title: Impressum
 top_url: /kontakt/
 permalink: /impressum/
 sub_menu: true
-sub_weight: 3
+sub_weight: 4
 layout: page
 ---
 
 Freifunk {{ site.community.name }} e. V. ist seit dem 05.07.2016 im Vereinsregister des Amtsgerichts Dresden unter der Vereinregisternummer VR 9705 eingetragen.\\
-Der Verein ist gemeinn&uuml;tzig und finanziert sich &uuml;ber Mitgliedsbeitr&auml;ge und [Spenden]({{ "/verein/spenden/" | prepend: site.baseurl }}).
+Der Verein ist gemeinn&uuml;tzig und finanziert sich &uuml;ber [Mitgliedsbeitr&auml;ge]({{ "/verein/mitgliedsbeitrag/" | prepend: site.baseurl }}) und [Spenden]({{ "/verein/spenden/" | prepend: site.baseurl }}).
 
 #### Ansprechpartner
 > [{{ site.community.mail_info }}](mailto:{{ site.community.mail_info }})
