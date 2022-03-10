@@ -13,7 +13,7 @@ layout: main
 	<h2 class="post-title">{{ page.title }}</h2>
 </header>
 
-<p style="text-align:center">Freifunk {{ site.community.name }} e.V. - Mach mit!</p>
+<p style="text-align:center">Freifunk {{ site.community.name }} e.&nbsp;V. - Mach mit!</p>
 
 <div class="row">
 	<div class="8u 12u(3)">
@@ -31,33 +31,32 @@ layout: main
 				<p>Wer den Freifunk {{ site.community.name }} e.&nbsp;V. sowohl bei seinen Vereinst&auml;tigkeiten als auch regelm&auml;ßig finanziell unterst&uuml;tzen m&ouml;chte, f&uuml;r den besteht die M&ouml;glichkeit, dem Verein beizutreten. Jedes Mitglied erh&auml;lt den regelm&auml;ßigen Newsletter und wird zu allen Veranstaltungen des Freifunk {{ site.community.name }} e.&nbsp;V. eingeladen. Nat&uuml;rlich hast du auch schnelleren Zugriff auf aktuelle Informationen und kannst dich aus unserem Pool an Testger&auml;ten nach Absprache mit dem Vorstand bedienen.</p>
 
 			<h2>F&ouml;rdermitgliedschaft</h2>
-				<p>Nat&uuml;rlich hast du auch die M&ouml;glichkeit den Freifunk als Unternehmen oder Institution zu unterst&uuml;tzen. Daf&uuml;r bieten wir die F&ouml;rderdermitgliedschaft mit einem selbst gew&auml;hlten Mitgliedsbeitrag ab 20€ im Jahr an. Du erh&auml;ltst als F&ouml;rdermitglied dann regelm&auml;ßige Informationen und wirst zu Veranstaltungen eingeladen. Gerne beraten wir dich und dein Unternehmen &uuml;ber die Nutzung freier Netzwerke, die Besonderheiten von Freifunk oder veranstalten Vortr&auml;ge gemeinsam mit dir &uuml;ber das Themengebiet. Solltest du Interesse an der Nutzung von Testger&auml;ten haben, sprich uns einfach an.</p>
+				<p>Nat&uuml;rlich hast du auch die M&ouml;glichkeit den Freifunk als Unternehmen oder Institution zu unterst&uuml;tzen. Daf&uuml;r bieten wir die F&ouml;rderdermitgliedschaft mit einem selbst gew&auml;hlten <a href="{{ "/verein/mitgliedsbeitrag/" | prepend: site.baseurl }}">Mitgliedsbeitrag ab 20€</a> im Jahr an. Du erh&auml;ltst als F&ouml;rdermitglied dann regelm&auml;ßige Informationen und wirst zu Veranstaltungen eingeladen. Gerne beraten wir dich und dein Unternehmen &uuml;ber die Nutzung freier Netzwerke, die Besonderheiten von Freifunk oder veranstalten Vortr&auml;ge gemeinsam mit dir &uuml;ber das Themengebiet. Solltest du Interesse an der Nutzung von Testger&auml;ten haben, sprich uns einfach an.</p>
 
 			<h2>Erwerb der Mitgliedschaft</h2>
-			<p>Der Erwerb der Mitgliedschaft erfolgt gemäß § 3 der <a href="{{ site.community.doc_satzung }}">Vereinssatzung</a>. Die Mitgliedschaft ist in elektronischer oder Textform zu beantragen. Bspw. reicht eine formlose E-Mail unter Angabe des Namens und der Anschrift der Antragstellerin oder des Antragstellers.</p>
+			<p>Der Erwerb der Mitgliedschaft erfolgt gemäß § 3 der <a href="{{ site.community.doc_satzung }}">Vereinssatzung</a>. Die Mitgliedschaft ist in elektronischer oder Textform zu beantragen. Bspw. reicht eine formlose E-Mail an <a href="mailto:{{ site.community.mail_vorstand }}?subject=Antrag%20Mitgliedschaft%20Freifunk%20{{ site.community.name }}%20e.%20V">{{ site.community.mail_vorstand }}</a> unter Angabe des Namens und der Anschrift der Antragstellerin oder des Antragstellers.</p>
 
 			<h2>Vorstand</h2>
-				<ul style="margin: 0; padding: 0;">
-					<blockquote style="margin: 0;">
-						{% for subcom in site.community.vorstand %}
-							<li>{{ subcom }}</li>
-						{% endfor %}
-					</blockquote>
-				</ul>
+			<ul style="margin: 0; padding: 0;">
+				<blockquote style="margin: 0;">
+					{% for subcom in site.community.vorstand %}
+						<li>{{ subcom }}</li>
+					{% endfor %}
+				</blockquote>
+			</ul>
 		</div>
 	</div>
 
 	<div class="4u 12u(3)">
 		<div class="box">
 			<h4>Formloser Antrag per E-Mail an:</h4>
-				<p>Formloser Antrag per E-Mail an: <a href="mailto:{{ site.community.mail_vorstand }}?subject=Antrag%20Mitgliedschaft%20Freifunk%20{{ site.community.name }}%20e.V">{{ site.community.mail_vorstand }}</a></p>
+				<p>Formloser Antrag per E-Mail an: <a href="mailto:{{ site.community.mail_vorstand }}?subject=Antrag%20Mitgliedschaft%20Freifunk%20{{ site.community.name }}%20e.%20V">{{ site.community.mail_vorstand }}</a></p>
 		</div>
 
 		<div class="box">
 			<h4>Mitgliedsbeitrag</h4>
 			<p>
-				Mitgliedsbeitr&auml;ge sind gem&auml;ß der <a href="{{ site.community.doc_ordnung }}">Beitragsordnung</a> zu entrichten. Es stehen verschiedene Zahlungsm&ouml;glichkeiten zur Auswahl.
-				<a href="{{ "/verein/mitgliedsbeitrag/" | prepend: site.baseurl }}">...mehr</a>
+				Mitgliedsbeitr&auml;ge sind gem&auml;ß der <a href="{{ site.community.doc_ordnung }}">Beitragsordnung</a> zu entrichten. Es stehen verschiedene <a href="{{ "/verein/mitgliedsbeitrag/" | prepend: site.baseurl }}">Zahlungsm&ouml;glichkeiten</a> zur Auswahl.
 			</p>
 		</div>
 
