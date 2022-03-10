@@ -137,6 +137,9 @@ community:
     - name: 'Ingenieurb&uuml;ro Bauschke'
       link: 'http://ing-bauschke.de'
 
+    - name: 'Joachim Nützel'
+      link: ''
+
 
   # Distributoren
   distributoren:
