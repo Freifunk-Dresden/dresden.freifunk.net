@@ -110,8 +110,8 @@ community:
     - name: 'Freifunk Oberlausitz (O.L.)'
     - name: 'Freifunk Pirna'
     - name: 'Freifunk NO (Nord-Ost)'
-    - name: 'Freifunk SO (Süd-Ost)'
-    - name: 'Freifunk SW (Süd-West)'
+    - name: 'Freifunk SO (S&uuml;d-Ost)'
+    - name: 'Freifunk SW (S&uuml;d-West)'
     - name: 'Freifunk NW (Nord-West)'
     - name: 'Freifunk Leipzig'
       link: 'https://freifunk-leipzig.de/'
@@ -140,8 +140,7 @@ community:
     - name: 'Ingenieurb&uuml;ro Bauschke'
       link: 'http://ing-bauschke.de'
 
-    - name: 'Joachim Nützel'
-      link: ''
+    - name: 'Joachim N&uuml;tzel'
 
 
   # Distributoren

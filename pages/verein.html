@@ -82,7 +82,11 @@ layout: main
 				<ul style="margin: 0; padding: 0;">
 					<blockquote style="margin: 0">
 						{% for item in site.community.sup_member %}
-							<li><a href="{{ item.link }}">{{ item.name }}</a></li>
+							{% if item.link %}
+								<li><a href="{{ item.link }}">{{ item.name }}</a></li>
+							{% else %}
+								<li>{{ item.name }}</li>
+							{% endif %}
 						{% endfor %}
 					</blockquote>
 				</ul>
