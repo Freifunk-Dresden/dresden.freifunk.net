@@ -64,11 +64,11 @@ layout:
 					<h3>Communities:</h3>
 					<ul style="margin: 0; padding: 0;">
 						<blockquote style="margin: 0;">
-							{% for subcom in site.community.sub_com %}
-								{% if subcom == 'Freifunk Leipzig' %}
-									<li><a href="https://freifunk-leipzig.de/" target="_blank">{{ subcom }}</a></li>
+							{% for item in site.community.sub_com %}
+								{% if item.link %}
+									<li><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></li>
 								{% else %}
-									<li>{{ subcom }}</li>
+									<li>{{ item.name }}</li>
 								{% endif %}
 							{% endfor %}
 						</blockquote>

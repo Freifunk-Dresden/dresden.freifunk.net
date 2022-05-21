@@ -106,14 +106,15 @@ community:
 
   # Sub Communities
   sub_com:
-    - 'Freifunk Dresden'
-    - 'Freifunk Oberlausitz (O.L.)'
-    - 'Freifunk Pirna'
-    - 'Freifunk NO (Nord-Ost)'
-    - 'Freifunk SO (Süd-Ost)'
-    - 'Freifunk SW (Süd-West)'
-    - 'Freifunk NW (Nord-West)'
-    - 'Freifunk Leipzig'
+    - name: 'Freifunk Dresden'
+    - name: 'Freifunk Oberlausitz (O.L.)'
+    - name: 'Freifunk Pirna'
+    - name: 'Freifunk NO (Nord-Ost)'
+    - name: 'Freifunk SO (Süd-Ost)'
+    - name: 'Freifunk SW (Süd-West)'
+    - name: 'Freifunk NW (Nord-West)'
+    - name: 'Freifunk Leipzig'
+      link: 'https://freifunk-leipzig.de/'
 
 
   # Projects
