@@ -44,7 +44,6 @@ community:
   matrix: '#ffdd:envs.net'
   fediverse: 'ffdd'
   facebook: 'FreifunkDresden'
-  twitter: 'ddmesh'
   instagram: 'freifunkdresden'
 
   url_mailinglist_members: 'https://lists.freifunk-dresden.de/listinfo/members'
