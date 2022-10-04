@@ -79,10 +79,10 @@ community:
   url_routerquote: 'https://www.heise.de/preisvergleich/?cat=WL-617380&sort=p'
 
   # Statistik
-  url_stats_nodes: 'https://grafana.freifunk-dresden.de/render/d-solo/geeqdF6mk/netz-statistik?orgId=1&refresh=5m&from=1664794971751&to=1664881371751&panelId=8&width=1000&height=500&tz=Europe%2FBerlin'
+  url_stats_nodes: 'https://grafana.freifunk-dresden.de/render/d-solo/geeqdF6mk/netz-statistik?orgId=1&refresh=5m&from=now-7d&to=now&theme=light&panelId=8&width=1000&height=500&tz=Europe%2FBerlin'
   url_stats_clients: 'https://grafana.freifunk-dresden.de/render/d-solo/geeqdF6mk/general-stats?orgId=1&refresh=5m&from=now-7d&to=now&theme=light&panelId=10&width=1000&height=500&tz=Europe%2FBerlin'
-  url_stats_exitvpn: 'https://grafana.freifunk-dresden.de/render/d-solo/geeqdF6mk/netz-statistik?orgId=1&refresh=5m&from=1664795043585&to=1664881443585&panelId=26&width=1000&height=500&tz=Europe%2FBerlin'
-  url_stats_versions: 'https://grafana.freifunk-dresden.de/render/d-solo/geeqdF6mk/netz-statistik?orgId=1&refresh=5m&from=1664795232096&to=1664881632096&panelId=19&width=1000&height=500&tz=Europe%2FBerlin'
+  url_stats_exitvpn: 'https://grafana.freifunk-dresden.de/render/d-solo/geeqdF6mk/netz-statistik?orgId=1&refresh=5m&from=now-7d&to=now&theme=light&panelId=26&width=1000&height=500&tz=Europe%2FBerlin'
+  url_stats_versions: 'https://grafana.freifunk-dresden.de/render/d-solo/geeqdF6mk/netz-statistik?orgId=1&refresh=5m&from=now-7d&to=now&theme=light&panelId=19&width=1000&height=500&tz=Europe%2FBerlin'
 
   # Verein
   # e.V. Docs
