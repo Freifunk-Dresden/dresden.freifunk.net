@@ -33,8 +33,6 @@ community:
 
   # Mail Contacts
   mail_info: 'info@freifunk-dresden.de'
-  mail_lists: 'newsletter@freifunk-dresden.de'
-  mail_lists_request: 'newsletter-request@freifunk-dresden.de'
   mail_vorstand: 'vorstand@freifunk-dresden.de'
   mail_spenden: 'spenden@freifunk-dresden.de'
   mail_datenschutz: 'datenschutz@freifunk-dresden.de'
@@ -46,11 +44,6 @@ community:
   facebook: 'FreifunkDresden'
   instagram: 'freifunkdresden'
 
-  url_mailinglist_members: 'https://lists.freifunk-dresden.de/listinfo/members'
-  url_mailinglist_newsletter: 'https://lists.freifunk-dresden.de/listinfo/newsletter'
-  url_mailinglist_tech: 'https://lists.freifunk-dresden.de/listinfo/tech'
-  url_mailinglist_pirna: 'https://lists.freifunk-dresden.de/listinfo/pirna'
-  url_mailinglist_oberlausitz: 'https://lists.freifunk-dresden.de/listinfo/oberlausitz'
   url_chat: 'https://chat.freifunk-dresden.de/'
   url_blog: 'https://github.com/Freifunk-Dresden/Blog#freifunk-dresden-blog'
   url_forum: 'https://forum.freifunk.net/c/community/dresden'
