@@ -14,7 +14,7 @@ Der Verein ist gemeinn&uuml;tzig und finanziert sich &uuml;ber [Mitgliedsbeitr&a
 > [{{ site.community.mail_info }}](mailto:{{ site.community.mail_info }})
 
 #### Angaben gem&auml;ß § 5 TMG
-> Freifunk {{ site.community.name }}\\
+> {{ site.community.meta }}\\
 > {{ site.community.address_postbox }}\\
 > {{ site.community.address_zipcode }}
 
@@ -32,5 +32,5 @@ Der Verein ist gemeinn&uuml;tzig und finanziert sich &uuml;ber [Mitgliedsbeitr&a
 
 #### Verantwortlich im Sinne des Presserechts (V. i. S. d. P.)
 > Sven Kinne\\
-> {{ site.community.address_postbox }}\\
-> {{ site.community.address_zipcode }}
+> Rudolfstraße 13\\
+> 01097 Dresden
