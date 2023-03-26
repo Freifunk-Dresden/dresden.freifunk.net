@@ -28,8 +28,8 @@ community:
   name: 'Dresden'
   meta: 'Freifunk Dresden'
   country: 'DE'
-  address_postbox: 'Postfach 28 01 21'
-  address_zipcode: '01141 Dresden'
+  address_postbox: 'Am Rittergut 14'
+  address_zipcode: '01156 Dresden'
 
   # Mail Contacts
   mail_info: 'info@freifunk-dresden.de'
