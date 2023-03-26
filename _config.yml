@@ -26,7 +26,7 @@ exclude: [vendor]
 community:
   # Metadata
   name: 'Dresden'
-  meta: 'Freifunk Dresden'
+  meta: 'Freifunk Dresden e. V.'
   country: 'DE'
   address_postbox: 'Am Rittergut 14'
   address_zipcode: '01156 Dresden'
