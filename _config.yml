@@ -126,6 +126,9 @@ community:
 
   # Supporting Members
   sup_member:
+    - name: 'Physiotherapie Michael Lau'
+      link: 'https://physiotherapie-michael-lau.de/'
+      
     - name: 'Maria Engert Service'
       link: 'http://service-me.de'
 
