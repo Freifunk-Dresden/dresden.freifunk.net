@@ -90,11 +90,11 @@ community:
   doc_ordnung: 'https://github.com/Freifunk-Dresden/Dokumente/raw/master/Verein/Beitragsordnung_Freifunk_Dresden.pdf'
   # Vorstand
   vorstand:
-    - 'Sven Kinne (Vorstandsvorsitzender)'
+    - 'Torsten Rudolph (Vorstandsvorsitzender)'
     - 'Diego Jahn (stellvertretender Vorsitzender)'
-    - 'Michael Bauschke (Schatzmeister)'
-    - 'Torsten Rudolph (Beisitzer)'
-    - 'Markus Ranft (Beisitzer)'
+    - 'Niklas Merkelt (Schatzmeister)'
+    - 'Stephan Enderlein (Beisitzer)'
+    - 'Mirko Tomaschek (Beisitzer)'
 
   # Sub Communities
   sub_com:
@@ -128,9 +128,6 @@ community:
   sup_member:
     - name: 'Physiotherapie Michael Lau'
       link: 'https://physiotherapie-michael-lau.de'
-      
-    - name: 'Maria Engert Service'
-      link: 'http://service-me.de'
 
     - name: 'Ingenieurb&uuml;ro Bauschke'
       link: 'http://ing-bauschke.de'
@@ -138,7 +135,7 @@ community:
 
   # Distributoren
   distributoren:
-    - name: 'IT-Service Merkelt'
-      link: 'https://it-service-merkelt.de/'
-      desc: '<img width="230" alt="dist_header" src="https://it-service-merkelt.de/images/header.jpg">'
+    - name: 'Niklas Merkelt - IT-Service'
+      link: 'https://merkelt.it/'
+      desc: '<img width="230" alt="dist_header" src="https://merkelt.it/images/header.jpg">'
 
