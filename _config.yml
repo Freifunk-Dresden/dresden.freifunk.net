@@ -139,7 +139,6 @@ community:
       link: 'https://merkelt.it/'
       desc: '<img width="230" alt="dist_header" src="https://merkelt.it/images/header.jpg">'
 
-  supported_by:
-      # Supported By
-    url_supportedby_ehrensache: 'https://dresden.ehrensache.jetzt/'
+supported_by:
+  url_sb_ehrensache: 'https://dresden.ehrensache.jetzt/'
 
