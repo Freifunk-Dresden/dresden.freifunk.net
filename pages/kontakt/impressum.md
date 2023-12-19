@@ -31,6 +31,6 @@ Der Verein ist gemeinn&uuml;tzig und finanziert sich &uuml;ber [Mitgliedsbeitr&a
 > **Registernummer:** VR 9705
 
 #### Verantwortlich im Sinne des Presserechts (V. i. S. d. P.)
-> Sven Kinne\\
-> Rudolfstraße 13\\
-> 01097 Dresden
+> Torsten Rudolph\\
+> Eibenstocker Str. 89\\
+> 01277 Dresden
