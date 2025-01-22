@@ -107,6 +107,7 @@ community:
     - name: 'Freifunk NW (Nord-West)'
     - name: 'Freifunk Leipzig'
       link: 'https://freifunk-leipzig.de/'
+    - name: 'Freifunk Geringswalde'
 
 
   # Projects
