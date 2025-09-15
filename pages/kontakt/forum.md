@@ -1,9 +1,11 @@
 ---
 title: Forum
 permalink: /forum/
-top_url: /kontakt/
 redirect_to: https://forum.freifunk.net/c/community/dresden
-sub_menu: true
-sub_weight: 2
+
+# sub_menu: true
+# top_url: /kontakt/
+# sub_weight: 2
+
 layout: base
 ---
