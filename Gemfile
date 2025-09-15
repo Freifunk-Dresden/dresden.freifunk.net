@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'jekyll', '3.8.5'
-gem 'jekyll-watch', '2.0.0'
-gem 'jekyll-paginate', '1.1.0'
-gem 'jekyll-redirect-from', '0.14.0'
-gem 'activesupport', '4.2.11.1'
-gem 'nokogiri', '1.9.1'
-gem 'html-proofer' , '3.10.2'
+gem 'jekyll'
+gem 'jekyll-watch'
+gem 'jekyll-paginate'
+gem 'jekyll-redirect-from'
+
+# Development tools
+gem 'html-proofer', group: :development

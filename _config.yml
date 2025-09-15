@@ -40,6 +40,10 @@ community:
   # Other Contacts
   github: 'Freifunk-Dresden'
   matrix: '#ffdd:envs.net'
+  meshtastic:
+    channel_name: 'Freifunk_DD'
+    channel_key_size: '256'
+    channel_key: '59tQYtqLXNGBHJlIF5gagKLR5NtlatdgYQHecKfSsHU='
   fediverse: 'ffdd'
   facebook: 'FreifunkDresden'
   instagram: 'freifunkdresden'

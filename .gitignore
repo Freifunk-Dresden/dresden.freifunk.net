@@ -3,8 +3,9 @@
 *.sublime-workspace
 /_site
 /.sass-cache
-*.lock
 *.swp
 /.bundle
 /vendor
 .DS_Store
+fonts.backup/
+css/font-awesome.min.css.backup
