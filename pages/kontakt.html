@@ -6,80 +6,55 @@ main_menu: true
 weight: 9
 sub_menu: true
 sub_weight: 1
-layout:
+layout: main
 ---
 
-<!DOCTYPE html>
-<html>
-  {% include head-kontakt-map.html %}
+<header>
+	<h2 class="post-title">{{ page.title }}</h2>
+</header>
 
-  <body onLoad="mapinit();">
-	{% include header.html %}
-	<section id="main" class="container">
-		<header>
-			<h2 class="post-title">{{ page.title }}</h2>
-		</header>
+<p style="text-align: center;">Wir freuen uns, wenn du Kontakt mit uns aufnimmst, sei es pers&ouml;nlich bei einem unserer Treffen oder &uuml;ber das Internet.</p>
 
-		<p style="text-align: center;">Wir freuen uns, wenn du Kontakt mit uns aufnimmst, sei es pers&ouml;nlich bei einem unserer Treffen oder &uuml;ber das Internet.</p>
+<section class="box">
+		<h2>Persönlich</h2>
+		<p>Wir bieten wöchentliche Sprechstunden an.</p>
+		<ul class="alt">
+			<li>
+				<i class="fa fa-people-arrows fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;Sprechstunde<br />
+				<i class="fa fa-people-arrows fa-fw" aria-hidden="true" style="visibility: hidden;"></i>&nbsp;&nbsp;<span style="font-size: 0.8em;"><a href="{{ "/kontakt/sprechstunde/" | prepend: site.baseurl }}">Alle Infos</a></span>
+			</li>
+		</ul>
+</section>
 
-		<div class="box" id="treffen">
-			<h2>Treffen & Sprechstunde</h2>
-			<div id="map" style="height: 30em; margin: 1em 0; width: 45%; float: right; margin-left: 2em"></div>
 
-			<p>
-				Wenn dich Freifunk interessiert, laden wir dich hiermit ein, uns unkompliziert kennen zu lernen. Wir treffen uns wieder<br>
-				<strong><span id="next_meet_date">heute</span>, ab 19 Uhr</strong> (<a href="{{ "/verein/kalender/" | prepend: site.baseurl }}">zum Kalender</a>).
-
-				<p style="text-align: center;">
-					<a href="{{ site.community.url_online-sprechstunde }}">👉 Zur Online-Sprechstunde 👈</a>
-				</p>
-
-				<h3>#Rosenwerk</h3>
-
-				<blockquote>
-					<a href="https://konglomerat.org">Konglomerat e.V.</a> / Freifunk {{ site.community.name }} e. V. im Rosenwerk<br>
-		 			<a href="{{ site.community.url_treffenort }}">Jagdweg 1-3</a><br>
-		 			01159 Dresden<br>
-		 		</blockquote>
-	  		</p>
-	  		<p>
-	  			Die Treffen finden regelm&auml;&szlig;ig online und im Rosenwerk statt. Sie bieten die ideale Gelegenheit,
-				mit uns in pers&ouml;nlichen Kontakt zu treten. Mehr Informationen findet Ihr im Wiki.<br>
-				Sollte die T&uuml;r geschlossen sein, findet ihr neben den Briefk&auml;sten einen silberfarbenen Funktaster f&uuml;r 
-				die Klingel im "Raum Ohne Namen" (RON). Gleich nach dem Eingang geht es links durch den Gang in Richtung Glast&uuml;r.
-	  		</p>
-			<h4>Anfahrt</h4>
-			<p>
-				<ul>
-					<li>F&uuml;r Fahrrad und KFZ bietet der Jagdweg gen&uuml;gend (kostenlose) Abstellm&ouml;glichkeiten.</li>
-					<li>Per &Ouml;PNV (<a href="http://www.öpnvkarte.de/?zoom=17&lat=51.04774&lon=13.71672&layers=TBTTT#13.7167;51.0477;17">Karte</a>) f&uuml;hren die Straßenbahn Linien 7 und 12 (Haltestelle Rosenstraße) und die Linien 10 und 20 (Haltestelle Freiberger Straße – World Trade Center) sowie die S-Bahn-Linien S1 und S2 (Hp. Freiberger Straße) zu uns.</li>
-				</ul>
-			</p>
-			<h3>Weiteres zur Sprechstunde</h3>
-			<p>
-				Bei uns im Wiki findet ihr weitere Informationen &uuml;ber die <a href="{{ site.community.url_sprechstunde }}">Sprechstunde</a> und alle <a href="{{ site.community.url_treffenthema }}">Themen</a>.</li>
-			</p>
-			<p>
-	  			In der Woche zwischen den Treffen im Rosenwerk sind wir zusätzlich in unserer Online-Sprechstunde in Jitsi-Meet auf <a href="{{ site.community.url_online-sprechstunde }}">{{ site.community.url_online-sprechstunde }}</a> erreichbar.
-	  		</p>
-		</div>
-
-		<div class="box">
-			<h2>Kontaktdaten</h2>
-			<p>Wenn es dir nicht m&ouml;glich ist uns zu besuchen, dann gibt es nat&uuml;rlich noch alternative Kontaktwege:</p>
-			<ul class="alt">
-				<li><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="{{ "/kontakt/email/" | prepend: site.baseurl }}">E-Mail</a> (<a href="mailto:{{ site.community.mail_info }}">{{ site.community.mail_info }}</a>)</li>
-				<li><i class="fa fa-forumbee fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="{{ site.community.url_forum }}">Forum</a></li>
-				<li><i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://matrix.to/#/{{ site.community.matrix }}">Matrix Chat</a></li>
-				<li><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://pleroma.envs.net/{{ site.community.fediverse }}">Fediverse</a></li>
-				<li><i class="fa fa-facebook fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.facebook.com/{{ site.community.facebook }}">Facebook</a></li>
-			</ul>
-		</div>
-	</section>
-
-	{% include footer.html %}
-
-	{% include next_meet_day.html %}
-
-  </body>
-</html>
+	<div class="box" id="online">
+		<h2>Im Netz</h2>
+		<p>Du kannst uns über folgende Kanäle erreichen:</p>
+		<ul class="alt">
+			<li>
+				<i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;E-Mail<br />
+				<i class="fa fa-envelope-o fa-fw" aria-hidden="true" style="visibility: hidden;"></i>&nbsp;&nbsp;<span style="font-size: 0.8em;">Allgemein: <a href="mailto:{{ site.community.mail_info }}">{{ site.community.mail_info }}</a> | Vorstand: <a href="mailto:{{ site.community.mail_vorstand }}">{{ site.community.mail_vorstand }}</a></span>
+			</li>
+			<li>
+				<i class="fa fa-comments-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;Matrix Chat<br />
+				<i class="fa fa-comments-o fa-fw" aria-hidden="true" style="visibility: hidden;"></i>&nbsp;&nbsp;<span style="font-size: 0.8em;"><a href="https://matrix.to/#/{{ site.community.matrix }}">{{ site.community.matrix | remove: 'https://matrix.to/#/' }}</a></span>
+			</li>
+			<li>
+				<i class="fa-solid fa-satellite-dish fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://meshtastic.org/">Meshtastic</a><br />
+				<i class="fa-solid fa-satellite-dish fa-fw" aria-hidden="true" style="visibility: hidden;"></i>&nbsp;&nbsp;<span style="font-size: 0.8em;">Channel: <code>{{ site.community.meshtastic.channel_name }}</code>, Key: <code>{{ site.community.meshtastic.channel_key }}</code> ({{site.community.meshtastic.channel_key_size}}&nbsp;bit)</span>
+			</li>
+			<li>
+				<i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;Fediverse<br />
+				<i class="fa fa-newspaper-o fa-fw" aria-hidden="true" style="visibility: hidden;"></i>&nbsp;&nbsp;<span style="font-size: 0.8em;"><a href="https://pleroma.envs.net/{{ site.community.fediverse }}">@{{ site.community.fediverse }}@pleroma.envs.net</a></span>
+			</li>
+			<li>
+				<i class="fa fa-facebook fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;Facebook<br />
+				<i class="fa fa-facebook fa-fw" aria-hidden="true" style="visibility: hidden;"></i>&nbsp;&nbsp;<span style="font-size: 0.8em;"><a href="https://www.facebook.com/{{ site.community.facebook }}">{{ site.community.facebook }}</a></span>
+			</li>
+			<li>
+				<i class="fa fa-forumbee fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;Forum<br />
+				<i class="fa fa-forumbee fa-fw" aria-hidden="true" style="visibility: hidden;"></i>&nbsp;&nbsp;<span style="font-size: 0.8em;"><a href="{{ site.community.url_forum }}">{{ site.community.url_forum | remove: 'https://' | remove: 'http://' }}</a></span>
+			</li>
+		</ul>
+	</div>
+</section>
