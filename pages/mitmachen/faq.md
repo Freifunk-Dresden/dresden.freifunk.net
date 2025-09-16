@@ -36,7 +36,7 @@ Dies ist aus verschiedenen Gr&uuml;nden mit der Standard-Freifunk-Firmware nicht
 
 Unsere Empfehlung w&auml;re daher, einen Freifunk-Router an der Quelle hinzustellen (dort, wo es ein Netzwerkkabel gibt), und am zweiten Standort einen zweiten Freifunk-Router, welcher mit dem ersten meshen w&uuml;rde und so den Zugang zum Rest des Netzes bereitstellt. Diese L&ouml;sung ist auch updatesicher und erfordert keine manuelle Konfiguration.
 
-### Weitere FAQ's im Wiki
+### Weitere FAQs im Wiki
 
 [{{ site.community.url_faq }}]({{ site.community.url_faq }})
 
