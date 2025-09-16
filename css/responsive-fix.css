@@ -1,7 +1,7 @@
 /* Custom responsive fix for Sprechstunde page */
 /* Force columns to stack on mobile devices */
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 980px) {
     .row > div {
         width: 100% !important;
         clear: both !important;
@@ -14,15 +14,18 @@
     }
 }
 
+/* Handle container width issues */
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 100% !important;
+        padding: 0 1em !important;
+    }
+}
+
 /* Additional mobile-specific styles */
 @media screen and (max-width: 736px) {
     .box {
         margin: 1em 0 !important;
         padding: 2em 1em !important;
-    }
-    
-    /* Make sure the map is properly sized on mobile */
-    #map {
-        height: 25em !important;
     }
 }

@@ -56,7 +56,7 @@ layout: main
                 </div>
             </div>
             <p>Das regelmäßige Treffen bietet die ideale Gelegenheit, mit uns in pers&ouml;nlichen Kontakt zu treten.</p>
-            <p>Sollte die T&uuml;r geschlossen sein, findet ihr neben den Briefk&auml;sten einen silberfarbenen Funktaster f&uuml;r die Klingel im „Raum Ohne Namen“ (RON). Gleich nach dem Eingang geht es links durch den Gang in Richtung Glast&uuml;r.</p>
+            <p>Sollte die T&uuml;r geschlossen sein, findet ihr neben den Briefk&auml;sten einen silberfarbenen Funktaster f&uuml;r die Klingel im „Raum Ohne Namen" (RON). Gleich nach dem Eingang geht es links durch den Gang in Richtung Glast&uuml;r.</p>
             <h4>Anfahrt</h4>
             <p>
                 <ul>
