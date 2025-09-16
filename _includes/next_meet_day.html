@@ -130,7 +130,7 @@
 		if (nextDate.diff(getCurrentDate(), 'day') < 7) {
 			nextDateStr += "kommenden ";
 		}
-		nextDateStr += "<strong>" + nextDate.format("dddd") + "</strong>, <span style=\"white-space: nowrap;\">den <strong>" + nextDate.format("DD. MMMM") + "</strong></span>";
+		nextDateStr += "<strong>" + nextDate.format("dddd") + "</strong>, den <span style=\"white-space: nowrap;\"><strong>" + nextDate.format("DD. MMMM") + "</strong></span>";
 	}
 	
 	// Add meeting type info with Font Awesome icons
@@ -145,20 +145,14 @@
 		// For online meetings, check the time to determine link behavior
 		// If it's meeting day and 19:00 or later, link directly to Jitsi
 		if (isMeetingDay && currentHour >= meetingHour) {
-			meetingType = "<strong>online</strong>.<br><a href=\"{{ site.community.url_online-sprechstunde }}\" target=\"_blank\"><i class=\"fa fa-microphone-lines\" aria-hidden=\"true\" style=\"color: #e20074; font-size: 2.5em; display: block; text-align: center; margin-top: 1em;\"></i></a>";
+			meetingType = "<strong>online</strong>.<br><a href=\"{{ site.community.url_online-sprechstunde }}\" target=\"_blank\"><i class=\"fa fa-microphone-lines\" aria-hidden=\"true\" style=\"color: #e20074; font-size: 3.0em; display: block; text-align: center; margin-top: 1em;\"></i></a>";
 		} else {
 			// Before 19:00 or not meeting day, link to anchor
-			meetingType = "<strong>online</strong>.<br><a href=\"#online\"><i class=\"fa fa-microphone-lines\" aria-hidden=\"true\" style=\"color: #e20074; font-size: 2.5em; display: block; text-align: center; margin-top: 1em;\"></i></a>";
+			meetingType = "<strong>online</strong>.<br><a href=\"#online\"><i class=\"fa fa-microphone-lines\" aria-hidden=\"true\" style=\"color: #e20074; font-size: 3.0em; display: block; text-align: center; margin-top: 1em;\"></i></a>";
 		}
 	} else {
-		// For in-person meetings, check the time to determine link behavior
-		// If it's meeting day and 19:00 or later, link directly to Rosenwerk section
-		if (isMeetingDay && currentHour >= meetingHour) {
-			meetingType = "im <strong>Rosenwerk</strong>.<br><a href=\"#rosenwerk\" target=\"_blank\"><i class=\"fa fa-map-location-dot\" aria-hidden=\"true\" style=\"color: #00b0f0; font-size: 2.5em; display: block; text-align: center; margin-top: 1em;\"></i></a>";
-		} else {
-			// Before 19:00 or not meeting day, link to anchor
-			meetingType = "im <strong>Rosenwerk</strong>.<br><a href=\"#rosenwerk\"><i class=\"fa fa-map-location-dot\" aria-hidden=\"true\" style=\"color: #00b0f0; font-size: 2.5em; display: block; text-align: center; margin-top: 1em;\"></i></a>";
-		}
+		// For in-person meetings, always link to Rosenwerk anchor
+		meetingType = "im <strong>Rosenwerk</strong>.<br><a href=\"#rosenwerk\" target=\"_blank\"><i class=\"fa fa-map-location-dot\" aria-hidden=\"true\" style=\"color: #00b0f0; font-size: 3.0em; display: block; text-align: center; margin-top: 1em;\"></i></a>";
 	}
 	nextDateStr += " ab <strong>19:00 Uhr</strong> " + meetingType;
 	
