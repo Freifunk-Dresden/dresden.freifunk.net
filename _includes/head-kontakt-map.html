@@ -29,14 +29,14 @@
 	<script src="{{ "/js/leaflet.js" | prepend: site.baseurl }}"></script>
 	<script>
 		function mapinit() {
-			var map = L.map('map').setView([51.0463932, 13.7168666], 16);
+			var map = L.map('map').setView([51.0470, 13.7170], 16);
 			L.Icon.Default.imagePath = '{{ "/images/" | prepend: site.baseurl }}';
 
 			L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 				attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 			}).addTo(map);
 
-			L.marker([51.0463932, 13.7159557]).addTo(map);
+			L.marker([51.04639, 13.71596]).addTo(map);
 		}
 	</script>
 </head>
