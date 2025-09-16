@@ -140,19 +140,31 @@
 	var currentHour = now.hour();
 	var meetingHour = 19; // 19:00 Uhr
 	
+	// Compute pre-join window (<= 15 minutes before start)
+	var meetingTimeForIcon = meetingDate.clone().hour(meetingHour).minute(0).second(0);
+	var minutesToStartForIcon = Math.ceil((meetingTimeForIcon.diff(now)) / (1000 * 60));
+	var isPreJoinWindow = isMeetingDay && minutesToStartForIcon <= 15 && minutesToStartForIcon >= 0;
+	
 	var meetingType;
 	if (nextMeeting.isOnline) {
 		// For online meetings, check the time to determine link behavior
-		// If it's meeting day and 19:00 or later, link directly to Jitsi
-		if (isMeetingDay && currentHour >= meetingHour) {
-			meetingType = "<strong>online</strong>.<br><a href=\"{{ site.community.url_online-sprechstunde }}\" target=\"_blank\"><i class=\"fa fa-microphone-lines\" aria-hidden=\"true\" style=\"color: #e20074; font-size: 3.0em; display: block; text-align: center; margin-top: 1em;\"></i></a>";
+		// Link to Jitsi if ongoing or in pre-join window; otherwise anchor
+		if ((isMeetingDay && currentHour >= meetingHour) || isPreJoinWindow) {
+			meetingType = "<strong>online</strong>.<br><div style=\"display: block; text-align: center; margin-top: 1em; padding-top: 2em;\"><a href=\"{{ site.community.url_online-sprechstunde }}\" target=\"_blank\" class=\"ff-icon-link\"><i class=\"fa fa-microphone-lines ff-icon ff-pink\" aria-hidden=\"true\" style=\"font-size: 3.0em;\"></i></a></div>";
 		} else {
 			// Before 19:00 or not meeting day, link to anchor
-			meetingType = "<strong>online</strong>.<br><a href=\"#online\"><i class=\"fa fa-microphone-lines\" aria-hidden=\"true\" style=\"color: #e20074; font-size: 3.0em; display: block; text-align: center; margin-top: 1em;\"></i></a>";
+			// meetingType = "<strong>online</strong>.<br><div style=\"display: block; text-align: center; margin-top: 1em; padding-top: 2em;\"><a href=\"#online\" class=\"ff-icon-link\"><i class=\"fa fa-microphone-lines ff-icon ff-pink\" aria-hidden=\"true\" style=\"font-size: 3.0em;\"></i></a></div>";
+			meetingType = "<strong>online</strong>.<br><div style=\"display: block; text-align: center; margin-top: 1em; padding-top: 2em;\"><a class=\"ff-icon-link\" onclick=\"return false;\"><i class=\"fa fa-microphone-lines ff-icon ff-pink\" aria-hidden=\"true\" style=\"font-size: 3.0em;\"></i></a></div>";
 		}
 	} else {
-		// For in-person meetings, always link to Rosenwerk anchor
-		meetingType = "im <strong>Rosenwerk</strong>.<br><a href=\"#rosenwerk\" target=\"_blank\"><i class=\"fa fa-map-location-dot\" aria-hidden=\"true\" style=\"color: #00b0f0; font-size: 3.0em; display: block; text-align: center; margin-top: 1em;\"></i></a>";
+		// For in-person meetings, link to Rosenwerk anchor if within 15 min of start or during meeting hours (19-21)
+		if ((isMeetingDay && currentHour >= meetingHour && currentHour < 21) || isPreJoinWindow) {
+			meetingType = "im <strong>Rosenwerk</strong>.<br><div style=\"display: block; text-align: center; margin-top: 1em; padding-top: 2em;\"><a href=\"#rosenwerk\" class=\"ff-icon-link\"><i class=\"fa fa-map-location-dot ff-icon ff-cyan\" aria-hidden=\"true\" style=\"font-size: 3.0em;\"></i></a></div>";
+		} else {
+			// Before 19:00, after 21:00, or not meeting day, no link
+			// meetingType = "im <strong>Rosenwerk</strong>.<br><div style=\"display: block; text-align: center; margin-top: 1em; padding-top: 2em;\"><a href=\"#rosenwerk\" class=\"ff-icon-link\"><i class=\"fa fa-map-location-dot ff-icon ff-cyan\" aria-hidden=\"true\" style=\"font-size: 3.0em;\"></i></a></div>";
+			meetingType = "im <strong>Rosenwerk</strong>.<br><div style=\"display: block; text-align: center; margin-top: 1em; padding-top: 2em;\"><a class=\"ff-icon-link\" onclick=\"return false;\"><i class=\"fa fa-map-location-dot ff-icon ff-cyan\" aria-hidden=\"true\" style=\"font-size: 3.0em;\"></i></a></div>";
+		}
 	}
 	nextDateStr += " ab <strong>19:00 Uhr</strong> " + meetingType;
 	
@@ -169,7 +181,16 @@
 	// Show status indicator for both online and in-person meetings
 	
 	if (isMeetingDay) {
-		if (currentHour >= meetingHour) {
+		// Check if meeting is currently active (started but not ended)
+		var isMeetingActive = currentHour >= meetingHour;
+		var isMeetingEnded = false;
+		if (!nextMeeting.isOnline) {
+			// For in-person meetings, also check if it's before 21:00
+			isMeetingActive = isMeetingActive && currentHour < 21;
+			isMeetingEnded = currentHour >= 21;
+		}
+		
+		if (isMeetingActive) {
 			// Meeting has started - show how long it's been running
 			var meetingStartTime = meetingDate.clone().hour(meetingHour).minute(0).second(0);
 			var timeRunning = now.diff(meetingStartTime);
@@ -204,6 +225,9 @@
 					nextDateStr += '<div style="text-align: center; margin-top: 0.5em; font-size: 0.8em; color: #666; white-space: nowrap;"><a href="#rosenwerk" style="color: #00b0f0; text-decoration: none;"><i class="fa fa-people-arrows" style="margin-right: 5px;"></i>' + runningText + '</a></div>';
 				}
 			}
+		} else if (isMeetingEnded) {
+			// Meeting has ended (for in-person meetings after 21:00)
+			nextDateStr += '<div style="text-align: center; margin-top: 0.5em; font-size: 0.8em; color: #999; white-space: nowrap;"><i class="fa fa-people-arrows" style="margin-right: 5px;"></i>beendet seit 21:00 Uhr</div>';
 		} else {
 			// Check if it's within 15 minutes of starting
 			var meetingTime = meetingDate.clone().hour(meetingHour).minute(0).second(0);
@@ -211,8 +235,12 @@
 			var minutesRemaining = Math.ceil(timeRemaining / (1000 * 60));
 			
 			if (minutesRemaining <= 15) {
-				// About to start - show different message with minutes
-				nextDateStr += '<div style="text-align: center; margin-top: 0.5em; font-size: 0.8em; color: #ffb400; white-space: nowrap;"><i class="fa fa-hourglass-half" style="margin-right: 5px;"></i>beginnt in ' + minutesRemaining + ' min</div>';
+				// About to start - link like ongoing state (Jitsi for online, Rosenwerk anchor for in-person)
+				var preJoinLink = nextMeeting.isOnline
+					? '<a href=\"{{ site.community.url_online-sprechstunde }}\" target=\"_blank\" style=\"color: inherit; text-decoration: none;\">'
+					: '<a href=\"#rosenwerk\" style=\"color: inherit; text-decoration: none;\">';
+				nextDateStr += '<div style=\"text-align: center; margin-top: 0.5em; font-size: 0.8em; color: #ffb400; white-space: nowrap;\">' +
+					preJoinLink + '<i class=\"fa fa-hourglass-half\" style=\"margin-right: 5px;\"></i>beginnt in ' + minutesRemaining + ' min</a></div>';
 			} else {
 				// Meeting hasn't started yet - show time remaining
 				var timeText;
@@ -243,4 +271,16 @@
 	
 	// Update the HTML with the final result
 	$('#next_meet_date').html(nextDateStr);
+</script>
+<script>
+	// Inject scoped styles for icon hover transitions (matching button accent colors)
+	(function() {
+		var styleEl = document.getElementById('next_meet_day_styles');
+		if (!styleEl) {
+			styleEl = document.createElement('style');
+			styleEl.id = 'next_meet_day_styles';
+			styleEl.textContent = '\n#next_meet_date .ff-icon { transition: color 0.2s ease-in-out; }\n#next_meet_date a.ff-icon-link { display: inline-block; text-decoration: none !important; border-bottom: none !important; padding: 0; margin: 0; }\n#next_meet_date a.ff-icon-link:hover { text-decoration: none !important; border-bottom: none !important; }\n#next_meet_date a.ff-icon-link:active { text-decoration: none !important; border-bottom: none !important; }\n#next_meet_date .ff-icon.ff-pink { color: #dc0067; }\n#next_meet_date .ff-icon.ff-cyan { color: #009ee0; }\n#next_meet_date a.ff-icon-link[href]:hover .ff-icon.ff-pink { color: rgb(245.5, 0, 114.9386363636); }\n#next_meet_date a.ff-icon-link[href]:hover .ff-icon.ff-cyan { color: rgb(0, 175.9866071429, 249.5); }\n';
+			document.head.appendChild(styleEl);
+		}
+	})();
 </script>
