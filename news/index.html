@@ -15,7 +15,7 @@ layout:
 		<header>
 			<h2 class="post-title">{{ page.title }} &uuml;ber Freifunk {{ site.community.name }}</h2>
 			<div style="display: inline-block; float: right; margin-right: 0.8em; margin-top: 0">
-				<a class="button special" href="{{ site.community.url_blog }}">neuen Blogeintrag schreiben</a>
+				<a class="button accent1" href="{{ site.community.url_blog }}">Neuen Blogeintrag schreiben</a>
 			</div>
 		</header>
 
@@ -31,14 +31,16 @@ layout:
 
 			<!-- Small Site Boxes -->
 			<div class="4u 12u(3)">
-				<!-- Next Meet Day -->
-				<div class="box">
-					<h3>N&auml;chstes Treffen</h3>
-					<p>
-						<a href="{{ "/verein/kalender/" | prepend: site.baseurl }}"><strong><span id="next_meet_date">heute</span>, ab 19 Uhr</strong></a>.
-					</p>
-					<p style="text-align: center;"><a href="{{ site.community.url_online-sprechstunde }}">👉 Zur Online-Sprechstunde 👈</a>
-				</div>
+				<!-- Next Meet Day -->				
+				<section class="box" id="naechster-termin">
+					<h3>Nächstes Treffen</h3>
+					<p>Wir treffen uns wieder <span id="next_meet_date">am <strong>Mittwoch</strong> ab <strong>19:00 Uhr</strong>.</span></p>
+					{% include next_meet_day.html %}
+					<ul class="actions align-center">
+						<li><a href="{{ "/kontakt/sprechstunde/" | prepend: site.baseurl }}" class="button small accent3">Weitere Infos</a></li>
+						<!--span style="font-size: 1.0em;"><a href="{{ "/kontakt/sprechstunde/" | prepend: site.baseurl }}">Weitere Infos</a></span-->
+					</ul>
+				</section>
 
 				<div class="box">
 					<h3>Tweet's im Fediverse</h3>
