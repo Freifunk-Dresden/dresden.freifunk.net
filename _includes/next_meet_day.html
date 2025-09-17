@@ -166,7 +166,7 @@
 			meetingType = "im <strong>Rosenwerk</strong>.<br><div style=\"display: block; text-align: center; margin-top: 1em; padding-top: 2em;\"><a class=\"ff-icon-link\" onclick=\"return false;\"><i class=\"fa fa-map-location-dot ff-icon ff-cyan\" aria-hidden=\"true\" style=\"font-size: 3.0em;\"></i></a></div>";
 		}
 	}
-	nextDateStr += " ab <strong>19:00 Uhr</strong> " + meetingType;
+	nextDateStr += " ab <strong>19:00&nbsp;Uhr</strong> " + meetingType;
 	
 	// Add day count (only show if not the meeting day)
 	if (!isMeetingDay) {
@@ -220,14 +220,14 @@
 				var isMeetingEnded = now.isAfter(meetingEndTime);
 				
 				if (isMeetingEnded) {
-					nextDateStr += '<div style="text-align: center; margin-top: 0.5em; font-size: 0.8em; color: #999; white-space: nowrap;"><i class="fa fa-people-arrows" style="margin-right: 5px;"></i>beendet seit 21:00 Uhr</div>';
+					nextDateStr += '<div style="text-align: center; margin-top: 0.5em; font-size: 0.8em; color: #999; white-space: nowrap;"><i class="fa fa-people-arrows" style="margin-right: 5px;"></i>beendet seit 21:00&nbsp;Uhr</div>';
 				} else {
 					nextDateStr += '<div style="text-align: center; margin-top: 0.5em; font-size: 0.8em; color: #666; white-space: nowrap;"><a href="#rosenwerk" style="color: #00b0f0; text-decoration: none;"><i class="fa fa-people-arrows" style="margin-right: 5px;"></i>' + runningText + '</a></div>';
 				}
 			}
 		} else if (isMeetingEnded) {
 			// Meeting has ended (for in-person meetings after 21:00)
-			nextDateStr += '<div style="text-align: center; margin-top: 0.5em; font-size: 0.8em; color: #999; white-space: nowrap;"><i class="fa fa-people-arrows" style="margin-right: 5px;"></i>beendet seit 21:00 Uhr</div>';
+			nextDateStr += '<div style="text-align: center; margin-top: 0.5em; font-size: 0.8em; color: #999; white-space: nowrap;"><i class="fa fa-people-arrows" style="margin-right: 5px;"></i>beendet seit 21:00&nbsp;Uhr</div>';
 		} else {
 			// Check if it's within 15 minutes of starting
 			var meetingTime = meetingDate.clone().hour(meetingHour).minute(0).second(0);
