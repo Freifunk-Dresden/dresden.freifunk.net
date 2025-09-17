@@ -12,15 +12,13 @@ layout:
 	<body>
 	{% include header.html %}
 	<section id="main" class="container">
+		
 		<header>
-			<h2 class="post-title">{{ page.title }} &uuml;ber Freifunk {{ site.community.name }}</h2>
-			<div style="display: inline-block; float: right; margin-right: 0.8em; margin-top: 0">
-				<a class="button accent1" href="{{ site.community.url_blog }}">Neuen Blogeintrag schreiben</a>
-			</div>
+			<h2 class="post-title" style="text-align: center;">{{ page.title }} &uuml;ber Freifunk {{ site.community.name }}</h2>
 		</header>
 
 		<div class="row">
-			<div class="8u 12u(3)">
+			<div class="8u 12u(2)">
 				<!-- Post -->
 				{% for post in paginator.posts %}
 
@@ -30,22 +28,22 @@ layout:
 			</div>
 
 			<!-- Small Site Boxes -->
-			<div class="4u 12u(3)">
+			<div class="4u 12u(2)">
 				<!-- Next Meet Day -->				
 				<section class="box" id="naechster-termin">
 					<h3>Nächstes Treffen</h3>
 					<p>Wir treffen uns wieder <span id="next_meet_date">am <strong>Mittwoch</strong> ab <strong>19:00 Uhr</strong>.</span></p>
 					{% include next_meet_day.html %}
 					<ul class="actions align-center">
-						<li><a href="{{ "/kontakt/sprechstunde/" | prepend: site.baseurl }}" class="button small accent3">Weitere Infos</a></li>
-						<!--span style="font-size: 1.0em;"><a href="{{ "/kontakt/sprechstunde/" | prepend: site.baseurl }}">Weitere Infos</a></span-->
+						<li><a href="{{ "/kontakt/sprechstunde/" | prepend: site.baseurl }}" class="button small accent2">Weitere Infos</a></li>
+						<!--li><span style="font-size: 1.0em;"><a href="{{ "/kontakt/sprechstunde/" | prepend: site.baseurl }}">Weitere Infos</a></span></li-->
 					</ul>
 				</section>
 
 				<div class="box">
-					<h3>Tweet's im Fediverse</h3>
-					<p>weitere kleinere Mitteilungen findest du unter:</p>
-					<p style="text-align: center;"><a href="https://pleroma.envs.net/ffdd">https://pleroma.envs.net/ffdd</a>.</p>
+					<h3>Fediverse</h3>
+					<p>Weitere kleinere Mitteilungen findest du unter:</p>
+					<p style="text-align: center;"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<span style="font-size: 1.0em;"><a href="https://pleroma.envs.net/{{ site.community.fediverse }}">@{{ site.community.fediverse }}@pleroma.envs.net</a></span></p>
 				</div>
 
 				<!-- Post Categories -->
@@ -77,6 +75,11 @@ layout:
 						</blockquote>
 					</ul>
 				</div>
+
+				<!-- Blog Button -->
+				<section class="box" style="text-align: center;">
+					<a class="button small accent5 icon fa-pen-to-square" href="{{ site.community.url_blog }}">Neuen Blogeintrag schreiben</a>
+				</section>
 
 				<!-- RSS-Feed -->
 				<div>
