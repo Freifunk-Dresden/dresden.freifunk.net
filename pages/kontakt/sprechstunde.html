@@ -37,83 +37,94 @@ layout:
 <body onLoad="mapinit();">
   {% include header.html %}
   <section id="main" class="container">
-  <header>
-    <h2 class="post-title">{{ page.title }}</h2>
-  </header>
+    
+    <header>
+      <h2 class="post-title">{{ page.title }}</h2>
+    </header>
 
-  <p style="text-align: center;">Der ideale Raum für Fragen und den Austausch von Ideen und gemeinsamen Plänen.</p>
+    <p style="text-align: center;">Der ideale Raum für Fragen und den Austausch von Ideen und gemeinsamen Plänen.</p>
 
-  <div class="row">
-    <div class="8u 12u(2)">
-      <section class="box">
-        <h2>Wöchentliches Treffen</h2>
-        <p>Wenn dich Freifunk interessiert, laden wir dich hiermit ein, uns unkompliziert kennenzulernen.</p>
-        <p>Die Treffen finden jede Woche <strong>mittwochs online</strong> statt. <strong>Einmal im Monat</strong> laden wir euch ins <strong>Rosenwerk</strong> ein.</p>
-        <p>Wo du uns zu welchem Termin findest, erfährst du in unserem <a href="{{ "/verein/kalender/" | prepend: site.baseurl }}">Kalender</a> und für die aktuelle Woche immer <a href="#naechster-termin">hier</a> auf unserer Sprechstunden-Seite.</p>
-      </section>
-      <section class="box">
-        <h3 id="online">a) Sprechstunde im Netz</h3>
-        <p>
-        In den Wochen zwischen den Treffen im Rosenwerk sind wir <strong>mittwochs</strong> ab <strong>19:00&nbsp;Uhr</strong> in unserer Online-Sprechstunde in Jitsi-Meet erreichbar auf:
-        <ul class="actions align-center">
-            <li><a href="{{ site.community.url_online-sprechstunde }}" class="button accent2 icon fa-microphone-lines">{{ site.community.url_online-sprechstunde  | remove: 'https://' | remove: 'http://' }}</a></li>
-        </ul>
-        </p>
-        <h3 id="rosenwerk">b) Sprechstunde vor Ort im Rosenwerk</h3>
-        <!-- 
-        ACCENT COLORS:
-        accent1: #666666 (gray)     → bg: #f0f0f0
-        accent2: #dc0067 (pink)     → bg: #fcf2f7
-        accent3: #ffb400 (yellow)   → bg: #fffcf0
-        accent4: #009ee0 (cyan)     → bg: #f0f7fc ← Currently used
-        accent5: #111111 (black)    → bg: #f0f0f0
-        -->
-        <div style="background: #f0f7fc; border-left: 4px solid #009ee0; padding: 1.5em; margin: 1.5em 0; border-radius: 0 4px 4px 0; margin-right: 0%;">
-          <h4 style="margin: 0 0 0.5em 0; color: #333; font-size: 1.1em;">
-            <i class="fa fa-map-location-dot" style="color: #009ee0; margin-right: 0.5em;"></i>
-            Treffpunkt
-          </h4>
-          <div style="line-height: 1.6;">
-            <strong><a href="https://konglomerat.org">Konglomerat e. V.</a> / Freifunk {{ site.community.name }} e. V.</strong><br>
-            <span style="color: #666;">im Rosenwerk</span><br><br>
-            <a href="{{ site.community.url_treffenort }}" style="color: #009ee0; text-decoration: none; font-weight: 500;">
-                <i class="fa fa-city" style="color: #009ee0; margin-right: 0.3em;"></i>Jagdweg 1-3
-            </a><br>
-            <span style="color: #555;">01159 Dresden</span>
+    <div class="row">
+      <div class="8u 12u(2)">
+
+        <section class="box">
+          <h2>Wöchentliches Treffen</h2>
+          <p>Wenn dich Freifunk interessiert, laden wir dich hiermit ein, uns unkompliziert kennenzulernen.</p>
+          <p>Die Treffen finden jede Woche <strong>mittwochs online</strong> statt. <strong>Einmal im Monat</strong> laden wir euch ins <strong>Rosenwerk</strong> ein.</p>
+          <p>Wo du uns zu welchem Termin findest, erfährst du in unserem <a href="{{ "/verein/kalender/" | prepend: site.baseurl }}">Kalender</a> und für die aktuelle Woche immer <a href="#naechster-termin">hier</a> auf unserer Sprechstunden-Seite.</p>
+        </section>
+
+        <section class="box">
+          <h3 id="online">a) Sprechstunde im Netz</h3>
+          <p>
+          In den Wochen zwischen den Treffen im Rosenwerk sind wir <strong>mittwochs</strong> ab <strong>19:00&nbsp;Uhr</strong> in unserer Online-Sprechstunde in Jitsi-Meet erreichbar auf:
+          <ul class="actions align-center">
+              <li><a href="{{ site.community.url_online-sprechstunde }}" class="button accent2 icon fa-microphone-lines">{{ site.community.url_online-sprechstunde  | remove: 'https://' | remove: 'http://' }}</a></li>
+          </ul>
+          </p>
+          <h3 id="rosenwerk">b) Sprechstunde vor Ort im Rosenwerk</h3>
+          <!-- 
+          ACCENT COLORS:
+          accent1: #666666 (gray)     → bg: #f0f0f0
+          accent2: #dc0067 (pink)     → bg: #fcf2f7
+          accent3: #ffb400 (yellow)   → bg: #fffcf0
+          accent4: #009ee0 (cyan)     → bg: #f0f7fc ← Currently used
+          accent5: #111111 (black)    → bg: #f0f0f0
+          -->
+          <div style="background: #f0f7fc; border-left: 4px solid #009ee0; padding: 1.5em; margin: 1.5em 0; border-radius: 0 4px 4px 0; margin-right: 0%;">
+            <h4 style="margin: 0 0 0.5em 0; color: #333; font-size: 1.1em;">
+              <i class="fa fa-map-location-dot" style="color: #009ee0; margin-right: 0.5em;"></i>
+              Treffpunkt
+            </h4>
+            <div style="line-height: 1.6;">
+              <strong><a href="https://konglomerat.org">Konglomerat e. V.</a> / Freifunk {{ site.community.name }} e. V.</strong><br>
+              <span style="color: #666;">im Rosenwerk</span><br><br>
+              <a href="{{ site.community.url_treffenort }}" style="color: #009ee0; text-decoration: none; font-weight: 500;">
+                  <i class="fa fa-city" style="color: #009ee0; margin-right: 0.3em;"></i>Jagdweg 1-3
+              </a><br>
+              <span style="color: #555;">01159 Dresden</span>
+            </div>
           </div>
-        </div>
-        <p>Die Treffen vor Ort im Rosenwerk bieten die ideale Gelegenheit, mit uns in pers&ouml;nlichen Kontakt zu treten. Sie finden <strong>monatlich</strong> abwechselnd <strong>mittwochs</strong> und <strong>donnerstags</strong> um <strong>19:00&nbsp;Uhr</strong> statt.</p>
-        <p>Sollte die T&uuml;r geschlossen sein, findet ihr neben den Briefk&auml;sten einen silberfarbenen Funktaster f&uuml;r die Klingel im „Raum Ohne Namen“ (RON). Gleich nach dem Eingang geht es links durch den Gang in Richtung Glast&uuml;r.</p>
-        <h4>Anfahrt</h4>
-        <p>
-        <ul>
-          <li>F&uuml;r Fahrrad und Kfz bietet der Jagdweg gen&uuml;gend (kostenlose) Abstellm&ouml;glichkeiten.</li>
-          <li>Per <a href="http://www.öpnvkarte.de/?zoom=17&lat=51.04774&lon=13.71672&layers=TBTTT#13.7167;51.0477;17">&Ouml;PNV</a> f&uuml;hren die Straßenbahn-Linien 7 und 12 (Haltestelle Rosenstraße) und die Linien 10 und 20 (Haltestelle Freiberger Straße – World Trade Center) sowie die S-Bahn-Linien S1 und S2 (Hp. Freiberger Straße) zu uns.</li>
-        </ul>
-        </p>
-      </section>
-    </div>
-    <div class="4u 12u(2)">
-      <section class="box" id="naechster-termin">
-        <h3>Nächster Termin</h3>
-        <p>Wir treffen uns wieder <span id="next_meet_date">am <strong>Mittwoch</strong> ab <strong>19:00 Uhr</strong>.</span></p>
-        {% include next_meet_day.html %}
-      </section>
-      <section class="box" style="padding: 0 !important; overflow: hidden;">
-        <div id="map" style="height: 30em;"></div>
-      </section>
-      <section class="box">
-        <h3>Mehr Informationen zur Sprechstunde</h3>
-        <p>Bei uns im Wiki findet ihr weitere Informationen &uuml;ber die <a href="{{ site.community.url_sprechstunde }}">Sprechstunde</a> und alle <a href="{{ site.community.url_treffenthema }}">Themen</a>.</p>
-      </section>
-    </div>
-  </div>
+          <p>Die Treffen vor Ort im Rosenwerk bieten die ideale Gelegenheit, mit uns in pers&ouml;nlichen Kontakt zu treten. Sie finden <strong>monatlich</strong> abwechselnd <strong>mittwochs</strong> und <strong>donnerstags</strong> um <strong>19:00&nbsp;Uhr</strong> statt.</p>
+          <p>Sollte die T&uuml;r geschlossen sein, findet ihr neben den Briefk&auml;sten einen silberfarbenen Funktaster f&uuml;r die Klingel im „Raum Ohne Namen“ (RON). Gleich nach dem Eingang geht es links durch den Gang in Richtung Glast&uuml;r.</p>
+          <h4>Anfahrt</h4>
+          <p>
+          <ul>
+            <li>F&uuml;r Fahrrad und Kfz bietet der Jagdweg gen&uuml;gend (kostenlose) Abstellm&ouml;glichkeiten.</li>
+            <li>Per <a href="http://www.öpnvkarte.de/?zoom=17&lat=51.04774&lon=13.71672&layers=TBTTT#13.7167;51.0477;17">&Ouml;PNV</a> f&uuml;hren die Straßenbahn-Linien 7 und 12 (Haltestelle Rosenstraße) und die Linien 10 und 20 (Haltestelle Freiberger Straße – World Trade Center) sowie die S-Bahn-Linien S1 und S2 (Hp. Freiberger Straße) zu uns.</li>
+          </ul>
+          </p>
+        </section>
 
-  <section class="box">
-    <h2>Weitere Kanäle</h2>
-    <p>Wenn es dir nicht m&ouml;glich ist uns zu besuchen, dann gibt es nat&uuml;rlich noch alternative Kontaktwege. Eine Übersicht aller unserer Kanäle findest du auf unserer allgemeinen <a href="/kontakt/">Kontaktseite</a>.</p>
+      </div>
+
+      <div class="4u 12u(2)">
+
+        <section class="box" id="naechster-termin">
+          <h3>Nächster Termin</h3>
+          <p>Wir treffen uns wieder <span id="next_meet_date">am <strong>Mittwoch</strong> ab <strong>19:00 Uhr</strong>.</span></p>
+          {% include next_meet_day.html %}
+        </section>
+
+        <section class="box" style="padding: 0 !important; overflow: hidden;">
+          <div id="map" style="height: 30em;"></div>
+        </section>
+
+        <section class="box">
+          <h3>Mehr Informationen zur Sprechstunde</h3>
+          <p>Bei uns im Wiki findet ihr weitere Informationen &uuml;ber die <a href="{{ site.community.url_sprechstunde }}">Sprechstunde</a> und alle <a href="{{ site.community.url_treffenthema }}">Themen</a>.</p>
+        </section>
+
+      </div>
+      
+    </div>
+
+    <section class="box">
+      <h2>Weitere Kanäle</h2>
+      <p>Wenn es dir nicht m&ouml;glich ist uns zu besuchen, dann gibt es nat&uuml;rlich noch alternative Kontaktwege. Eine Übersicht aller unserer Kanäle findest du auf unserer allgemeinen <a href="/kontakt/">Kontaktseite</a>.</p>
+    </section>
+
   </section>
-
   {% include footer.html %}
 </body>
 </html>
