@@ -19,6 +19,8 @@
 	var cancelledMeetings = [
 		// "2025-09-25", // Example: cancel the in-person meeting on 2025-09-25
 		// "2025-10-01", // Example: cancel the online meeting on 2025-10-01
+		"2025-12-24", // cancel the online meeting on 2025-12-24
+		// "2025-12-31", // cancel the online meeting on 2025-12-31
 	];
 	
 	// SIMULATION MODE: Set this to a specific date and time to test the algorithm
@@ -127,7 +129,7 @@
 		nextDateStr = "<strong>heute</strong>";
 	} else {
 		nextDateStr = "am ";
-		if (nextDate.diff(getCurrentDate(), 'day') < 7) {
+		if (nextDate.isSameOrBefore(getCurrentDate().add(7, 'days'))) {
 			nextDateStr += "kommenden ";
 		}
 		nextDateStr += "<strong>" + nextDate.format("dddd") + "</strong>, den <span style=\"white-space: nowrap;\"><strong>" + nextDate.format("DD. MMMM") + "</strong></span>";

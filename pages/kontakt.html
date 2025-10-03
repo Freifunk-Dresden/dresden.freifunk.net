@@ -40,6 +40,10 @@ layout: main
 				<i class="fa fa-comments-o fa-fw" aria-hidden="true" style="visibility: hidden;"></i>&nbsp;&nbsp;<span style="font-size: 0.8em;"><a href="https://matrix.to/#/{{ site.community.matrix }}">{{ site.community.matrix | remove: 'https://matrix.to/#/' }}</a></span>
 			</li>
 			<li>
+				<i class="fa-regular fa-message fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;Delta Chat<br />
+				<i class="fa fa-message fa-fw" aria-hidden="true" style="visibility: hidden;"></i>&nbsp;&nbsp;<span style="font-size: 0.8em;">Gruppe: <a href="{{ site.community.delta_chat }}">Freifunk-Dresden e. V.</a></span>
+			</li>
+			<li>
 				<i class="fa-solid fa-satellite-dish fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://meshtastic.org/">Meshtastic</a><br />
 				<i class="fa-solid fa-satellite-dish fa-fw" aria-hidden="true" style="visibility: hidden;"></i>&nbsp;&nbsp;<span style="font-size: 0.8em;">Channel: <code>{{ site.community.meshtastic.channel_name }}</code>, Key: <code>{{ site.community.meshtastic.channel_key }}</code> ({{site.community.meshtastic.channel_key_size}}&nbsp;bit)</span>
 			</li>

@@ -40,6 +40,7 @@ community:
   # Other Contacts
   github: 'Freifunk-Dresden'
   matrix: '#ffdd:envs.net'
+  delta_chat: 'https://i.delta.chat/#C339488087AC45A832E41CA1D09DAA28D9F05902&a=diego%40freifunk%2Ddresden.de&g=Freifunk%20Dresden%20e%2E%20V%2E&x=peAD_L7XKfCVA7iZ3j23wFC2&i=XTM-nmdWNfnlo0AtRXk40f1o&s=xuReVy7cRp3-9NTaDlaNoD5K'
   meshtastic:
     channel_name: 'Freifunk_DD'
     channel_key_size: '256'
